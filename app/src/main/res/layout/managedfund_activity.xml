@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+          android:background="@drawable/handbg"
+        android:gravity="center_vertical" >
+
+        
+         <LinearLayout
+                android:id="@+id/zjgl_yonhuzhuce"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back" />
+            </LinearLayout>
+            
+
+        <TextView
+            android:id="@+id/register_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="资金管理"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="23dp"
+            android:text="账户余额"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/account_balance "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_marginLeft="67dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:text=""
+            android:textColor="#0e498c"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/zhanghulishi"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="账户历史"
+            android:textSize="15sp" />
+<View  android:layout_height="1dp"
+       android:layout_width="fill_parent"
+        android:background="#999999"/>
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignTop="@+id/textView2"
+    android:layout_marginLeft="16dp"
+    android:gravity="center"
+    android:src="@drawable/document" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/textView2"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="19dp"
+    android:gravity="center"
+    android:src="@drawable/arrow" />
+
+    </RelativeLayout>
+
+    
+    <RelativeLayout
+        android:id="@+id/Charge"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:gravity="center"
+            android:src="@drawable/credit_card" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="27dp"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="充  值"
+            android:textSize="15sp" />
+        
+        <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/textView3"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="19dp"
+    android:gravity="center"
+    android:src="@drawable/arrow" />
+<View  android:layout_height="1dp"
+       android:layout_width="fill_parent"
+        android:background="#999999"/>
+    </RelativeLayout>
+    
+    
+    <RelativeLayout
+        android:id="@+id/Withdraw"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:gravity="center"
+            android:src="@drawable/wallet" />
+<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:gravity="center"
+            android:src="@drawable/wallet" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="27dp"
+            android:layout_toRightOf="@+id/imageView4"
+            android:text="提   现"
+            android:textSize="15sp" />
+        
+        <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/textView4"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="19dp"
+    android:gravity="center"
+    android:src="@drawable/arrow" />
+<View  android:layout_height="1dp"
+       android:layout_width="fill_parent"
+        android:background="#999999"/>
+    </RelativeLayout>
+
+    
+    <View  android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+       android:layout_width="fill_parent"
+        android:background="#999999"/>
+
+</LinearLayout>

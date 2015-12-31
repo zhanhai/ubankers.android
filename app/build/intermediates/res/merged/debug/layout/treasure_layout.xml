@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <RelativeLayout
+        android:id="@+id/title_bar_back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+           android:background="@drawable/handbg"
+        android:gravity="center_vertical">
+      <LinearLayout
+            android:id="@+id/title_bar_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:src="@drawable/back" />
+            </LinearLayout>
+        <TextView
+            android:id="@+id/treasure_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的财富工作室"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+          <LinearLayout
+            android:id="@+id/catelogView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center" >
+          <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/catelog" />
+          </LinearLayout>
+    </RelativeLayout>
+    
+     
+         <FrameLayout
+        android:id="@+id/fl_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/center" />
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <cn.com.ubankers.www.widget.CircleImg
+                    android:id="@+id/memberImageView"
+                    android:layout_width="80dip"
+                    android:layout_height="80dip"
+                    android:background="@drawable/personal_center"
+                    android:gravity="center_horizontal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/rl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/editorView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="10dp"                        
+                        android:drawableRight="@drawable/noteh"
+                        android:singleLine="true"
+                        android:text="我的世界"
+                        android:maxEms="10"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/vvi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/rl3"
+                    android:layout_marginTop="5dp"
+                    android:background="#999999" />
+
+                <RelativeLayout
+                    android:id="@+id/rl4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/vvi" >
+
+                    <TextView
+                        android:id="@+id/treasure_signView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="3dp"
+                        android:singleLine="false"
+                        android:maxEms="10"
+                        android:maxLines="3"
+                        android:text="我的世界我的世界wodewode"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/rl4"
+                    android:layout_marginTop="60dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/treasure_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:text="123"
+                        android:textColor="#ffffff"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/members_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/treasure_count"
+                        android:text="现有成员："
+                        android:textColor="#ffffff"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+    
+<!--                      <cn.com.ubankers.www.widget.MainListView -->
+<!--                 android:id="@+id/treasureListView" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="match_parent" -->
+<!--                 android:layout_below="@id/ll8">                 -->
+<!--             </cn.com.ubankers.www.widget.MainListView> -->
+     
+     
+      <cn.com.ubankers.www.widget.MyListView 
+             android:id="@+id/treasureListView"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">  
+         </cn.com.ubankers.www.widget.MyListView >
+</LinearLayout>

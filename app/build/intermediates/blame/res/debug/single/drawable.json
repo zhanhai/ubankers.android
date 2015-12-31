@@ -1,0 +1,618 @@
+[
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\badge_titlebar.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\badge_titlebar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_edittext_bga.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\login_edittext_bga.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myprogressbarb.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\myprogressbarb.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favorite_delete_btn_pressed.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\favorite_delete_btn_pressed.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\order_edittext.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\order_edittext.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_head_normal.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_head_normal.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_head.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_head.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel_selector.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\btn_cancel_selector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_focused.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\dot_focused.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapsimplevideo.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapsimplevideo.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_selector.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\delete_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_local_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\list_item_local_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapsimple.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapsimple.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_edittext_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\login_edittext_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot1_focused.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\dot1_focused.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapwhitlearticle.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapwhitlearticle.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myprogressbarb.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\myprogressbarb.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\newsbg_listpage.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\newsbg_listpage.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\solid_score6.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\solid_score6.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\badge_titlebar.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\badge_titlebar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_edit_edittext_normal.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\contact_edit_edittext_normal.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_category_scroll_text_view_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\top_category_scroll_text_view_bg.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_row_end.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_row_end.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_slide_hint.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_slide_hint.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favorite_delete_btn_normal.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\favorite_delete_btn_normal.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shap.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shap.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_head_normal.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_head_normal.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\commentbg_listpage.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\commentbg_listpage.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\color_pressed.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\color_pressed.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapwhitlearticle.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapwhitlearticle.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_btn.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\contact_btn.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapsimplevideo.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapsimplevideo.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favorite_delete_btn.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\favorite_delete_btn.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_button_press.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\rounded_button_press.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\registerbtn.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\registerbtn.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapwhitle.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapwhitle.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\role_color.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\role_color.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myprogressbar.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\myprogressbar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\loading_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_avatar_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\round_avatar_bg.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\loading_bg.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_titlebar.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_titlebar.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_edit_edittext_normal.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\contact_edit_edittext_normal.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_button.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\round_button.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_button.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapcancel.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapcancel.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_bg_edittext.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\login_bg_edittext.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_btn.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\contact_btn.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_slide_hint.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_slide_hint.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_textselector.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\button_textselector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_local_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\list_item_local_bg.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bottom_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\dialog_bottom_bg.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_edittext.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_titlebar.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_titlebar.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapsimple.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapsimple.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapgray.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapgray.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_drawer_top_count_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\right_drawer_top_count_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapnocancel.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapnocancel.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapwhitlevideo.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapwhitlevideo.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel_selector.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\btn_cancel_selector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\newsbg_listpage.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\newsbg_listpage.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_edittext_bga.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\login_edittext_bga.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapa.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapa.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapnew.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapnew.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_edittext.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\rounded_edittext.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_edittext.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_row_center.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_row_center.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapwhitlevideo.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapwhitlevideo.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_selector.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\spinner_selector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_avatar_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\round_avatar_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapnew.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapnew.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_row_center.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_row_center.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_back_sliding.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\menu_back_sliding.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favorite_delete_btn_normal.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\favorite_delete_btn_normal.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_normal.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\dot_normal.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\handbg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\handbg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_edittext_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\login_edittext_bg.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\registerbtn.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\registerbtn.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_buttong_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\radio_buttong_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dislike_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\dislike_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_button_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\login_button_bg.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favorite_delete_btn.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\favorite_delete_btn.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapcancel.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapcancel.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot1_focused.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\dot1_focused.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_blue_edittext.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\rounded_blue_edittext.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\role_color.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\role_color.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_normal.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\dot_normal.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\solid_score6.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\solid_score6.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\color_pressed.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\color_pressed.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_edit_edittext_focused.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\contact_edit_edittext_focused.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dic_background.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\dic_background.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shap.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shap.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapwhitlefocuse.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapwhitlefocuse.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_drawer_count_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\left_drawer_count_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_category_scroll_text_view_bg_night.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\top_category_scroll_text_view_bg_night.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dic_background.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\dic_background.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sns_ext.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\sns_ext.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_head_pressed.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_head_pressed.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\commentbg_listpage.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\commentbg_listpage.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sns_ext.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\sns_ext.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_button.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_row_end.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_row_end.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_drawer_item_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\left_drawer_item_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_drawer_top_count_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\right_drawer_top_count_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapwhitle.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapwhitle.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_row_head.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_row_head.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapwhitlefocuse.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapwhitlefocuse.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_category_scroll_text_view_bg_night.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\top_category_scroll_text_view_bg_night.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_button_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\login_button_bg.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_edit_edittext_focused.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\contact_edit_edittext_focused.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dislike_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\dislike_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_head.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_head.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_button.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\round_button.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_ok_selector.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\btn_ok_selector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_drawer_item_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\left_drawer_item_bg.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\role_normal.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\role_normal.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadowright.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shadowright.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_selector.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\spinner_selector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dislike_line.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\dislike_line.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_blue_edittext.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\rounded_blue_edittext.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_edittext.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\rounded_edittext.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_gray.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\rounded_gray.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_ok_selector.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\btn_ok_selector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_buttong_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\radio_buttong_bg.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_bg_edittext.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\login_bg_edittext.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapnocancel.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapnocancel.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favorite_delete_btn_pressed.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\favorite_delete_btn_pressed.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myprogressbar.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\myprogressbar.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_back_sliding.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\menu_back_sliding.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_gray.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\rounded_gray.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\role_normal.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\role_normal.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_textselector.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\button_textselector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapa.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapa.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_focused.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\dot_focused.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_drawer_count_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\left_drawer_count_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bottom_bg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\dialog_bottom_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\handbg.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\handbg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dislike_line.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\dislike_line.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_row_head.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_row_head.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\order_edittext.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\order_edittext.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_selector.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\delete_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_head_pressed.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\bg_head_pressed.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shapgray.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\shapgray.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_category_scroll_text_view_bg.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\top_category_scroll_text_view_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadowright.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable\\shadowright.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_button_press.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable\\rounded_button_press.xml"
+    }
+]

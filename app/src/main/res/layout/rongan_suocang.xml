@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        style="@style/title_bar_style"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <ImageView
+            android:id="@+id/btn_category"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:padding="0.0dip"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/top_head_container"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            >
+
+            <ImageView
+                android:id="@+id/rong_head"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:padding="2.0dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/back" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/top_left_count"
+            style="@style/top_update_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-17.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_toRightOf="@id/top_head_container"
+            android:background="@drawable/badge_titlebar"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/top_more"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/default_round_head"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/title_click_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingLeft="13.0dip" >
+
+            <FrameLayout
+                android:id="@+id/title_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true" >
+
+                <TextView
+                    android:id="@+id/rong_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="收  藏"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/top_refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/title_parent"
+                android:padding="3.0dip"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout 
+	   	android:layout_width="match_parent"
+	 	android:layout_height="50dip"
+	 	android:orientation="vertical"
+	 	android:gravity="center"
+        android:background="#C7C6C6" 
+        android:focusable="true"  
+        android:focusableInTouchMode="true"
+	 >	
+		    <EditText
+		        android:id="@+id/comment"
+		        android:layout_width="fill_parent"
+		        android:layout_height="40dip"
+		        android:layout_marginLeft="30dip"
+		        android:layout_marginRight="30dip"
+		        android:background="@drawable/rounded_edittext"
+		        android:gravity="center"
+		        android:hint="搜索文章、视频或微观点"
+		        android:textColorHint="#c8c8cd"
+		        android:textSize="15sp" />
+		    
+</LinearLayout> 
+    <ListView
+        android:id="@+id/shoucang_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        >
+    </ListView>
+
+</LinearLayout>

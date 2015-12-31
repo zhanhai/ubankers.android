@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <RelativeLayout
+        android:id="@+id/title_bar_back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+           android:background="@drawable/handbg"
+        android:gravity="center_vertical">
+        <LinearLayout 
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:src="@drawable/back"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="发送邀请"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+<!--         <LinearLayout -->
+<!--             android:id="@+id/catelogView" -->
+<!--             android:layout_width="40dp" -->
+<!--             android:layout_height="40dp" -->
+<!--             android:layout_alignParentRight="true" -->
+<!--             android:gravity="center" > -->
+<!--           <ImageView -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:src="@drawable/catelog" /> -->
+<!--           </LinearLayout> -->
+    </RelativeLayout>
+    <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginTop="50dp">    
+    <include 
+        android:id="@+id/investor_add_view"
+        layout="@layout/wealthspace_invitation_friend"/>
+   
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/complete"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/userCenterHead"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/llback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+             android:gravity="center" >
+            <ImageView
+                android:id="@+id/title_bar_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@id/userCenterHead"
+        android:layout_marginTop="80dp">
+        <ImageView 
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user"
+            android:layout_gravity="center"/>
+        <TextView 
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第三方登录用户不可访问该页面"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:textSize="15sp"/>
+        <TextView 
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您可以选择"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="15sp"/>
+            
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp">
+        <TextView
+        android:id="@+id/completeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shap"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:text="完善信息" 
+        android:layout_gravity="center"
+        android:textSize="15sp"/>
+        <ImageView 
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/or"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+        <TextView
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapnew"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:text="退出登录" 
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:textSize="15sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

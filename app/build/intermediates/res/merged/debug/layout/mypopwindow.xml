@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pupo"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="300dp"
+    android:orientation="vertical" >
+<LinearLayout
+    android:id="@+id/layou_Image"
+     android:layout_gravity="center_horizontal"
+     android:layout_width="wrap_content"
+    android:layout_height="300dp">
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/shenfengzheng_tp"
+        android:layout_width="233dp"
+        android:layout_height="181dp"
+        android:src="@drawable/shenfenzhengb" />
+
+    </LinearLayout>
+
+</LinearLayout>

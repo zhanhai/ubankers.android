@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout
+	    android:id="@+id/header_hourse_linear"
+	    android:layout_width="fill_parent"
+	    android:layout_height="35dp"
+	    android:orientation="vertical">
+	    <LinearLayout
+	    android:id="@+id/header_hourse_linear"
+	    android:layout_width="fill_parent"
+	    android:layout_height="34dp"
+	    android:orientation="horizontal"
+	    android:gravity="center">  
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:textColor="#999999"
+	android:gravity="center"
+	android:text="财富师昵称" />
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:textColor="#999999"
+	android:gravity="center"
+	android:text="手机号码" />
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:textColor="#999999"
+	android:gravity="center"
+	android:text="加入时间" />
+</LinearLayout>
+  <View android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="#999999"/>
+  </LinearLayout>
+<ListView 
+    android:id="@+id/add_listView"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="8dp"
+	android:layout_marginRight="8dp"
+	android:divider="#999999" 
+	android:dividerHeight="1px"
+    android:scrollbars="none">    
+</ListView>
+</LinearLayout>
+

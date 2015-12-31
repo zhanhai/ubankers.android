@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    
+    <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="#22292C"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                       
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/simujijin_GoBack"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center"
+                            android:src="@drawable/back" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                       android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/register_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="产品详情"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <!-- 标题 -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="1.2"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/simujijin_imageState"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/yushou"
+                                android:visibility="gone"
+                                />
+
+                            <TextView
+                                android:id="@+id/simujijin_productName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:singleLine="true"
+                               
+                                android:textColor="#000000"
+                                android:textSize="15dip" />
+
+                            <ImageView
+                                android:id="@+id/simujijin_imageHot"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dip"
+                                android:src="@drawable/hot"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="8dp"
+                            android:orientation="vertical" >
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="2dp
+       "
+                                android:background="#D0D0D0" />
+                        </LinearLayout>
+
+                        <!-- 第二个布局 -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dip"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="起投金额"
+                                    android:textColor="#343434"
+                                    android:textSize="15dip" />
+
+                                <TextView
+                                    android:id="@+id/simujijin_minSureBuyPrice"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textColor="#000000"
+                                    android:textSize="15dip" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.2"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dip"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="预期年化收益率"
+                                    android:textColor="#343434"
+                                    android:textSize="15dip" />
+
+                                <TextView
+                                    android:id="@+id/simujijin_productRate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dip"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textColor="#000000"
+                                    android:textSize="15dip" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="产品期限"
+                                    android:textColor="#343434"
+                                    android:textSize="15dip" />
+
+                                <TextView
+                                    android:id="@+id/simujijin_productTerm"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:textColor="#000000"
+                                    android:textSize="15dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="8dp"
+                            android:orientation="vertical" >
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="1dp
+       "
+                                android:background="#D0D0D0" />
+                        </LinearLayout>
+
+                        <!-- 第三个布局 -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="28dip"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="3"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="0dip"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dip"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="5"
+                                    android:orientation="vertical" >
+
+                                    <ProgressBar
+                                        android:id="@+id/simujijin_raisedProcessShow"
+                                        style="?android:attr/progressBarStyleHorizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="7.5dp"
+                                        android:layout_marginRight="8dp"
+                                        android:gravity="center"
+                                        android:max="100"
+                                        android:progressDrawable="@drawable/myprogressbar"
+                                        android:visibility="visible" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="4"
+                                    android:gravity="center"
+                                    android:orientation="horizontal" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="已募集"
+                                        android:textColor="#585858"
+                                        android:textSize="15dip" />
+
+                                    <TextView
+                                        android:id="@+id/simujijin_textraisedProcessShowb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:textColor="#585858"
+                                        android:textSize="15dip" />
+                                </LinearLayout>
+
+                              <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:orientation="horizontal" 
+                                    android:layout_marginBottom="2dip">
+
+                                  <ImageView
+                                      android:id="@+id/order"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:background="@drawable/buutsubscribe"
+                                      android:visibility="gone" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.8"
+                                    android:gravity="center"
+                                    android:orientation="horizontal" >
+
+                                    <View
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp
+       "
+                            android:background="#D0D0D0" />
+
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:id="@+id/ax_fudong"
+                            android:layout_width="fill_parent"
+                            android:layout_height="35dip"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="最新净值："
+                                    android:textColor="#6e6e6e"
+                                    android:textSize="11dip" />
+
+                                <TextView
+                                    android:id="@+id/simujijin_ThelatestNet"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="3"
+                                    android:gravity="center_vertical"
+                                    android:text=""
+                                    android:textColor="#dc0d0d"
+                                    android:textSize="15dip" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="累计收益："
+                                    android:textColor="#6e6e6e"
+                                    android:textSize="11dip" />
+
+                                <TextView
+                                    android:id="@+id/simujijin_accumulatedIncome"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:text=""
+                                    android:textColor="#dc0d0d"
+                                    android:textSize="15dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp
+       "
+                        android:background="#D0D0D0" />
+                </LinearLayout>
+
+                <!-- 选项布局 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/simujijin_FactorsClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="基本要素"
+                            android:textColor="#FF0000"
+                            android:textSize="15dip" />
+                         <View
+                        android:id="@+id/FactorsClick_simujijin_yaosu"
+                        android:layout_width="90dip"
+                        android:layout_height="3dip"
+                        android:background="#FF0033"  />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="fill_parent"
+                        android:background="#D0D0D0" />
+
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/simujijin_DetailsClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="产品信息"
+                            android:textColor="#171717"
+                            android:textSize="15dip" />
+                         <View
+                             
+                        android:id="@+id/DetailsClick_simujijin_xinxi"
+                        android:layout_width="90dip"
+                        android:layout_height="3dip"
+                        android:background="#FF0033"
+                        android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#D0D0D0" />
+
+                <!-- 详情布局 -->
+
+                <RelativeLayout
+                    android:id="@+id/dsf_layout_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                    <!--   <include layout="@layout/information_fragment" />-->
+                    <include layout="@layout/simujijin_ty" /> 
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

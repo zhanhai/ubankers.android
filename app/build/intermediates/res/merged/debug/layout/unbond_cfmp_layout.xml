@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_marginTop="60dip"
+    	android:layout_width="fill_parent"    
+        android:layout_height="wrap_content"
+        android:text="该财富师未经过认证，请选择其他财富师。"
+        android:textSize="15sp"
+        android:layout_marginLeft="40dip"
+    />
+    <Button
+            android:id="@+id/cfmp_okay"
+            android:layout_width="fill_parent"
+            android:layout_height="36dip"
+            android:text="确          认"
+            android:background="@drawable/shap"
+            android:textColor="#FFFFFF"
+            android:layout_margin="40dip"
+            android:textSize="20sp"/>
+</LinearLayout>

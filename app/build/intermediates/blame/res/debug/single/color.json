@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\btn_common_text.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\color\\btn_common_text.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\setting_alt_text.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\color\\setting_alt_text.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\btn_common_text.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\color\\btn_common_text.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\dialog_listpage_text.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\color\\dialog_listpage_text.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\item_title.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\color\\item_title.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\setting_alt_text.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\color\\setting_alt_text.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\item_title.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\color\\item_title.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\top_category_scroll_text_color_day.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\color\\top_category_scroll_text_color_day.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\item_abstract.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\color\\item_abstract.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\top_category_scroll_text_color_day.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\color\\top_category_scroll_text_color_day.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\item_abstract.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\color\\item_abstract.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\left_drawer_item_text.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\color\\left_drawer_item_text.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\dialog_listpage_text.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\color\\dialog_listpage_text.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\left_drawer_item_text.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\color\\left_drawer_item_text.xml"
+    }
+]

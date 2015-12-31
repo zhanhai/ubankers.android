@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/productdetailsbg"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/dsimg_GoBack"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="dsonclick_GoBack"
+                        android:src="@drawable/productdetailsbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <!-- 标题 -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="8dp"
+                            android:orientation="vertical" >
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="2dp
+       "
+                                android:background="#E6E6E6" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/ds_productName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" 投资金一号"
+                                android:textColor="#000000"
+                                android:textSize="15dip" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="8dp"
+                            android:orientation="vertical" >
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="2dp
+       "
+                                android:background="#D0D0D0" />
+                        </LinearLayout>
+
+                        <!-- 第二个布局 -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dip"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="起投金额"
+                                    android:textColor="#343434"
+                                    android:textSize="15dip" />
+
+                                <TextView
+                                    android:id="@+id/dshand_minSureBuyPrice"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="20000元"
+                                    android:textColor="#000000"
+                                    android:textSize="15dip" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dip"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="预期年化收益"
+                                    android:textColor="#343434"
+                                    android:textSize="15dip" />
+
+                                <TextView
+                                    android:id="@+id/dshand_productRate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dip"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="8%"
+                                    android:textColor="#000000"
+                                    android:textSize="15dip" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="产品期限"
+                                    android:textColor="#343434"
+                                    android:textSize="15dip" />
+
+                                <TextView
+                                    android:id="@+id/dshand_productTerm"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:text="3个月"
+                                    android:textColor="#000000"
+                                    android:textSize="15dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="8dp"
+                            android:orientation="vertical" >
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="1dp
+       "
+                                android:background="#D0D0D0" />
+                        </LinearLayout>
+
+                        <!-- 第三个布局 -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="28dip"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="3"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="0dip"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dip"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="5"
+                                    android:orientation="vertical" >
+
+                                    <ProgressBar
+                                        android:id="@+id/dshand_raisedProcessShow"
+                                        style="?android:attr/progressBarStyleHorizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="7.5dp"
+                                        android:layout_marginRight="8dp"
+                                        android:gravity="center"
+                                        android:max="100"
+                                        android:progress="80"
+                                        android:progressDrawable="@drawable/myprogressbar"
+                                        android:visibility="visible" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="3"
+                                    android:gravity="center"
+                                    android:orientation="horizontal" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="已募集"
+                                        android:textColor="#585858"
+                                        android:textSize="15dip" />
+
+                                    <TextView
+                                        android:id="@+id/dshand_textraisedProcessShowb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="80%"
+                                        android:textColor="#585858"
+                                        android:textSize="15dip" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="2"
+                                    android:gravity="center"
+                                    android:orientation="horizontal" >
+                    				<!--  
+                                    <ImageButton
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/buutsubscribe" />
+                                        -->
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.8"
+                                    android:gravity="center"
+                                    android:orientation="horizontal" >
+
+                                    <View
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp
+       "
+                            android:background="#D0D0D0" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp
+       "
+                        android:background="#D0D0D0" />
+                </LinearLayout>
+
+                <!-- 选项布局 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/ds_FactorsClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="基本要素"
+                            android:textColor="#FF0000"
+                            android:textSize="15dip" />
+                        
+                         <View
+                        android:id="@+id/ds_ViewFactors"
+                        android:layout_width="80dip"
+                        android:layout_height="3dip"
+                       android:background="#FF0000" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="fill_parent"
+                        android:background="#D0D0D0" />
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                         android:gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/ds_DetailsClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="产品信息"
+                            android:textColor="#171717"
+                            android:textSize="15dip" />
+                        
+                         <View
+                             android:id="@+id/ds_ViewDetails"
+                        android:layout_width="80dip"
+                        android:layout_height="3dip"
+                       android:background="#FF0000" />       
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#D0D0D0" />
+
+                <!-- 详情布局 -->
+
+                <LinearLayout
+                    android:id="@+id/ds_layout_details"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+                     <include layout="@layout/information_fragment"/>
+                    <include layout="@layout/ingredient_fragment"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

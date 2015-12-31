@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.65"
+        android:background="#555555"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:alpha="0.65"
+            android:background="#555555"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+    </LinearLayout>
+    <HorizontalScrollView
+         android:background="#555555"
+         android:id="@+id/horizontalListView"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:scrollbars="none"
+         android:gravity="center_vertical">
+         <RadioGroup 
+            android:layout_gravity="center_vertical" 
+            android:orientation="horizontal" 
+            android:id="@+id/radioGroup_radio" 
+            android:layout_width="fill_parent" 
+            android:layout_marginTop="-10dp"
+            android:layout_height="fill_parent">
+            <RadioButton 
+                android:id="@+id/ming_radio" 
+                android:tag="ming_radio"
+                android:button="@null"
+                android:scaleX="0.65"
+                android:scaleY="0.65"
+                android:background="@drawable/mingstart"
+                android:layout_weight="1"/>
+            <RadioButton 
+                android:id="@+id/management_radio" 
+                android:tag="management_radio"  
+                android:gravity="center"
+                android:button="@null"
+                   android:scaleX="0.65"
+                android:scaleY="0.65"
+                android:background="@drawable/ema"
+                android:layout_weight="1"/>
+             <RadioButton 
+                android:id="@+id/trust_radio" 
+                android:tag="trust_radio" 
+                android:gravity="center"
+                android:button="@null"
+                   android:scaleX="0.65"
+                android:scaleY="0.65"
+                android:background="@drawable/trust_fund"
+                android:layout_weight="1"/>
+            <RadioButton 
+                android:id="@+id/financial_radio" 
+                android:tag="financial_radio" 
+                android:gravity="center"
+                android:button="@null"
+                   android:scaleX="0.65"
+                android:scaleY="0.65"
+                android:background="@drawable/finance"
+                android:layout_weight="1"/>
+            <RadioButton 
+                android:id="@+id/private_radio" 
+                android:tag="global_radio" 
+                android:gravity="center"
+                android:button="@null"
+                   android:scaleX="0.65"
+                android:scaleY="0.65"
+                android:background="@drawable/private_placement"
+                android:layout_weight="1"/>
+            <RadioButton 
+                android:id="@+id/global_radio" 
+                android:tag="family_radio"
+                android:button="@null" 
+                   android:scaleX="0.65"
+                android:scaleY="0.65"
+                android:background="@drawable/global"
+                android:layout_weight="1"/>  
+           <!--  <RadioButton 
+                android:id="@+id/family_radio" 
+                android:tag="private_radio" 
+                android:gravity="center"
+                android:scaleX="0.65"
+                android:scaleY="0.65"
+                android:button="@null"
+                android:background="@drawable/family"
+                android:layout_weight="1"/> -->
+        </RadioGroup>
+    </HorizontalScrollView>
+      
+
+    
+</RelativeLayout>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/title_bar_back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/handbg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:src="@drawable/back" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="工作室成员"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <!-- <cn.com.ubankers.www.widget.MyListView -->
+    <!-- android:id="@+id/treasureListView" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent"> -->
+    <!-- </cn.com.ubankers.www.widget.MyListView > -->
+
+
+    <LinearLayout
+        android:id="@+id/member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <cn.com.ubankers.www.widget.CircleImg
+                android:id="@+id/memberImageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/personal_center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.13"
+                    android:text="姓       名" />
+
+                <TextView
+                    android:id="@+id/memberNameView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text="ddfs" />
+
+                <Button
+                    android:id="@+id/deleteMember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="0.2"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="#0066cc"
+                    android:text="移除成员"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="手机号码" />
+
+                <TextView
+                    android:id="@+id/memberMobileView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ddfs" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="加入时间" />
+
+                <TextView
+                    android:id="@+id/memberDateView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ddfs" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <View 
+               android:id="@+id/vi2"
+               android:layout_width="match_parent"
+               android:layout_height="5dp"
+               android:background="#f0eff5"
+               android:layout_below="@id/member"/>
+           
+              <LinearLayout 
+               android:id="@+id/ll7"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/vi2"
+               android:layout_margin="7dp">
+               <ImageView 
+                   android:id="@+id/im3"
+                   android:layout_width="2.5dp"
+                   android:layout_height="13dp"
+                   android:background="#0066cc"
+                   android:layout_marginLeft="5dp"
+                   android:layout_gravity="center_vertical"/>
+               <TextView 
+                   android:id="@+id/headerView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="个人业绩"
+                   android:textColor="#999999"
+                   android:layout_marginLeft="5dp"/>
+           </LinearLayout> 
+            <View 
+               android:id="@+id/vi3"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="#cccccc"
+               android:layout_below="@id/ll7"
+               android:layout_marginLeft="15dp"
+               android:layout_marginRight="15dp"/> 
+               <TextView 
+               android:id="@+id/tv4"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:layout_below="@id/vi3"
+               android:textColor="#0066cc"
+               android:text=""
+               android:gravity="center"
+               android:textSize="20sp"/>               
+                <View 
+               android:id="@+id/vi4"
+               android:layout_width="match_parent"
+               android:layout_height="5dp"
+               android:background="#f0eff5"
+               android:layout_below="@id/tv4"/>
+                
+                <LinearLayout 
+               android:id="@+id/ll7"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/vi4"
+               android:layout_margin="7dp">
+               <ImageView 
+                   android:id="@+id/im3"
+                   android:layout_width="2.5dp"
+                   android:layout_height="13dp"
+                   android:background="#0066cc"
+                   android:layout_marginLeft="5dp"
+                   android:layout_gravity="center_vertical"/>
+               <TextView 
+                   android:id="@+id/headerView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="工作记录"
+                   android:textColor="#999999"
+                   android:layout_marginLeft="5dp"/>
+           </LinearLayout> 
+           <View 
+               android:id="@+id/vi5"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="#cccccc"
+               android:layout_below="@id/ll7"
+               android:layout_marginLeft="15dp"
+               android:layout_marginRight="15dp"/>
+           
+            <cn.com.ubankers.www.widget.MyListView 
+             android:id="@+id/workRecordlistView"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">  
+         </cn.com.ubankers.www.widget.MyListView >
+
+</LinearLayout>

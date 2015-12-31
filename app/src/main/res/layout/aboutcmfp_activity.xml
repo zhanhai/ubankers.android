@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout 
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:gravity="center_vertical"
+       android:background="@drawable/handbg"
+    android:orientation="horizontal">
+<LinearLayout 
+    android:id="@+id/linel"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/aboutTreasure_Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"              
+        android:src="@drawable/back" />
+</LinearLayout>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="关于财富师工作室"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+   
+</RelativeLayout>
+<ScrollView 
+    android:id="@+id/sc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/rl">
+<LinearLayout 
+     android:id="@+id/aboutRule"
+     android:layout_margin="10dp"
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+    <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:text="您需要通过邀请您身边的人注册成为与您一样的财富师并和您绑定。\n\n
+当注册量达到一定数量后，我们会将您的工作平台升级为虚拟运营中心便于管理您的团队！\n\n
+拥有个人财富工作室的好处：\n
+1、让别的财富师为您打工！\n
+2、利用团队的力量将业务扩大！\n
+3、告别传统的工作模式，让互联网提高您的团队管理效率！\n\n"/>
+<TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:text="创建财富工作室条件：\n
+1、与您绑定的财富师数量不少于10个\n
+2、您的团队销售额达到2000万\n\n"/>
+    <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:text="如何创建我的财富工作室\n
+1、通过二维码、邀请链接邀请10个财富师注册并与您绑定\n
+2、提交创建工作室申请等待审核通过\n
+3、通过审核，开始管理您的团队\n"/>
+    
+</LinearLayout>
+</ScrollView>
+
+<RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="30dp"
+      android:layout_centerHorizontal="true"
+      android:layout_alignParentBottom="true"
+      android:layout_below="@id/sc"
+      android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/buildTeamView"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:background="#0066cc"
+        android:layout_height="40dp"
+        android:textSize="17sp"
+        android:text="开始组建团队!" />
+</RelativeLayout>
+</RelativeLayout>

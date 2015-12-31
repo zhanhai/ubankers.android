@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<FrameLayout 
+        android:id="@+id/fl_image"
+        android:layout_width="fill_parent"
+        android:layout_height="215dp">
+        
+        <cn.com.ubankers.www.widget.AutoScrollViewPager
+            android:id="@+id/vp_page"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+          />
+        	
+ 		 <LinearLayout 
+ 		     android:id="@+id/ll_view_scolc"
+             android:layout_width="fill_parent"
+             android:layout_height="20dip"
+             android:layout_gravity="bottom"
+             android:gravity="center"
+             android:orientation="horizontal"
+             android:layout_marginTop="3dip">
+          </LinearLayout>
+         
+        </FrameLayout>
+        
+</RelativeLayout>

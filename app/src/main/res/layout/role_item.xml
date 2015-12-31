@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:layout_gravity="center"
+   android:layout_marginBottom="10dp"
+    android:orientation="vertical" >
+    
+   
+        <LinearLayout 
+            android:id="@+id/roleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RelativeLayout 
+            android:id="@+id/rl_capital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            
+            <ImageView 
+                android:id="@+id/capital"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/capital"/>
+
+            <TextView
+                android:id="@+id/cap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/capital"
+                android:layout_below="@+id/capital"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="3dp"
+                android:text="资本师"
+                android:textColor="#535353" />
+          </RelativeLayout>  
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_toRightOf="@id/rl_capital">
+            <TextView 
+                android:id="@+id/capText"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="22dp"
+                android:textColor="#535353"
+                android:text="金融理财产品提供方的管理人、是资本运作、投资管理的行业专家。"/>
+            
+        </RelativeLayout>
+      
+        </LinearLayout>
+  
+        
+
+        
+        
+
+        
+
+</LinearLayout>

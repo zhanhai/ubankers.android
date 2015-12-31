@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >   
+ <!--标题 -->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:orientation="horizontal" >
+
+    <View
+        android:id="@+id/view123"
+        android:layout_width="wrap_content"
+        android:layout_height="6dp"
+        android:background="#E6E6E6" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="1.2dp"
+        android:layout_below="@+id/view123"
+        android:background="#999999" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/view1"
+        android:layout_marginRight="60dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_productName"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:maxEms="15"/>
+
+        <ImageView
+            android:id="@+id/imageHot"
+            android:layout_marginTop="8dp"
+            android:layout_width="25dp"
+            android:layout_height="17dp"
+            android:src="@drawable/hot" 
+           />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageState"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/onsell"
+        android:visibility="gone" />
+    
+   
+</RelativeLayout>
+
+ <View
+        android:layout_marginRight="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="#E6E6E6" />
+  
+ <!--第二个布局-->
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView_productRate"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="#FF0A0A"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:text="预期年化收益率"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+               android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/purchase"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="起购金额"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/text_minSureBuyPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="15dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/progres_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/Collect_progress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="募集进度"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+		<RelativeLayout
+		    android:layout_width="0dp"
+		    android:layout_height="6dp"
+		    android:layout_weight="2.3" >
+
+                <ProgressBar
+                    android:id="@+id/Progressimage"
+                   style="?android:attr/progressBarStyleHorizontal"
+                   android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:max="100"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/myprogressbarb"
+                    />
+
+                <ProgressBar
+                    android:id="@+id/progressBar_raisedProcessShow"
+                    style="?android:attr/progressBarStyleHorizontal"
+                   android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:max="100"
+                    android:progress="0"
+                     android:progressDrawable="@drawable/myprogressbar"
+                   />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/textV_raisedProcessShowb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:gravity="center_horizontal"
+                    android:text="80%"
+                    android:textColor="#0066cc"
+                    android:textSize="15dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp
+       "
+        android:background="#999999" />
+
+ 
+ <!-- 第三个布局 -->
+
+ 
+         
+ 
+         </LinearLayout>

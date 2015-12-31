@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\transfer.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-xxhdpi\\transfer.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\translation.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-xxhdpi\\translation.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\original.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-xxhdpi\\original.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\original.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-xxhdpi\\original.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\transfer.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-xxhdpi\\transfer.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\translation.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-xxhdpi\\translation.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    }
+]

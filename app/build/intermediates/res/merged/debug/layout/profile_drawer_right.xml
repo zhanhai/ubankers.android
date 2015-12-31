@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#22292c" >
+
+    <RelativeLayout
+        android:id="@+id/candan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+        android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菜 单"
+            android:textColor="#DEDEDE"
+             android:textSize="23sp" />
+        <View
+             android:layout_width="match_parent"
+              android:layout_height="110dp" />
+    </RelativeLayout>
+ <RelativeLayout
+     	android:layout_below="@id/candan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/cebianlan_shouye"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView 
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:src="@drawable/chebianlan_shouye" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="首 页"
+               android:textSize="20sp"
+                android:textColor="#DEDEDE"
+                 />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/client_arrows" />
+        </LinearLayout>
+ <View
+             android:layout_width="match_parent"
+              android:layout_height="15dp" />
+        <LinearLayout
+             android:id="@+id/cebianlan_shoucang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chebianlan_shouchang" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="收 藏"
+                 android:textSize="20sp"
+                android:textColor="#DEDEDE"
+                 />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/client_arrows" />
+        </LinearLayout>
+ <View
+             android:layout_width="match_parent"
+              android:layout_height="15dp" />
+        <LinearLayout
+             android:id="@+id/cebianlan_sousuo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chebianlan_shousuo" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="搜 索"
+                 android:textSize="20sp"
+                android:textColor="#DEDEDE"
+               />
+
+            <ImageView
+               android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/client_arrows" />
+        </LinearLayout>
+ <View
+             android:layout_width="match_parent"
+              android:layout_height="15dp" />
+        <LinearLayout
+             android:id="@+id/cebianlan_shezhi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chebianlan_shezhi" />
+
+            <TextView
+               android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="设 置"
+                 android:textSize="20sp"
+                android:textColor="#DEDEDE" />
+
+            <ImageView
+               android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/client_arrows" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/logout_layout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chebianlan_logo" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="73dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

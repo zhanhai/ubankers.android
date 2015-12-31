@@ -1,0 +1,394 @@
+[
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_2.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_2.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_5.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_5.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\sharesdk_unchecked.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\sharesdk_unchecked.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\personal_center.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\personal_center.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\pin.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\pin.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_4.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_4.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\light_blue_point.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\light_blue_point.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\logo_qq.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\logo_qq.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_1.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_1.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_editpage_image_bg.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_editpage_image_bg.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\auth_follow_cb_unc.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\auth_follow_cb_unc.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_6.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_6.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ssdk_back_arr.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\ssdk_back_arr.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_3.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_3.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ssdk_back_arr.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\ssdk_back_arr.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\title_back.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\title_back.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\title_shadow.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\title_shadow.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_editpage_image_bg.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_editpage_image_bg.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\logo_qq.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\logo_qq.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\auth_title_back.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\auth_title_back.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ssdk_logo.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\ssdk_logo.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\auth_title_back.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\auth_title_back.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\yushou.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\yushou.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_3.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_3.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_5.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_5.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\light_blue_point.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\light_blue_point.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\pic.jpg",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\pic.jpg"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_editpage_image_remove.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_editpage_image_remove.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_platform_checked.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_platform_checked.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_7.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_7.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\zaishou.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\zaishou.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ssdk_title_div.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\ssdk_title_div.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_platform_checked_disabled.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_platform_checked_disabled.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_1.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_1.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\title_shadow.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\title_shadow.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\logo_wechat.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\logo_wechat.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\exclamation_mark.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\exclamation_mark.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_platform_checked.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_platform_checked.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\logo_sinaweibo.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\logo_sinaweibo.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_editpage_close.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_editpage_close.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\blue_point.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\blue_point.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ssdk_auth_title_back.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\ssdk_auth_title_back.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\btn_back_nor.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\btn_back_nor.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\auth_follow_cb_chd.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\auth_follow_cb_chd.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_logo_youdao.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_logo_youdao.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\pic.jpg",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\pic.jpg"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\pin.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\pin.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_platform_checked_disabled.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_platform_checked_disabled.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\shouqing.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\shouqing.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\edittext_back.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\edittext_back.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ssdk_title_div.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\ssdk_title_div.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\img_cancel.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\img_cancel.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\logo_wechatmoments.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\logo_wechatmoments.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_8.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_8.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_actionbar_back_btn.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_actionbar_back_btn.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_7.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_7.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\btn_back_pre.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\btn_back_pre.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\auth_follow_bg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\auth_follow_bg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\auth_follow_bg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\auth_follow_bg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\sharesdk_unchecked.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\sharesdk_unchecked.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_editpage_bg.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_editpage_bg.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\hot.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\hot.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\btn_back_pre.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\btn_back_pre.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\title_back.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\title_back.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\img_cancel.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\img_cancel.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_10.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_10.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\auth_follow_cb_unc.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\auth_follow_cb_unc.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_editpage_divider.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_editpage_divider.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_6.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_6.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\exclamation_mark.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\exclamation_mark.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ssdk_logo.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\ssdk_logo.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\personal_center.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\personal_center.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_2.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_2.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_actionbar_ok_btn.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_actionbar_ok_btn.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\edittext_back.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\edittext_back.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\zaishou.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\zaishou.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\shouqing.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\shouqing.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_8.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_8.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_4.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_4.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\auth_follow_cb_chd.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\auth_follow_cb_chd.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_editpage_image_remove.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_editpage_image_remove.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\logo_wechatmoments.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\logo_wechatmoments.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\hot.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\hot.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\progress_10.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\progress_10.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\blue_point.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\blue_point.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_actionbar_back_btn.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_actionbar_back_btn.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_editpage_divider.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_editpage_divider.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_actionbar_ok_btn.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_actionbar_ok_btn.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ssdk_auth_title_back.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\ssdk_auth_title_back.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\logo_sinaweibo.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\logo_sinaweibo.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\yushou.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\yushou.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_editpage_close.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_editpage_close.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_editpage_bg.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_editpage_bg.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\skyblue_logo_youdao.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\skyblue_logo_youdao.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\btn_back_nor.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\btn_back_nor.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\logo_wechat.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-ldpi\\logo_wechat.png"
+    }
+]

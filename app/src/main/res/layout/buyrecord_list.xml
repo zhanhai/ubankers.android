@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical" >
+    
+  <LinearLayout
+      
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="15dp"
+      android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:orientation="horizontal">
+        
+      <LinearLayout
+      android:layout_weight="0.1" 
+      android:layout_width="0dp"
+      android:gravity="center_vertical"
+      android:layout_height="match_parent"
+        android:orientation="horizontal">
+        
+        <View
+            android:layout_height="12dp"
+            android:layout_width="wrap_content"
+            android:background="#0066cc"/>
+         </LinearLayout>
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:gravity="center_vertical"
+            android:id="@+id/cfmpName"
+            android:textSize="14sp"
+            android:text="东方不败"
+            android:singleLine="true"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="4" 
+            android:textColor="#000000"          
+            />
+
+        <TextView
+            android:id="@+id/cfmp_purchaseDate"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text=""
+            android:textColor="#999999"
+            android:textSize="12sp" />
+           
+          <TextView
+              android:id="@+id/cfmp_expiryDateForInterest"
+            android:gravity="center"
+            android:text=""
+            android:layout_height="match_parent"
+             android:textColor="#999999"
+            android:textSize="12sp"
+            android:layout_width="0dp"
+            android:layout_weight="3"/>
+        
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         android:layout_marginLeft="40dp"
+        android:orientation="horizontal">
+       <TextView
+            android:text="购买产品:"
+            android:textColor="#666666"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+			android:layout_marginRight="5dp"         
+            />
+
+        <TextView
+            android:id="@+id/cfmp_productName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" 
+             android:singleLine="true"
+             android:textColor="#0066CC"
+            android:text=""/>
+        
+    </LinearLayout>
+    
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         android:layout_marginLeft="40dp"
+        android:orientation="horizontal">
+       <TextView
+            android:text="购买金额:"
+             android:textColor="#666666"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+			android:layout_marginRight="5dp"         
+            />
+
+        <TextView
+             android:id="@+id/cfmp_purchaseAmount"
+             android:textColor="#999999"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" 
+            android:text="¥100000000000000"/>
+        
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         android:layout_marginLeft="40dp"
+        android:orientation="horizontal">
+       <TextView
+            android:text="起 息 日："
+             android:textColor="#666666"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+			android:layout_marginRight="5dp"         
+            />
+
+        <TextView
+             android:id="@+id/cfmp_valueDate"
+             android:textColor="#999999"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" 
+            android:text="2015-7-4"/>
+    </LinearLayout>
+<View 
+    android:layout_marginTop="15dp"
+    android:layout_height="0.5dp"
+    android:layout_width="fill_parent"
+    android:background="#999999"/>
+</LinearLayout>

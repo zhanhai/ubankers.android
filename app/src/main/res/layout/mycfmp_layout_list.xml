@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:visibility="visible" >
+
+
+
+    <cn.com.ubankers.www.widget.CircleImg
+        android:id="@+id/recent_icon"
+        android:layout_width="50.0dp"
+        android:layout_height="50.0dp"
+        android:layout_margin="5dip"
+        android:background="@drawable/personal_center" />
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/recent_icon"
+        android:layout_alignLeft="@+id/recent_nickname"
+        android:orientation="horizontal" >
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/recent_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/recent_icon"
+        android:layout_toRightOf="@+id/recent_icon"
+        android:paddingTop="1.0dp"
+        android:singleLine="true"
+        android:text="游戏人间"
+        android:textColor="@color/black"
+        android:textSize="15.0sp" />
+    <TextView
+        android:id="@+id/approve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/recent_nickname"
+        android:layout_toRightOf="@+id/recent_nickname"
+        android:paddingTop="1.0dp"
+        android:singleLine="true"
+        android:text="游戏人间"
+        android:textColor="#ff0000"
+        android:textSize="15.0sp" 
+        android:layout_marginLeft="5dip"
+        android:visibility="gone"/>
+
+
+
+         <TextView
+             android:id="@+id/bound_cfmp_list"
+             android:layout_width="80dip"
+             android:layout_height="34dip"
+             android:layout_alignParentRight="true"
+             android:layout_alignTop="@+id/recent_nickname"
+             android:layout_marginRight="24dp"
+             android:layout_marginTop="12dip"
+             android:background="@drawable/rounded_gray"
+             android:gravity="center"
+             android:text="已绑定"
+             android:textColor="#ffffff"
+             android:textSize="12sp" 
+            />
+
+         <TextView
+             android:id="@+id/recent_content"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/bound_cfmp_list"
+             android:layout_toRightOf="@+id/recent_icon"
+             android:singleLine="true"
+             android:text="银板客财富师竭诚为您服务"
+             android:textColor="#aaaaaa"
+             android:textSize="12.0sp" />
+
+         <ImageView
+             android:id="@+id/check_cfmp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBottom="@+id/recent_content"
+             android:layout_alignRight="@+id/recent_icon"
+             android:src="@drawable/check_cfmp" 
+             android:visibility="gone"/>
+
+</RelativeLayout>

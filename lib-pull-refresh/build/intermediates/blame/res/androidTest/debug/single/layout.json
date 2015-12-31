@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    }
+]

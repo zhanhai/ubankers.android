@@ -1,0 +1,1570 @@
+[
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_earnings.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_earnings.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\member_treasure_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\member_treasure_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rongan_suocang.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\rongan_suocang.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\personal_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\personal_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\investment_record.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\investment_record.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\member_not_pass.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\member_not_pass.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\qintamoban.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\qintamoban.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\topic_main_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\topic_main_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myclient_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\myclient_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\commplete_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\commplete_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mycfmp_layout_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\mycfmp_layout_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bound_cfmp_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\bound_cfmp_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\order_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\securitycenteractivity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\securitycenteractivity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\order_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fundraiser_information.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\fundraiser_information.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\charge_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\charge_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\revice_cfmp_spce_name.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\revice_cfmp_spce_name.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_cancel_order.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\dialog_cancel_order.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_family__details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_family__details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jiazucaif.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\jiazucaif.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unbond_cfmp_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\unbond_cfmp_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\treasure_hoursebuilding.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\treasure_hoursebuilding.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\newarticle.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\newarticle.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wealthspace_invitation_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\wealthspace_invitation_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ingredient_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\ingredient_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_popup.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\title_popup.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aboutours_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\aboutours_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shenfenyanzhengactivity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\shenfenyanzhengactivity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\member_wealth_center_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\member_wealth_center_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_personal_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\my_personal_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_toast.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\popup_toast.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\apply_cfmpspace.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\apply_cfmpspace.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_header.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\view_header.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\msg_face_gridview.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\msg_face_gridview.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mycfmp_investor.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\mycfmp_investor.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\funds_mnage_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\funds_mnage_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rong_view_header.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\rong_view_header.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-sliding-menu\\unspecified\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_zichanguanli__details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_zichanguanli__details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sign_out_workspace.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\sign_out_workspace.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\msg_face_gridview.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\msg_face_gridview.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\examine_not_pass.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\examine_not_pass.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\withdraw_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\withdraw_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ziguan_ty.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\ziguan_ty.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recomment_product.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\recomment_product.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\profile_drawer_right.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\profile_drawer_right.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_order_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_order_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dg_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\dg_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_dg__details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_dg__details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\registered_users_fragment_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\registered_users_fragment_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\investor_listview.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\investor_listview.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_zx__details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_zx__details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\treasure_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\treasure_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_family__details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_family__details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xllist_item.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\xllist_item.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\couch_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\couch_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recommend_cfmp.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\recommend_cfmp.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\comment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\comment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_investor_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_investor_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mycliuent_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\mycliuent_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zj_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\zj_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_bar.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\title_bar.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_dialog_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\login_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\main_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\agreement_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\agreement_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\regist_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\regist_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_product_adpter.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_product_adpter.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\regist_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\regist_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pay_upload_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\pay_upload_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sub_member_detail.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\sub_member_detail.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_error_cfmp_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\order_error_cfmp_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\buyrecord_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\buyrecord_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\investor_listview.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\investor_listview.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\funds_mnage_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\funds_mnage_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\withdraw_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\withdraw_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\role_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\role_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\column_radio_item.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\column_radio_item.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\youxiangrenzhengactivity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\youxiangrenzhengactivity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\member_wealth_center_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\member_wealth_center_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_down.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\popwindow_down.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\workspace_member_headerview.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\workspace_member_headerview.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_personal_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\my_personal_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ingredient_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\ingredient_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mycfmp_layout_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\mycfmp_layout_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pay_upload_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\pay_upload_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_items.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\gridview_items.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\new_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rongan_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\rongan_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\caifushi_record.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\caifushi_record.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xiugaimimaactivity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\xiugaimimaactivity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adpositiondetails_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\adpositiondetails_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zj_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\zj_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_target.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\update_target.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_space_days.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\create_space_days.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\disband_cfmpspace.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\disband_cfmpspace.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\buy_record_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\buy_record_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dg_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\dg_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bundle_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\bundle_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mypopwindow.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\mypopwindow.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fundraiser_earnings.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\fundraiser_earnings.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\investor_add_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\investor_add_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_footer.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\view_footer.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_error_cfmp_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\order_error_cfmp_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\personal_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\personal_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_investor.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_investor.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\article.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\article.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\complete_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\complete_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\city_item_content.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\city_item_content.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailshead_details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\detailshead_details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sub_member_detail.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\sub_member_detail.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_investment_record.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\list_investment_record.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_list_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\add_list_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preview.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\preview.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\treasure_header.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\treasure_header.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sns_article_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\sns_article_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\familylayout_ty.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\familylayout_ty.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\account_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\account_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\youxiangrenzhengactivity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\youxiangrenzhengactivity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_personalcenter_nickname.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\update_personalcenter_nickname.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailsfloathead_hq_details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\detailsfloathead_hq_details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_simujijin__details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_simujijin__details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\revice_cfmp_spce_name.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\revice_cfmp_spce_name.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\new_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailsfloathead_hq_details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\detailsfloathead_hq_details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unregistered_users_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\unregistered_users_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_xintuoty__details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_xintuoty__details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shenfenyanzhengshangchuan_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\shenfenyanzhengshangchuan_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\face_item.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\face_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xinjinyihao.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\xinjinyihao.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sns_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\sns_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\treasure_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\treasure_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register_intervor_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\register_intervor_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_orders_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_orders_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bound_cfmp_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\bound_cfmp_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\workrecord_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\workrecord_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_code.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\update_code.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\comment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\comment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myclient_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\myclient_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lsyh_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\lsyh_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sign_out_workspace.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\sign_out_workspace.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\login_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\signout_workspace.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\signout_workspace.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\snspopwindow_down.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\snspopwindow_down.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\delete_member.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\delete_member.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_header.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\view_header.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\product_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sns_article_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\sns_article_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ax_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\ax_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\investor_order_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\investor_order_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\product_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\user_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\city_item_content.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\city_item_content.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jinrongjiaoyi_ty.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\jinrongjiaoyi_ty.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_ubankers_administrator.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\contact_ubankers_administrator.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_popup.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\title_popup.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\information_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\information_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zhongtaixintuo.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\zhongtaixintuo.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\main_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_space_members.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_space_members.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sns_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\sns_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_simujijin__details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_simujijin__details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simujijin_ty.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\simujijin_ty.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shenfenyanzhengshangchuan_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\shenfenyanzhengshangchuan_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\registered_users_fragment_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\registered_users_fragment_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_details_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\product_details_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\usercenter_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\usercenter_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\role_item.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\role_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zhongtaixintuo.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\zhongtaixintuo.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_progressdialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\common_progressdialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tongyongb.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\tongyongb.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\registeredfragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\registeredfragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\article_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\article_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\disband_cfmpspace.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\disband_cfmpspace.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_details_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\order_details_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\workspace_member_headerview.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\workspace_member_headerview.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simujijin_ty.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\simujijin_ty.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_information.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_information.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\login_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\snspopwindow_down.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\snspopwindow_down.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\member_treasure_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\member_treasure_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_itema.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\list_itema.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_normal_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\dialog_normal_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_error_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\order_error_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\supplifo_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\supplifo_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myclient_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\myclient_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_wj__details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_wj__details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\particularsfloat_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\particularsfloat_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_space_days.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\create_space_days.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\yinhangkarenzhengactivity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\yinhangkarenzhengactivity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_itema.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\list_itema.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\registeredfragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\registeredfragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\managedfund_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\managedfund_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\buy_record_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\buy_record_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wj_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\wj_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aboutcmfp_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\aboutcmfp_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dianzipiaoju.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\dianzipiaoju.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\delete_member.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\delete_member.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\particulars_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\particulars_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jiazucaif.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\jiazucaif.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\role_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\role_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\send_msg_tool.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\send_msg_tool.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\treasure_hoursebuilding.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\treasure_hoursebuilding.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\treasure_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\treasure_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_success_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\order_success_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shenfenyanzhengactivity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\shenfenyanzhengactivity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\commplete_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\commplete_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\familylayout_ty.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\familylayout_ty.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_bar.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\title_bar.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\workspace_member_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\workspace_member_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_success_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\order_success_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\order_details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\convention_classification_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\convention_classification_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hq_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\hq_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mycfmp_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\mycfmp_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_ax__details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_ax__details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\treasure_header.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\treasure_header.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ziguan_ty.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\ziguan_ty.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\couch_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\couch_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unregistered_users_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\unregistered_users_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mypopwindow.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\mypopwindow.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lsyh_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\lsyh_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\investor_earnings.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\investor_earnings.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\send_msg_tool.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\send_msg_tool.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_error_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\order_error_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\order_details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mycfmp_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\mycfmp_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\signout_workspace.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\signout_workspace.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mycliuent_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\mycliuent_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_normal_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\dialog_normal_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mingpianrenzhenactivty.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\mingpianrenzhenactivty.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myaccount_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\myaccount_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wealthspace_invitation_friend.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\wealthspace_invitation_friend.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_zx__details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_zx__details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_share_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\product_share_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bundle_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\bundle_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_items.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\gridview_items.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\information_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\information_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_ubankers_administrator.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\contact_ubankers_administrator.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_center_title.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\user_center_title.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\examine_not_pass.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\examine_not_pass.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rong_view_header.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\rong_view_header.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_xintuoty__details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_xintuoty__details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\investor_earnings.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\investor_earnings.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\role_item.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\role_item.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wealthspace_invitation_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\wealthspace_invitation_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_center_title.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\user_center_title.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xinjinyihao.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\xinjinyihao.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mingpianrenzhenactivty.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\mingpianrenzhenactivty.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zhongguolong.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\zhongguolong.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xiugaimimaactivity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\xiugaimimaactivity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aboutcmfp_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\aboutcmfp_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_toast.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\popup_toast.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_progressdialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\common_progressdialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\convention_classification_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\convention_classification_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\buyrecord_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\buyrecord_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\treasure_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\treasure_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\column_radio_item.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\column_radio_item.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rongan_suocang.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\rongan_suocang.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_product_adpter.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_product_adpter.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\managedfund_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\managedfund_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preview.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\preview.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\withdraw_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\withdraw_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_password.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\update_password.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\particulars_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\particulars_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xintuo_ty.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\xintuo_ty.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dianzipiaoju.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\dianzipiaoju.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tongyongb.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\tongyongb.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_password.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\update_password.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_target.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\update_target.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\investor_add_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\investor_add_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_code.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\update_code.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\user_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailshead_details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\detailshead_details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\newarticle.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\newarticle.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_head.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\main_head.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_personalcenter_nickname.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\update_personalcenter_nickname.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\caifushi_record.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\caifushi_record.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailsfloathead_details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\detailsfloathead_details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ax_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\ax_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_zichanguanli__details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_zichanguanli__details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_investor_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_investor_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fast_login.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\fast_login.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_orders_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_orders_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\workrecord_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\workrecord_list.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\apply_cfmpspace.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\apply_cfmpspace.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_ax__details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_ax__details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\share_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\share_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mycfmp_investor.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\mycfmp_investor.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\topic_main_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\topic_main_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\all_treasure_add_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\all_treasure_add_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fast_login.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\fast_login.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\securitycenteractivity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\securitycenteractivity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\agreement_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\agreement_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\caifushi_record_list.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\caifushi_record_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\caifushi_record_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\caifushi_record_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\investment_record.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\investment_record.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recommend_cfmp.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\recommend_cfmp.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_down.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\popwindow_down.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\withdraw_data_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\withdraw_data_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\withdraw_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\withdraw_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bank_card_adapter.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\bank_card_adapter.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zhongguolong.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\zhongguolong.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailsfloathead_details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\detailsfloathead_details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unbond_cfmp_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\unbond_cfmp_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_ordermanager.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_ordermanager.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\all_treasure_add_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\all_treasure_add_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scale.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\scale.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\personage_information.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\personage_information.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_dialog_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\login_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\share_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\share_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-sliding-menu\\unspecified\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\webmail_contact_item.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\webmail_contact_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adpositiondetails_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\adpositiondetails_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_wj__details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_wj__details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_jinrongjiaoyi__details.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_jinrongjiaoyi__details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\clip_picture_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\clip_picture_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dongguanxintuo.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\dongguanxintuo.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\jinrongjiaoyi_ty.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\jinrongjiaoyi_ty.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_list_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\add_list_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\account_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\account_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_setting.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\user_setting.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_setting.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\user_setting.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\face_item.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\face_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_dg__details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_dg__details.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fundraiser_information.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\fundraiser_information.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\investor_order_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\investor_order_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\member_not_pass.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\member_not_pass.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\business_card_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\business_card_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wj_fragment.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\wj_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\article_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\article_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rongan_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\rongan_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_details_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\product_details_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_order_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_order_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aboutours_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\aboutours_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_space_members.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_space_members.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order_details_list.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\order_details_list.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recomment_product.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\recomment_product.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xintuo_ty.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\xintuo_ty.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_information.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_information.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dongguanxintuo.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\dongguanxintuo.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scale.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\scale.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_earnings.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_earnings.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hq_fragment.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\hq_fragment.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_cancel_order.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\dialog_cancel_order.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\floathead_jinrongjiaoyi__details.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\floathead_jinrongjiaoyi__details.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register_intervor_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\register_intervor_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\qintamoban.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\qintamoban.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\workspace_member_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\workspace_member_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\business_card_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\business_card_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\particularsfloat_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\particularsfloat_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\profile_drawer_right.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\profile_drawer_right.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\usercenter_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\usercenter_activity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_investment_record.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\list_investment_record.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\withdraw_data_dialog.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\withdraw_data_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_investor.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_investor.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\complete_dialog.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\complete_dialog.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\supplifo_layout.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\supplifo_layout.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\clip_picture_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\clip_picture_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\webmail_contact_item.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\webmail_contact_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wealthspace_invitation_friend.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\wealthspace_invitation_friend.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fundraiser_earnings.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\fundraiser_earnings.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_footer.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\view_footer.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myaccount_activity.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\myaccount_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myclient_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\myclient_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\charge_activity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\charge_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\article.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\article.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cfmp_ordermanager.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\cfmp_ordermanager.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bank_card_adapter.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\bank_card_adapter.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_head.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\main_head.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_share_layout.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\product_share_layout.xml"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\yinhangkarenzhengactivity.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\layout\\yinhangkarenzhengactivity.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xllist_item.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\xllist_item.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\personage_information.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\layout\\personage_information.xml"
+    }
+]

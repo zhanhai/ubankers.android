@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<!-- <shape xmlns:android="http://schemas.android.com/apk/res/android">   
+    <solid  android:color="#0066cc"  />  
+     <solid  android:color="#0099ff" android:state_pressed="true" /> 
+     圆角  
+    <corners android:radius="2dp" />  
+    边距  
+    <padding  
+        android:bottom="7dp"          
+        android:top="7dp" />  
+</shape>  
+ -->
+ <selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/pitch_click" />
+    <item android:drawable="@drawable/default_click" />
+</selector>

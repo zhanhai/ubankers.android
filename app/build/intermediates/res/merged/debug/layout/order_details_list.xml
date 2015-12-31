@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <LinearLayout 
+        android:id="@+id/layout_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dip"
+    >
+        <ImageView 
+                    android:layout_width="3dp"
+                    android:layout_height="20dp"
+                    android:background="#0066cc"
+                    android:layout_marginLeft="15dip"/>
+        <TextView 
+            android:id="@+id/details_reserveName"
+         	android:layout_width="0dip"
+         	android:layout_height="wrap_content"   
+            android:layout_weight="2"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="小安"
+            android:layout_marginLeft="5dip"
+         />
+        <TextView 
+            android:id="@+id/details_reserveMobile"
+        	android:layout_width="0dip"
+        	android:layout_height="wrap_content"
+        	android:textColor="#aaaaaa"
+        	android:layout_weight="1" 
+        	android:textSize="12dip" 
+        	android:text="手机" 
+        />
+   </LinearLayout>
+	<LinearLayout
+	    android:id="@+id/ll_layout"
+	    android:layout_below="@+id/layout_ll" 
+	 	android:layout_width="fill_parent"   
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dip"
+	    android:orientation="horizontal"
+     >
+
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dip"
+	                android:text="预约金额"
+	                android:textColor="#999999"
+	                android:textSize="13sp" />
+
+	            <TextView 
+	                android:id="@+id/details_money"
+	            	android:layout_width="0dip"    
+	                android:layout_height="wrap_content"
+	                android:text="1000000"
+	                android:textSize="13sp"
+	                android:textColor="#0066cc"
+	                android:layout_weight="3"
+	                android:layout_marginLeft="10dip"
+	            />
+	         </LinearLayout>
+	  <RelativeLayout 
+	        android:id="@+id/lll_layout"
+	        android:layout_below="@+id/ll_layout" 
+	    	android:layout_width="wrap_content"    
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+
+	        <TextView
+	            android:id="@+id/regist_large_certification"
+	            android:layout_width="85dip"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBaseline="@+id/regist_idcard_certification"
+	            android:layout_alignBottom="@+id/regist_idcard_certification"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/rounded_edittext"
+	            android:gravity="center"
+	            android:text="上传打款凭证"
+	            android:textColor="#ffffff"
+	            android:textSize="12sp"
+	            android:visibility="gone" />
+
+	        <TextView
+	            android:id="@+id/regist_idcard_certification"
+	            android:layout_width="85dip"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentTop="true"
+	            android:layout_marginRight="14dp"
+	            android:layout_marginTop="19dp"
+	            android:layout_toLeftOf="@+id/regist_large_certification"
+	            android:background="@drawable/rounded_edittext"
+	            android:gravity="center"
+	            android:text="上传身份认证"
+	            android:textColor="#ffffff"
+	            android:textSize="12sp" 
+	            android:visibility="gone"/>
+	        
+	        
+	        <TextView
+	            android:id="@+id/unregist_large_certification"
+	            android:layout_width="85dip"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBaseline="@+id/unregist_idcard_certification"
+	            android:layout_alignBottom="@+id/unregist_idcard_certification"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/rounded_edittext"
+	            android:gravity="center"
+	            android:text="上传打款凭证"
+	            android:textColor="#ffffff"
+	            android:textSize="12sp"
+	            android:visibility="gone" />
+
+	        <TextView
+	            android:id="@+id/unregist_idcard_certification"
+	            android:layout_width="85dip"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentTop="true"
+	            android:layout_marginRight="14dp"
+	            android:layout_marginTop="19dp"
+	            android:layout_toLeftOf="@+id/unregist_large_certification"
+	            android:background="@drawable/rounded_edittext"
+	            android:gravity="center"
+	            android:text="上传身份认证"
+	            android:textColor="#ffffff"
+	            android:textSize="12sp" 
+	            android:visibility="gone"/>
+
+	     </RelativeLayout>
+	 <View
+        android:layout_below="@+id/lll_layout"
+        android:layout_marginTop="10dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#c8c7cc" 
+    />
+</RelativeLayout>

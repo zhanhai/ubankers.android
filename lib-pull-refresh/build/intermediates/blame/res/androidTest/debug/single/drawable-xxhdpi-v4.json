@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    }
+]

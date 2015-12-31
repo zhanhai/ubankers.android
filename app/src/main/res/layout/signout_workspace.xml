@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:text="您正在试图退出您的财富师工作室，\n\n是否确认操作？"
+        android:textSize="15sp"/>
+    
+<!--     <Button  -->
+<!--         android:id="@+id/disband_btn" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginLeft="25dp" -->
+<!--         android:layout_marginRight="25dp" -->
+<!--         android:layout_marginTop="50dp" -->
+<!--         android:layout_marginBottom="20dp" -->
+<!--         android:background="#0066cc" -->
+<!--         android:textColor="#ffffff" -->
+<!--         android:text="确 定 解 散" -->
+<!--         android:textSize="15sp"/> -->
+     <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="40dp"
+       android:layout_marginBottom="30dp">
+       <Button 
+           android:id="@+id/cancel"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.5"
+            android:layout_marginLeft="25dp"
+            android:text="取消"
+            android:background="@drawable/round_button"
+            android:textColor="#ffffff"
+            android:textSize="15sp"/>
+    <Button 
+        android:id="@+id/sure"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginRight="25dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:text="确定"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"/>
+    </LinearLayout> 
+
+</LinearLayout>

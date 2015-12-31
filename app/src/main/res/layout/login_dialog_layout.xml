@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/onloginbg"
+   >
+    <LinearLayout 
+    	android:layout_width="fill_parent"    
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dip"
+    >
+		    <TextView 
+		    	android:layout_width="0dip"    
+		        android:layout_height="wrap_content"
+		        android:text="互联网金融家孵化计划\n从这里开始!"
+		        android:textColor="#ffffff"
+		        android:textSize="18sp"
+		        android:layout_marginLeft="40dip"
+		        android:layout_marginTop="50dip"
+		        android:layout_weight="3"
+		    />
+		    <LinearLayout 
+		    	android:layout_width="wrap_content"    
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:id="@+id/cancel"
+		    >
+				    <ImageView 
+				     	 android:layout_width="wrap_content"  
+				         android:layout_height="wrap_content"
+				         android:background="@drawable/plus_xhdpi"
+				         android:layout_marginLeft="40dip"
+				         android:layout_marginTop="50dip"
+				         android:layout_marginRight="15dip"
+				     />
+		    </LinearLayout>
+     </LinearLayout>
+     <LinearLayout 
+      		android:layout_width="fill_parent"   
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dip">
+            <TextView
+	            android:id="@+id/register"
+	            android:layout_width="120dip"
+	            android:layout_height="35dip"
+	            android:background="@drawable/rounded_edittext"
+	            android:gravity="center"
+	            android:text="注册"
+	            android:textColor="#ffffff"
+	            android:textSize="15sp" 
+	            android:layout_marginLeft="40dip"/>
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="120dip"
+                android:layout_height="35dip"
+                android:background="@drawable/login_bg_edittext"
+                android:gravity="center"
+                android:text="登录"
+                android:textColor="#000000"
+                android:textSize="15sp" 
+                android:layout_marginLeft="18dip"/>
+       </LinearLayout>
+       <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                android:layout_marginTop="50dip">
+
+                <RelativeLayout
+                    android:id="@+id/disanfangdenglu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+ 					
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dip"
+            			 android:layout_marginTop="75dip"
+                        android:gravity="center"
+                        android:orientation="horizontal" 
+                        android:padding="30dip">
+
+                        <View
+                            android:layout_width="0dip"
+                            android:layout_height="1dip"
+                            android:layout_weight="1.5"
+                            android:background="#ffffff" />
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.5"
+                            android:gravity="center"
+                            android:text="第三方账号登录"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp" />
+
+                        <View
+                            android:layout_width="0dip"
+                            android:layout_height="1dip"
+                            android:layout_weight="1.5"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal" 
+                    android:padding="15dip">
+                    <ImageView
+                        android:id="@+id/login_sinaweibo"
+                        android:layout_width="0dip"
+                        android:layout_height="56dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/logo_sinaweibo" />
+					<ImageView
+                        android:id="@+id/login_wechat"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="56dp"
+                        android:src="@drawable/logo_wechat" />
+					 <ImageView
+                         android:id="@+id/login_qq"
+                        android:layout_width="0dip"
+                         android:layout_weight="1"
+                        android:layout_height="56dp"
+                        android:src="@drawable/logo_qq" />
+                </LinearLayout>
+            </LinearLayout>
+</LinearLayout>

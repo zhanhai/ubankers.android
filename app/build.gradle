@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "cn.com.ubankers.www"
+        minSdkVersion 14
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    compileOptions {
+        sourceCompatibility  rootProject.ext.javaSourceCompatibility
+        targetCompatibility  rootProject.ext.javaTargetCompatibility
+    }
+}
+
+dependencies {
+    compile 'com.google.code.gson:gson:2.2.2'
+    compile files('libs/android-async-http-1.4.7.jar')
+    compile files('libs/badgeview.jar')
+    compile files('libs/MobTools.jar')
+    compile files('libs/pinyin4j-1.1.0.jar')
+    compile files('libs/ShareSDK-Core-2.6.0.jar')
+    compile files('libs/ShareSDK-QQ-2.6.0.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.6.0.jar')
+    compile files('libs/ShareSDK-Wechat-2.6.0.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.6.0.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.6.0.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    compile files('libs/zxing.jar')
+    compile project(':lib-pull-refresh')
+    compile project(':lib-sliding-menu')
+
+    compile 'com.google.dagger:dagger:' + rootProject.ext.dagger2Version
+    apt 'com.google.dagger:dagger-compiler:' + rootProject.ext.dagger2Version
+
+    compile 'io.reactivex:rxjava:' + rootProject.ext.rxjavaVersion
+    compile 'io.reactivex:rxandroid:' + rootProject.ext.rxandroidVersion
+
+    compile 'com.squareup.retrofit:retrofit:' + rootProject.ext.retrofitVersion
+
+    compile 'javax.annotation:javax.annotation-api:1.2'
+    compile 'de.greenrobot:eventbus:2.4.0'
+
+    compile 'com.android.support:support-v4:23.1.1'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-all:1.10.19'
+    testCompile('org.powermock:powermock-api-mockito:1.6.2') {
+        exclude module: 'hamcrest-core'
+        exclude module: 'objenesis'
+    }
+    testCompile('org.powermock:powermock-module-junit4:1.6.2') {
+        exclude module: 'hamcrest-core'
+        exclude module: 'objenesis'
+    }
+}

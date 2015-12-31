@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1" >
+    <RelativeLayout
+        android:id="@+id/title_bar_back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/handbg"
+        android:gravity="center_vertical">
+        <LinearLayout 
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:src="@drawable/back" 
+            android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="筹备中"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:id="@+id/catelogView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center" >
+          <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/catelog" />
+          </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout 
+         android:id="@+id/choose_layout"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:orientation="horizontal"
+         android:layout_below="@+id/title_bar_back_layout">
+        <LinearLayout
+         android:id="@+id/investorAdd_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_weight="1">
+        <TextView
+          android:id="@+id/investorAdd"
+          android:layout_width="match_parent"
+          android:layout_height="38dp"
+          android:gravity="center"          
+          android:text="邀请加入"
+          android:textColor="@drawable/color_pressed"/>
+        <View
+            android:id="@+id/investorAddView"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:gravity="bottom"
+            android:background="@color/treasure_bule"/>
+        
+         <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#999999"/>
+        </LinearLayout>
+       <LinearLayout
+          android:id="@+id/AddOrder_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_weight="1">
+         <LinearLayout 
+             android:id="@+id/addll"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/AddOrder"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="1.10"
+            android:gravity="center"
+            android:text="加入记录"
+            android:textColor="@drawable/color_pressed" />
+
+        <TextView
+            android:id="@+id/AddOrder_no"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#0066cc"
+            android:visibility="gone" />
+
+        </LinearLayout>        
+        <View
+            android:id="@+id/AddOrderView"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:background="@color/treasure_bule"/>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#999999"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/llll"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+        android:layout_below="@+id/choose_layout"  >
+    
+    <include 
+        android:id="@+id/investor_add_view"
+        layout="@layout/investor_add_layout"/>
+    <include 
+        android:id="@+id/add_list_view"
+        layout="@layout/add_list_layout"/>
+   
+</LinearLayout>
+
+<!-- <LinearLayout -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:layout_alignParentBottom="true" -->
+<!--             android:layout_marginLeft="20dp" -->
+<!--             android:layout_marginRight="20dp" -->
+<!--             android:layout_marginBottom="20dp" -->
+<!--             android:orientation="vertical"  -->
+<!--             android:layout_marginTop="470dp"> -->
+<!--             <TextView -->
+<!--                 android:layout_marginTop="40dp" -->
+<!--                 android:id="@+id/requestHourse" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="40dp" -->
+<!--                 android:gravity="center" -->
+<!--                 android:textColor="#FFF" -->
+<!--                 android:text="申请财富师工作室" -->
+<!--                 android:background="#0066cc" /> -->
+<!--         </LinearLayout> -->
+</RelativeLayout>

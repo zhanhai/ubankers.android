@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+            xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"    
+		    android:layout_height="90dip"
+			android:orientation="horizontal"
+			android:background="#fff"
+			android:visibility="gone"
+		>
+		<TextView 
+		   
+		 	android:layout_width="0dip"
+		 	android:layout_height="wrap_content"   
+		    android:text="可用余额"
+		    android:textSize="14sp"
+		    android:layout_weight="1"
+		    android:layout_gravity="center"
+		    android:layout_marginLeft="10dip"
+		 />	
+		 <TextView 
+		     android:id="@+id/fundraiser_keyongyue"
+		  	android:layout_width="0dip"   
+		    android:layout_height="wrap_content"
+		    android:text="0.00"
+		    android:textSize="14sp"
+		    android:layout_weight="1"
+		    android:layout_gravity="center"
+		  />					        
+</LinearLayout>

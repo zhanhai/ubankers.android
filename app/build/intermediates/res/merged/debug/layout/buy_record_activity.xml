@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+              android:background="@drawable/handbg"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:id="@+id/buy_record_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/back" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/buy_record_telt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="购买记录"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f0eff5"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/buy_record"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#f0eff5"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/buy_record_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="已购买产品"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#999999"
+                 />
+
+            <View
+                android:id="@+id/buy_recordview"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="#0066cb"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nobuy_record"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#f0eff5"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/nobuy_recordtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="推荐未购买产品"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#999999" />
+
+            <View
+                android:id="@+id/nobuy_recordview"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="#0066cb"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/buy_record_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

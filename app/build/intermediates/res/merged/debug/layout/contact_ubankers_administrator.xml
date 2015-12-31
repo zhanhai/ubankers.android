@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <cn.com.ubankers.www.widget.CircleImg
+                android:id="@+id/avatar"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:background="@drawable/personal_center" 
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"/>
+    <LinearLayout 
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp">
+        <LinearLayout 
+            android:id="@+id/llup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView 
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="管理员："
+            android:textSize="15sp"
+            android:textColor="#999999"/>
+        <TextView 
+            android:id="@+id/administrator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="银板客管理员"
+            android:textSize="15sp"
+            android:textColor="#999999"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/lldown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView 
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机号："
+                android:textColor="#999999"
+                android:textSize="15sp"/>
+            <TextView 
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18516581281"
+                android:textColor="#999999"
+                android:textSize="15sp"
+                android:autoLink="phone"/>
+        </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>
+    
+    <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="40dp"
+       android:layout_marginBottom="30dp">
+       <Button 
+           android:id="@+id/cancel"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.5"
+            android:layout_marginLeft="25dp"
+            android:text="取消"
+            android:background="@drawable/round_button"
+            android:textColor="#ffffff"
+            android:textSize="15sp"/>
+       
+    <Button 
+        android:id="@+id/btn"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginRight="25dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:text="拨打电话"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"/>
+    </LinearLayout> 
+
+    
+<!--     <Button  -->
+<!--         android:id="@+id/btn" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:text="拨打电话" -->
+<!--         android:background="#0066cc" -->
+<!--         android:textSize="15sp" -->
+<!--         android:textColor="#ffffff" -->
+<!--         android:layout_marginLeft="25dp" -->
+<!--         android:layout_marginRight="25dp" -->
+<!--         android:layout_marginTop="30dp" -->
+<!--         android:layout_marginBottom="20dp"/> -->
+    
+</LinearLayout>

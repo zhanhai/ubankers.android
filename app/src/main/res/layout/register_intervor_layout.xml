@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	   <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="45dp"
+	    android:gravity="center_vertical"
+	     android:background="@drawable/handbg"
+	     >
+		    <LinearLayout
+	            android:id="@+id/title_bar_back_btn"
+	            android:layout_width="40dp"
+	            android:layout_height="40dp"
+	            android:gravity="center"
+	            android:orientation="vertical" >
+	            <ImageView
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/back" />
+        </LinearLayout>
+		    <TextView
+		        android:id="@+id/register_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerInParent="true"
+		        android:text="注册投资者"
+		        android:textColor="#FFFFFF"
+		        android:textSize="20sp" />
+		    <TextView
+		        android:id="@+id/login_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerInParent="true"
+		        android:layout_alignParentRight="true"
+		        android:text="登录"
+		        android:visibility="gone"
+		        android:textColor="#D51A1B"
+		        android:textSize="15sp"
+		        android:layout_marginRight="10dp" />
+	
+	 </RelativeLayout> 
+	<RelativeLayout
+	        android:id="@+id/rlFindContact"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	
+	        <EditText
+	            android:id="@+id/edtFindContact"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/bg_contact_search_edttext1"
+	            android:hint="请输入用户的昵称"
+	            android:textSize="17dip" />
+
+	        <ImageView
+	            android:layout_width="30dip"
+	            android:layout_height="30dip"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="16dp"
+	            android:src="@drawable/magnifier" />
+
+	    </RelativeLayout>
+	 <RelativeLayout 
+     	android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"   
+     >
+	    <ListView
+	        android:id="@+id/list_contacts"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_above="@+id/bottom"
+	        android:background="@color/white"
+	        android:divider="#E9E9E9"
+	        android:dividerHeight="1px"
+	        android:fadingEdge="none"
+	        android:scrollingCache="false"
+	        android:visibility="visible" />
+
+	    <cn.com.ubankers.www.utils.QuickAlphabeticBar
+	        android:id="@+id/fast_scroller"
+	        android:layout_width="22dp"
+	        android:layout_height="fill_parent"
+	        android:layout_above="@+id/bottom"
+	        android:layout_alignParentRight="true"
+	        android:layout_gravity="top|right|center"
+	        android:layout_marginTop="0dip"
+	        android:background="@null"
+	        android:scaleType="centerInside"
+	        android:src="@drawable/dic_background" />
+	     <TextView
+	        android:id="@+id/fast_position"
+	        android:layout_width="70dip"
+	        android:layout_height="70dip"
+	        android:layout_centerInParent="true"
+	        android:layout_gravity="center_horizontal|top"
+	        android:layout_margin="34dip"
+	        android:background="@drawable/sort_icon_bg_click"
+	        android:gravity="center"
+	        android:padding="2dip"
+	        android:textColor="#404040"
+	        android:textSize="48dip"
+	        android:visibility="invisible" />
+    </RelativeLayout>
+	 
+
+</LinearLayout>

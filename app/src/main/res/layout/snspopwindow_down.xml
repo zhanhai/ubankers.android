@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/product_view_scolc"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.6"
+        android:background="#555555"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:alpha="0.6"
+            android:background="#555555"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+    </LinearLayout>
+    <HorizontalScrollView
+      
+         android:id="@+id/sns_horizontalListView"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:scrollbars="none"
+         android:gravity="center_vertical">
+         <RadioGroup 
+            android:background="#555555"
+            android:layout_gravity="center_vertical" 
+            android:orientation="horizontal" 
+            android:id="@+id/radioGroup_radio" 
+            android:layout_width="fill_parent" 
+            android:layout_marginTop="-10dp"
+            android:layout_height="fill_parent">
+            <RadioButton 
+                android:id="@+id/sns_article" 
+                android:tag="ming_radio"
+                android:button="@null"
+                android:scaleX="0.65"
+                android:scaleY="0.65"
+                android:background="@drawable/sns_article"
+                android:layout_weight="1"/>
+            <RadioButton 
+                android:id="@+id/sns_video" 
+                android:tag="management_radio"  
+                android:gravity="center"
+                android:button="@null"
+                   android:scaleX="0.65"
+                android:scaleY="0.65"
+                android:background="@drawable/sns_video"
+                android:layout_weight="1"/>
+             <RadioButton 
+                android:id="@+id/sns_view" 
+                android:tag="trust_radio" 
+                android:gravity="center"
+                android:button="@null"
+                   android:scaleX="0.65"
+                android:scaleY="0.65"
+                android:background="@drawable/sns_view"
+                android:layout_weight="1"/>
+            <RadioButton 
+                android:id="@+id/sns_home" 
+                android:tag="financial_radio" 
+                android:gravity="center"
+                android:button="@null"
+                   android:scaleX="0.65"
+                android:scaleY="0.65"
+                android:background="@drawable/sns_home"
+                android:layout_weight="1"/>
+           </RadioGroup>
+    </HorizontalScrollView>
+      
+
+    
+</RelativeLayout>

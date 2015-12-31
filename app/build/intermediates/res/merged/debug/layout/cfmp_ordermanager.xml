@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0eff5" >
+     <RelativeLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="40.0dip"
+    	android:gravity="center_vertical"
+    	android:background="@drawable/handbg"
+     >
+		<LinearLayout
+            android:id="@+id/xiugai_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </LinearLayout>
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:text="预约管理"
+	        android:textColor="#FFFFFF"
+	        android:textSize="18sp" />
+	</RelativeLayout>
+     
+ <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="41.5dp" 
+        android:background="#ffffff"
+        >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+        <LinearLayout 
+        	android:layout_width="0dp"
+        	android:layout_weight="1"
+        	android:layout_height="wrap_content"  
+        	android:orientation="vertical"
+        	android:id="@+id/unconfirmed_order"
+        >
+
+		        <TextView
+		            android:id="@+id/tv_unconfirmed_order"
+		            android:layout_width="156dp"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:text="未确定预约"
+		            android:textColor="#c8c7cc"
+		            android:textSize="15sp" 
+		            android:layout_marginTop="9dip"/>
+		      <View 
+		            android:layout_marginTop="10dip"
+			        android:layout_width="fill_parent"
+			        android:layout_height="1dp"
+			        android:background="#c8c7cc" 
+     			/>
+
+		      <View 
+		         android:id="@+id/investor_view1" 
+		         android:layout_width="fill_parent"
+		         android:layout_height="1.5dip"
+		         android:background="#0066cb"
+		         android:layout_gravity="center"
+		         android:visibility="gone"
+		     />
+    </LinearLayout>
+    <LinearLayout 
+    		android:layout_width="0dp"
+        	android:layout_weight="1"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical" 
+    		android:id="@+id/confirmed_order"   
+    >
+		        <TextView 
+		            android:gravity="center"
+		            android:id="@+id/tv_confirmed_order"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:textColor="#c8c7cc"
+		            android:text="已确定预约"
+		            android:textSize="15sp"
+		            android:layout_marginTop="9dip"/>
+		    	<View
+		    	    android:layout_marginTop="10dip"
+			        android:layout_width="fill_parent"
+			        android:layout_height="1dp"
+			        android:background="#c8c7cc" 
+     			/>
+		    	<View 
+		          android:id="@+id/investor_view2"
+		          android:layout_width="fill_parent"
+		          android:layout_height="1.5dip"
+		          android:background="#0066cb"
+		          android:layout_gravity="center"
+		          android:visibility="gone"
+		        />
+       </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>
+
+  <android.support.v4.view.ViewPager
+        android:id="@+id/investment_fragments_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+	  
+</LinearLayout>

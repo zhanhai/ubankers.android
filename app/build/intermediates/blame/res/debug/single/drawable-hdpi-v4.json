@@ -1,0 +1,1826 @@
+[
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\collectionsred.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\collectionsred.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\spinner.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\family.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bubble.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\bubble.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shield.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\shield.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\magnifier.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\magnifier.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\inner_bar_grey.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\inner_bar_grey.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\finance.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\finance.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\account_icon.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\account_icon.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hot.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\hot.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_edit_normala.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\login_edit_normala.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\interval_line.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\interval_line.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\safety.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\safety.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\holien.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\holien.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\two.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\two.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\global.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\global.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ldbg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\ldbg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_10.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_10.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\drawable-hdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jgbg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\jgbg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sns_home.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sns_home.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\heart.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\heart.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide5.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\guide5.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sns_video.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sns_video.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_style_one_focused.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_style_one_focused.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_style_one_focused.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_style_one_focused.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\topicblue.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\topicblue.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide3.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\guide3.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shenfenzhengb.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\shenfenzhengb.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\catelog.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\catelog.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\onsell.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\onsell.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vipblue.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\vipblue.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_us.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\about_us.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_indicator.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\edit_indicator.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_submenu_dropdown.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\mm_submenu_dropdown.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_jw_face_index_nor.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon_jw_face_index_nor.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cfmp_hourse.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\cfmp_hourse.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\product_status_slect.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\product_status_slect.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wrench.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\wrench.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\invite_friend.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\invite_friend.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\reply.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\reply.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_contact_search_edttext1.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\bg_contact_search_edttext1.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_jw_face_index_prs.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon_jw_face_index_prs.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\document.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\document.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shared.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\shared.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plus_hdpi.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\plus_hdpi.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_arrows.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\personal_arrows.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\b.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\b.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\investment.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\investment.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edittext1.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\edittext1.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\paid_photo.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\paid_photo.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\grid.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\grid.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cache_bg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\cache_bg.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pitch_click.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\pitch_click.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\client_arrows.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\client_arrows.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\taogray.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\taogray.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\upload.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\upload.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\openbook.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\openbook.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wealth.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\wealth.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_click.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\default_click.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vipyellow.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\vipyellow.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_edit_normala.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\login_edit_normala.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\snsgray.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\snsgray.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_edit_pressed.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\login_edit_pressed.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\starwhite.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\starwhite.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\star.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_jw_send_message_edit_bg.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon_jw_send_message_edit_bg.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\welcome.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_8.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_8.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cfmp_recommend.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\cfmp_recommend.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_cancel.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_cancel.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\piechart.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\piechart.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\check_cfmp.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\check_cfmp.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\check_cfmp.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\check_cfmp.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chebianlan_shouye.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\chebianlan_shouye.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\argumentsgary.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\argumentsgary.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_ok_pressed.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_ok_pressed.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_sinaweibo.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\logo_sinaweibo.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\test_pic.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\test_pic.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lovegray.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\lovegray.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\service_call.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\service_call.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\test_pic.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\test_pic.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_edit_normal.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\login_edit_normal.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jiazai.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\jiazai.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_7.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_7.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_7.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_7.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_wechatmoments.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\logo_wechatmoments.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\back.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_jw_face_index_nor.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon_jw_face_index_nor.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_edit_normal.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\login_edit_normal.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_jw_writting_bg.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon_jw_writting_bg.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bar_chart.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\bar_chart.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lovered.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\lovered.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\productbg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\productbg.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cache_bg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\cache_bg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lovered.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\lovered.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\product_cast_manager.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\product_cast_manager.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_jw_writting_bg.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon_jw_writting_bg.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide1.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\guide1.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\openbook.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\openbook.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\note.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\note.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\private_placement.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\private_placement.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_ok_pressed.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_ok_pressed.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sort_icon_bg_click.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sort_icon_bg_click.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\big3.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\big3.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wallet.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\wallet.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\male_user.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\male_user.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\credentials.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\credentials.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_bg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\login_bg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\usergray.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\usergray.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sold_out.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sold_out.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hot.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\hot.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pencil.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\pencil.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\productbg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\productbg.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_style_one_normal.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_style_one_normal.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\paid_photo.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\paid_photo.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_jw_face_index_prs.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon_jw_face_index_prs.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\note.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\note.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\c_click.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\c_click.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_wechat.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\logo_wechat.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shenfenzhenga.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\shenfenzhenga.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\eyenew.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\eyenew.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\drawable-hdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help_center.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\help_center.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\order_manager.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\order_manager.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_submenu_dropdown.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\mm_submenu_dropdown.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\recommend_cfmp.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\recommend_cfmp.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buy_record.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\buy_record.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\advance_sale.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\advance_sale.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\magnifier.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\magnifier.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buutsubscribe.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\buutsubscribe.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\product_cast_manager.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\product_cast_manager.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_qq.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\logo_qq.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrowhead.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\arrowhead.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_1.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_1.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_sns.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\edit_sns.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myrong.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\myrong.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ema.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\ema.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_wechatmoments.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\logo_wechatmoments.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noteh.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\noteh.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\order_manager.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\order_manager.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\personal.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\friends.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\friends.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\a.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sns_home.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sns_home.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\drawable-hdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\credentials.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\credentials.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_8.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_8.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\article.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\article.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zaishou.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\zaishou.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide2.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\guide2.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_10.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_10.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\recommend_cfmp.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\recommend_cfmp.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\backbg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\backbg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_style_one_normal.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_style_one_normal.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\eyeglasses.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\eyeglasses.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buutsubscribe.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\buutsubscribe.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notenew.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\notenew.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_3.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_3.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\share.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\productdetailsbg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\productdetailsbg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\two.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\two.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plus_xhdpi.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\plus_xhdpi.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sold_out.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sold_out.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_jw_send_message_edit_bg.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon_jw_send_message_edit_bg.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\catelog.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\catelog.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shouqing.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\shouqing.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\star.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hearted.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\hearted.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\loading.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\d.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\d.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\heartwhite.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\heartwhite.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\complete.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\complete.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\or.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\or.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\countermand.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\countermand.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\moustache.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\moustache.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\calculator.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\calculator.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\center.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\center.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stared.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\stared.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\help_center.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\help_center.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\investment_record.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\investment_record.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chebianlan_shousuo.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\chebianlan_shousuo.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\round.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\round.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\private_placement.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\private_placement.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\loading.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_flip.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\drawable-hdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_ok_normal.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_ok_normal.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\original.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\original.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_edit_pressed.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\login_edit_pressed.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\or.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\or.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_ok_normal.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_ok_normal.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a_unclick.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\a_unclick.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sharegray.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sharegray.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\service_call.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\service_call.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\b.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\b.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myclient.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\myclient.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buy_record.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\buy_record.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_contact_search_edttext1.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\bg_contact_search_edttext1.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_wechat.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\logo_wechat.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\holien.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\holien.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ldbg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\ldbg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_5.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_5.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sns_view.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sns_view.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\friend.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\friend.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zaishou.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\zaishou.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\speach.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\speach.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plus_hdpi.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\plus_hdpi.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jgbg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\jgbg.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\account_icon.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\account_icon.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\treasureleft.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\treasureleft.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\settings.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide4.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\guide4.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yushou.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\yushou.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plus_xhdpi.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\plus_xhdpi.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\briefcase.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\briefcase.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_3.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_3.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\onloginbg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\onloginbg.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chebianlan_shezhi.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\chebianlan_shezhi.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\heartwhite.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\heartwhite.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_arrow.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\down_arrow.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\safety.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\safety.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_center.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\personal_center.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_2.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_2.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\back.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\singleline_item_bg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\singleline_item_bg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mingpianbg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\mingpianbg.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide5.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\guide5.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_indicator.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\edit_indicator.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bubble.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\bubble.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_qq.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\logo_qq.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wrench.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\wrench.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\transfer.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\transfer.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xuanzhong.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\xuanzhong.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\inner_bar_grey.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\inner_bar_grey.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\usercenter.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\usercenter.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\verifycode.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\verifycode.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\family.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\c_click.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\c_click.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cfmp_recommend.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\cfmp_recommend.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notenew.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\notenew.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\check.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\check.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xlistview_arrow.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\xlistview_arrow.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sns_article.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sns_article.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\title.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\productgray.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\productgray.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pencil.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\pencil.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mingstart.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\mingstart.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_title_functionframe_line.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\mm_title_functionframe_line.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\share.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\personal.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_2.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_2.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_arrow.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\down_arrow.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\grid.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\grid.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bar_chart.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\bar_chart.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_center.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\personal_center.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mingpianbg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\mingpianbg.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\iconbutton.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\iconbutton.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\userblue.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\userblue.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\verifycode.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\verifycode.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\usercenter.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\usercenter.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ded.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\ded.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sharered.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sharered.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\article.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\article.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\calendar.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\calendar.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide3.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\guide3.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_6.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_6.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\a.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\trust_fund.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\trust_fund.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\topicgray.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\topicgray.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_center_bg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\personal_center_bg.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\countermand.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\countermand.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\collectionsred.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\collectionsred.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a_unclick.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\a_unclick.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chebianlan_logo.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\chebianlan_logo.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\release.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\release.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\center.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\center.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_5.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_5.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cfmp_hourse.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\cfmp_hourse.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hearted.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\hearted.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\user.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edittext1.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\edittext1.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\welcome.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\snsblue.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\snsblue.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_press.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\spinner_press.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\maintreasure.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\maintreasure.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\invite_friend.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\invite_friend.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\title.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\taogray.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\taogray.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_clear_normal.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\search_clear_normal.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\check.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\check.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\investment_record.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\investment_record.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chebianlan_shousuo.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\chebianlan_shousuo.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zjgldianji.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\zjgldianji.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\upload.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\upload.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\calendar.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\calendar.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_center_line.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\personal_center_line.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\calculator.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\calculator.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\treasureleft.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\treasureleft.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\credit_card.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\credit_card.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sort_icon_bg_click.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sort_icon_bg_click.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_sinaweibo.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\logo_sinaweibo.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mm_title_functionframe_line.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\mm_title_functionframe_line.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shenfenzhengb.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\shenfenzhengb.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xlistview_arrow.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\xlistview_arrow.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\argumentsred.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\argumentsred.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\d.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\d.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\treasurebg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\treasurebg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\singleline_item_bg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\singleline_item_bg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shenfenzhenga.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\shenfenzhenga.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lovegray.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\lovegray.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\global.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\global.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ded.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\ded.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\male_user.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\male_user.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\topicblue.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\topicblue.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\backgray.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\backgray.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\c.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\c.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_list_selector.xml",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\title_list_selector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_click.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\default_click.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_clear_pressed.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\search_clear_pressed.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\snsgray.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\snsgray.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_center_bg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\personal_center_bg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pitch_click.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\pitch_click.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\topicgray.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\topicgray.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrowhead.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\arrowhead.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chebianlan_shezhi.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\chebianlan_shezhi.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wealth.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\wealth.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide1.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\guide1.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\follow.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\follow.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shield.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\shield.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\starwhite.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\starwhite.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jiazai.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\jiazai.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\friends.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\friends.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\big3.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\big3.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wallet.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\wallet.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xuanzhong.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\xuanzhong.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\advance_sale.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\advance_sale.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_user.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon_user.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_6.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_6.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\trust_fund.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\trust_fund.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\snsblue.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\snsblue.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chebianlan_logo.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\chebianlan_logo.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\client_arrows.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\client_arrows.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\face.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myrong.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\myrong.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\backgray.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\backgray.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\productblue.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\productblue.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_cancel_pressed.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_cancel_pressed.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\document.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\document.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_1.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_1.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide4.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\guide4.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\user.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\user.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\round.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\round.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\eyenew.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\eyenew.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\eyeglasses.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\eyeglasses.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_bg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\login_bg.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\onloginbg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\onloginbg.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\productgray.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\productgray.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\release.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\release.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vipblue.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\vipblue.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\transfer.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\transfer.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yushou.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\yushou.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_user.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\icon_user.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\complete.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\complete.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sns_view.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sns_view.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rongquan_caidan.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\rongquan_caidan.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_cancel_pressed.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_cancel_pressed.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\reply.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\reply.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guide2.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\guide2.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\backbg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\backbg.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\follow.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\follow.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sns_article.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sns_article.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\eye.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\eye.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\down.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chebianlan_shouchang.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\chebianlan_shouchang.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\finance.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\finance.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\collectionsgray.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\collectionsgray.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\exploded-aar\\studio\\lib-pull-refresh\\unspecified\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mingstart.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\mingstart.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\capital_click.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\capital_click.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myclient.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\myclient.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\spinner.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\piechart.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\piechart.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\eye.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\eye.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_style_one_pressed.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_style_one_pressed.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sns_video.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sns_video.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_style_one_pressed.9.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_style_one_pressed.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\usergray.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\usergray.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vipyellow.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\vipyellow.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_press.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\spinner_press.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stared.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\stared.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\translation.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\translation.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sharegray.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sharegray.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_cancel.9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\btn_cancel.9.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shared.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\shared.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weixian.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\weixian.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\treasurebg.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\treasurebg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\product_status_slect.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\product_status_slect.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\translation.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\translation.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rongquan_caidan.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\rongquan_caidan.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\maintreasure.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\maintreasure.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_clear_pressed.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\search_clear_pressed.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\capital.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\capital.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\face.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\face.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\investment.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\investment.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\iconbutton.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\iconbutton.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\heart.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\heart.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\moustache.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\moustache.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_center_line.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\personal_center_line.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_list_selector.xml",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\title_list_selector.xml"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\settings.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\userblue.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\userblue.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\collectionsgray.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\collectionsgray.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\backred.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\backred.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\backred.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\backred.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\interval_line.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\interval_line.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_us.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\about_us.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_4.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_4.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\argumentsgary.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\argumentsgary.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ema.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\ema.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_sns.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\edit_sns.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zjgldianji.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\zjgldianji.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\productblue.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\productblue.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plus.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\plus.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chebianlan_shouye.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\chebianlan_shouye.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sharered.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\sharered.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\capital.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\capital.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\briefcase.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\briefcase.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\speach.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\speach.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noteh.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\noteh.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_4.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_4.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\c.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\c.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\credit_card.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\credit_card.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_clear_normal.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\search_clear_normal.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\productdetailsbg.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\productdetailsbg.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\original.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\original.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\down.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shouqing.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\shouqing.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\onsell.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\onsell.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\capital_click.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\capital_click.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_9.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\progress_9.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weixian.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\weixian.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\friend.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\friend.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\argumentsred.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\argumentsred.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plus.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\plus.png"
+    },
+    {
+        "merged": "E:\\rongan\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\chebianlan_shouchang.png",
+        "source": "E:\\rongan\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\chebianlan_shouchang.png"
+    },
+    {
+        "merged": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\personal_arrows.png",
+        "source": "D:\\workspace\\svn\\branches\\android151214\\studio\\app\\src\\main\\res\\drawable-hdpi\\personal_arrows.png"
+    }
+]

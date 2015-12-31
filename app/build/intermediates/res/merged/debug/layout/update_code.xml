@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#f1f1f1">
+    
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+              android:background="@drawable/handbg"
+            android:gravity="center_vertical" >
+             <LinearLayout
+                android:id="@+id/title_bar_back_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back" />
+            </LinearLayout>
+			<TextView
+                android:id="@+id/login_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="重置密码"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+<!--             <TextView -->
+<!--                 android:id="@+id/register_title" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_alignParentRight="true" -->
+<!--                 android:layout_centerInParent="true" -->
+<!--                 android:layout_marginRight="10dp" -->
+<!--                 android:text="注册" -->
+<!--                 android:textColor="#D51A1B" -->
+<!--                 android:textSize="15sp" -->
+<!--                 android:visibility="gone" /> -->
+        </RelativeLayout>
+    
+  
+<LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical" > 
+
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="50dp" >
+
+             <cn.com.ubankers.www.widget.ClearEditTextView
+                     android:id="@+id/mobileNumber"
+                     android:layout_width="match_parent"
+                     android:layout_height="50dip"
+                     android:layout_marginBottom="5dip"
+                     android:layout_marginLeft="15dip"
+                     android:layout_marginRight="15dip"
+                     android:layout_marginTop="30dp"
+                     android:background="@drawable/login_edittext_bg"
+                                
+                     android:drawableRight="@drawable/delete_selector"
+                     android:hint="请输入注册时使用的手机号"
+                     android:textSize="15sp"
+                     android:singleLine="true" />
+                       
+    </LinearLayout>
+    
+    <LinearLayout
+          android:id="@+id/ll2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         
+          android:orientation="horizontal" >
+
+                <cn.com.ubankers.www.widget.ClearEditTextView
+                    android:background="@drawable/login_edittext_bg"
+                    android:id="@+id/verifycode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="请输入验证码"                      
+                    android:textSize="15sp"
+                    android:textColor="#999999"/>
+
+                <TextView
+                    android:id="@+id/verifybutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="15dp"
+                    
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1.6"
+                    android:background="#0066cc"
+           			android:text="获取验证码"
+            		android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:textSize="15sp"/>
+                
+   </LinearLayout>
+   <TextView
+            android:id="@+id/voice_verification_code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ll2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:text="收不到短信? 使用语音验证码" />
+   <LinearLayout 
+   		android:layout_width="fill_parent"    
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="2dp"
+   >	
+   		<TextView
+		       android:id="@+id/textView2"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:text="请等待接听电话,"
+		       android:textColor="#0066cc"
+		       android:visibility="gone" />
+		
+		   <TextView
+		       android:id="@+id/textView3"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:text="39"
+		       android:textColor="#D51A1B"
+		       android:visibility="gone" />
+		
+		   <TextView
+		            android:id="@+id/textView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignBaseline="@+id/textView2"
+		            android:layout_alignBottom="@+id/textView2"
+		            android:layout_toRightOf="@+id/textView3"
+		            android:text="后可重试"
+		            android:textColor="#0066cc"
+		            android:visibility="gone" />
+    </LinearLayout>
+   
+   <Button
+        android:id="@+id/next_Button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shap"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="下一步"
+        android:textColor="#ffffffff"
+        android:textSize="15sp" />
+   
+</LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

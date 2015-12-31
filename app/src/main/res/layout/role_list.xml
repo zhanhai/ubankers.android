@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"            
+            android:gravity="center_vertical" >
+
+            <ImageView                
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:background="#878787" 
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/login_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="选择角色"
+                android:textColor="#0068b7"
+                android:textSize="20sp" />
+            
+            <ImageView                
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:background="#878787" 
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"/>
+
+        </RelativeLayout>
+    
+    
+    <ListView 
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_height="wrap_content"
+        android:listSelector="@drawable/role_color">
+        
+    </ListView>
+    
+
+</LinearLayout>

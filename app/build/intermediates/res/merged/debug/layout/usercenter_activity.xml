@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/root_view"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:background="#f0eef5">
+  <RelativeLayout
+        android:id="@+id/userCenterHead"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:background="#444444"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/jueseming"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="个人中心"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+          <LinearLayout
+           android:id="@+id/setting" 
+           android:layout_width="45dp"
+		   android:layout_height="45dp"
+		   android:layout_alignParentRight="true"
+           android:gravity="center"
+			android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settings" 
+            android:layout_gravity="center"/>   
+            </LinearLayout>   
+    </RelativeLayout>
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:scrollbars="none"
+    	android:layout_below="@id/userCenterHead">
+        <LinearLayout 
+            android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#f0eef5"
+			android:orientation="vertical">
+			<FrameLayout 
+				android:id="@+id/fl_bg"
+				android:layout_width="fill_parent"    
+				android:layout_height="wrap_content"
+				android:visibility="gone">
+            <ImageView 
+				android:layout_width="match_parent"   
+				android:layout_height="170dp"
+				android:background="@drawable/center"/>
+
+            <cn.com.ubankers.www.widget.CircleImg
+                android:id="@+id/avatar"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:background="@drawable/personal_center" 
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:id="@+id/rl3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/recent_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sns_ext"
+                android:gravity="center"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:ellipsize="end"
+                android:maxEms="10"
+                android:maxLength="15"/>
+
+            <ImageView
+                android:id="@+id/editorView"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/noteh" />
+        </LinearLayout>
+
+            </FrameLayout>
+			<include 
+				 android:id="@+id/layout_cfmp"
+				 layout="@layout/cfmp_information"   />
+			<include 
+				 android:id="@+id/layout_fundraiser"  
+				 layout="@layout/fundraiser_information" />
+			<include 
+				 android:id="@+id/layout_investor"  
+				 layout="@layout/personage_information" />
+        </LinearLayout>   
+    </ScrollView>
+
+</RelativeLayout>

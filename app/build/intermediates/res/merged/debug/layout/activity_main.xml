@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost 
+    android:id="@android:id/tabhost" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        
+
+    <FrameLayout 
+            android:id="@android:id/tabcontent" 
+            android:layout_width="fill_parent" 
+            android:layout_height="0.0dip" 
+            android:layout_gravity="center"
+            android:layout_weight="1.0" >
+     
+
+     </FrameLayout> 
+      <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#c8c7cc"/>
+        <TabWidget 
+            android:id="@android:id/tabs" 
+            android:visibility="gone" 
+            android:layout_width="fill_parent" 
+            android:layout_height="50dp" 
+            android:layout_weight="0.0" />
+        <RadioGroup 
+            android:gravity="center_vertical" 
+            android:layout_gravity="bottom" 
+            android:orientation="horizontal" 
+            android:id="@+id/main_radio" 
+            android:background="#ffffff" 
+            android:layout_width="fill_parent" 
+            android:layout_height="50dp">
+            <RadioButton 
+                android:id="@+id/radio_button0" 
+                android:tag="radio_button0"
+                android:gravity="center"
+                android:button="@null"
+                android:text="淘金子"
+                android:textSize="10sp"
+                android:layout_weight="1"
+                android:textColor="#0066cc"/>
+            <RadioButton 
+                android:id="@+id/radio_button1" 
+                android:tag="radio_button1"  
+                android:gravity="center"
+                android:button="@null"
+                android:text="融圈儿"
+                android:textSize="10sp"
+                android:layout_weight="1"
+                android:textColor="#666666"/>
+             <!-- <RadioButton 
+                android:id="@+id/radio_button2" 
+                android:tag="radio_button2" 
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:text="涨知识"
+                android:layout_weight="1"
+                android:textColor="#333333"/> -->
+            <RadioButton 
+                android:id="@+id/radio_button2" 
+                android:tag="radio_button2" 
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:text="个人中心"
+                android:layout_weight="1"
+                android:textColor="#666666"/>
+             
+        </RadioGroup>
+    </LinearLayout>
+</TabHost>
+

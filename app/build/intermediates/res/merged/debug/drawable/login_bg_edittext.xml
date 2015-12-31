@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<shape xmlns:android="http://schemas.android.com/apk/res/android">   
+        <solid  android:color="#ffffff"/>
+        <solid  android:color="#cccccc" android:state_pressed="true"/>
+     <!-- 圆角 -->  
+    <corners android:radius="2dp" />  
+    <!-- 边距 -->  
+    <padding  
+        android:bottom="7dp"          
+        android:top="7dp" />  
+</shape>  

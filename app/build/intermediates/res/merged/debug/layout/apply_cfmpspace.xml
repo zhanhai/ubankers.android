@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:text="创建财富师工作室条件：\n\n1、您的团队中财富师不少于10个\n\n2、您的团队每月业务流量需大于2000万元"
+        android:textColor="#999999"
+        android:textSize="15sp"/>
+    <Button 
+        android:id="@+id/applybtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="确 认 申 请"
+        android:textSize="15sp"
+        android:background="#0066cc"
+        android:textColor="#ffffff"/>
+    
+
+</LinearLayout>

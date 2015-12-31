@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+  
+<!-- <cn.com.ronganonline.www.view.MListView.java -->
+<!--         android:id="@+id/rongListView" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:divider="#ffdddddd" -->
+<!--         android:dividerHeight="0.5dp" -->
+<!--         android:fadingEdge="none" -->
+<!--         android:scrollbars="none" > -->
+<!--     </cn.com.ronganonline.www.view.MyListView> -->
+
+<com.handmark.pulltorefresh.library.PullToRefreshListView
+     android:id="@+id/rongListView"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:divider="#ffdddddd"
+     android:dividerHeight="0.5dp"
+     android:fadingEdge="none"
+     android:descendantFocusability="blocksDescendants"
+     android:scrollbars="none"/>
+</RelativeLayout>

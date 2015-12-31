@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ivAlbumPic"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_margin="5dp"
+            android:src="@drawable/article" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/ll"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="微微风格风格是风格机构解释解释就是问个人体"
+                    android:textColor="#1e1e1e"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:singleLine="true" >
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:maxEms="5"
+        android:singleLine="true"
+        android:text="融圈儿官方"
+        android:textColor="#646464"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/VIP"
+        android:layout_width="18dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/tvAuthor" />
+
+    <TextView
+        android:id="@+id/eye"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:text="1233"
+        android:textColor="#646464"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/commentey"
+        android:layout_width="18dp"
+        android:layout_height="17dp"
+        android:layout_alignBottom="@+id/eye"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/eye"
+        android:src="@drawable/eye"
+ 
+       />
+
+    <TextView
+        android:id="@+id/tvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvAuthor"
+        android:layout_alignBottom="@+id/tvAuthor"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/commentey"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="2015.6.2"
+        android:textColor="#646464"
+        android:textSize="13sp" />
+
+</RelativeLayout>
+        </LinearLayout>
+        
+         
+    </RelativeLayout>
+
+</RelativeLayout>

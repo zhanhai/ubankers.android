@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <RelativeLayout
+        android:id="@+id/title_bar_back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#444444"
+        android:gravity="center_vertical">
+        <LinearLayout 
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:src="@drawable/back" 
+            android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="工作室成员"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+     
+    </RelativeLayout>
+
+</LinearLayout>

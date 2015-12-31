@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" > 
+     <android.support.v4.view.ViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+        <LinearLayout
+        android:id="@+id/productLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:alpha="0.6"
+        android:background="#555555"
+        android:gravity="center"
+        
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:gravity="center"
+            android:layout_marginTop="-5dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.5" >
+            <TextView
+                android:layout_marginTop="4dp"
+                android:id="@+id/productTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/product_view_scolc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:gravity="center"
+            android:layout_marginTop="-5dp"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+        </LinearLayout>
+    </LinearLayout>
+
+   
+    <RelativeLayout
+        android:id="@+id/popwindow_layout"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+             android:id="@+id/popwindow_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/plus" />
+    </RelativeLayout>
+</RelativeLayout>

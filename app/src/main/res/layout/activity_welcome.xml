@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/welcome"
+    android:id="@+id/frame_layout" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager> 
+     <LinearLayout 
+ 		     android:id="@+id/ll_view_scolc"
+             android:layout_width="fill_parent"
+             android:layout_height="20dip"
+             android:layout_gravity="bottom"
+             android:gravity="center"
+             android:orientation="horizontal"
+             android:layout_marginTop="3dip">
+    </LinearLayout>
+</FrameLayout>

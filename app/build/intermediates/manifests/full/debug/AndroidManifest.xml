@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.com.ubankers.www"
+    android:versionCode="1"
+    android:versionName="1.0.9.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <!-- 允许程序写入API设置 -->
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <!-- 允许应用读取低级别的系统日志文件 -->
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <!-- 添加可以向外拨打电话的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 蓝牙分享所需的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- 讯飞语音权限 -->
+    <!-- 连接网络权限，用于执行云端语音能力 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 读取网络信息状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取当前wifi状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许程序改变网络连接状态 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- 读取手机信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <!-- 读取联系人权限，上传联系人需要用到此权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+ -->
+    <application
+        android:name="cn.com.ubankers.www.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service android:name="cn.com.ubankers.www.utils.ReceiveMsgService" >
+        </service>
+        <!-- authentication -->
+        <activity
+            android:name="cn.com.ubankers.www.authentication.controller.activity.WelcomeActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="jp.app"
+                    android:pathPrefix="/openwith"
+                    android:scheme="myapp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.authentication.controller.activity.AgreementActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.authentication.controller.activity.SupplinfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.product.controller.activity.AdPositionIdDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.authentication.controller.activity.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.authentication.controller.activity.BindActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.authentication.controller.activity.ChooseRoleActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.authentication.controller.activity.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.authentication.controller.activity.RegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- product -->
+        <activity
+            android:name="cn.com.ubankers.www.product.controller.activity.ProductActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.product.controller.activity.FamilyFortuneActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.product.controller.activity.RegisterIntervorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ubankers.app.product.detail.ProductDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- sns -->
+        <activity
+            android:name="cn.com.ubankers.www.sns.controller.activity.CommentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.sns.controller.activity.SnsArticleActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.sns.controller.activity.SnsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.sns.controller.activity.CollectionsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- TopicActivity -->
+        <activity
+            android:name="cn.com.ubankers.www.knowledge.controller.activity.KnowLedgeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- user -->
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.AboutOursActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.AccountActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.BankCardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.BusinessCardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.CfmpManagerAcyivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.CfmpRecommendPtsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.CfmpRecommerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.CfmpStateAcyivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.CustomerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.CustomerDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.EmailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.FundsManageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.IdCardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.InverstorToCfmpActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.InvestmentRecordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.InvestorOrderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.LoginResetPsdActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.OrderManagementActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.ReserverDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.SafetyCenterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.SettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.SettingModifyPsdActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.UserCenterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.VerifyCodeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.WealthCenterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.MemberWealthCenterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.WealthMattersActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.ChargeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.WithdrawActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.Touch"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.BuyRecordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.WealthStudioActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.MemberWealthStudioActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.WealthspaceInvitationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.myDialogActiviy"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.ClipPictureaActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.WorkspaceMemberActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.com.ubankers.www.user.controller.activity.MemberSpaceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 分享编辑页 -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <!-- 添加微信回調 -->
+        <activity
+            android:name="cn.com.ubankers.www.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <receiver
+            android:name="cn.com.ubankers.www.utils.NetReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

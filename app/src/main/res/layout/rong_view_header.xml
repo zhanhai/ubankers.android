@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-2dp" >
+    
+<FrameLayout 
+        android:id="@+id/fl_rongImage"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp">
+        <cn.com.ubankers.www.widget.AutoScrollViewPager
+            android:id="@+id/rongvp_page"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>	
+ 		 <LinearLayout 
+ 		     android:id="@+id/rongll_view_scolc"
+               android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:background="#33000000">
+         <TextView 
+           android:id="@+id/title"
+           android:layout_width="fill_parent"
+           android:gravity="left|center_vertical"
+           android:layout_height="35dp" 
+           android:singleLine="true"   
+           android:textSize="16sp"
+           android:textColor="#FFF"/>
+          </LinearLayout>
+        </FrameLayout>
+</RelativeLayout>

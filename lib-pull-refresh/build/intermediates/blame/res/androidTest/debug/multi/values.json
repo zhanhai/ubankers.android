@@ -1,0 +1,742 @@
+[
+    {
+        "outputFile": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 1511,
+                    "endColumn": 63,
+                    "endOffset": 1570
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 1511,
+                        "endColumn": 63,
+                        "endOffset": 1570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1575,
+                    "endColumn": 63,
+                    "endOffset": 1634
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 1575,
+                        "endColumn": 63,
+                        "endOffset": 1634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1639,
+                    "endColumn": 54,
+                    "endOffset": 1689
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 1639,
+                        "endColumn": 54,
+                        "endOffset": 1689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 1694,
+                    "endColumn": 56,
+                    "endOffset": 1746
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 1694,
+                        "endColumn": 56,
+                        "endOffset": 1746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 1751,
+                    "endColumn": 54,
+                    "endOffset": 1801
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 1751,
+                        "endColumn": 54,
+                        "endOffset": 1801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1806,
+                    "endColumn": 37,
+                    "endOffset": 1839
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1806,
+                        "endColumn": 37,
+                        "endOffset": 1839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1844,
+                    "endColumn": 39,
+                    "endOffset": 1879
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1844,
+                        "endColumn": 39,
+                        "endOffset": 1879
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1884,
+                    "endColumn": 36,
+                    "endOffset": 1916
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1884,
+                        "endColumn": 36,
+                        "endOffset": 1916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1921,
+                    "endColumn": 52,
+                    "endOffset": 1969
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1921,
+                        "endColumn": 52,
+                        "endOffset": 1969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1974,
+                    "endColumn": 58,
+                    "endOffset": 2028
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1974,
+                        "endColumn": 58,
+                        "endOffset": 2028
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2033,
+                    "endColumn": 52,
+                    "endOffset": 2081
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 2033,
+                        "endColumn": 52,
+                        "endOffset": 2081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2086,
+                    "endColumn": 101,
+                    "endOffset": 2183
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2086,
+                        "endColumn": 101,
+                        "endOffset": 2183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2188,
+                    "endColumn": 113,
+                    "endOffset": 2297
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2188,
+                        "endColumn": 113,
+                        "endOffset": 2297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2302,
+                    "endColumn": 107,
+                    "endOffset": 2405
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2302,
+                        "endColumn": 107,
+                        "endOffset": 2405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2410,
+                    "endColumn": 71,
+                    "endOffset": 2477
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2410,
+                        "endColumn": 71,
+                        "endOffset": 2477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2482,
+                    "endColumn": 69,
+                    "endOffset": 2547
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2482,
+                        "endColumn": 69,
+                        "endOffset": 2547
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2552,
+                    "endColumn": 77,
+                    "endOffset": 2625
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2552,
+                        "endColumn": 77,
+                        "endOffset": 2625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2630,
+                    "endLine": 26,
+                    "endColumn": 12,
+                    "endOffset": 2916
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2630,
+                        "endLine": 26,
+                        "endColumn": 12,
+                        "endOffset": 2916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2921,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 3076
+                },
+                "from": {
+                    "file": "D:\\workspace\\svn\\branches\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2921,
+                        "endLine": 29,
+                        "endColumn": 12,
+                        "endOffset": 3076
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 1511,
+                    "endColumn": 63,
+                    "endOffset": 1570
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 1511,
+                        "endColumn": 63,
+                        "endOffset": 1570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1575,
+                    "endColumn": 63,
+                    "endOffset": 1634
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 1575,
+                        "endColumn": 63,
+                        "endOffset": 1634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1639,
+                    "endColumn": 54,
+                    "endOffset": 1689
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 1639,
+                        "endColumn": 54,
+                        "endOffset": 1689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 1694,
+                    "endColumn": 56,
+                    "endOffset": 1746
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 1694,
+                        "endColumn": 56,
+                        "endOffset": 1746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 1751,
+                    "endColumn": 54,
+                    "endOffset": 1801
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 1751,
+                        "endColumn": 54,
+                        "endOffset": 1801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1806,
+                    "endColumn": 37,
+                    "endOffset": 1839
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1806,
+                        "endColumn": 37,
+                        "endOffset": 1839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1844,
+                    "endColumn": 39,
+                    "endOffset": 1879
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1844,
+                        "endColumn": 39,
+                        "endOffset": 1879
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1884,
+                    "endColumn": 36,
+                    "endOffset": 1916
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1884,
+                        "endColumn": 36,
+                        "endOffset": 1916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1921,
+                    "endColumn": 52,
+                    "endOffset": 1969
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1921,
+                        "endColumn": 52,
+                        "endOffset": 1969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1974,
+                    "endColumn": 58,
+                    "endOffset": 2028
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1974,
+                        "endColumn": 58,
+                        "endOffset": 2028
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2033,
+                    "endColumn": 52,
+                    "endOffset": 2081
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 2033,
+                        "endColumn": 52,
+                        "endOffset": 2081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2086,
+                    "endColumn": 101,
+                    "endOffset": 2183
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2086,
+                        "endColumn": 101,
+                        "endOffset": 2183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2188,
+                    "endColumn": 113,
+                    "endOffset": 2297
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2188,
+                        "endColumn": 113,
+                        "endOffset": 2297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2302,
+                    "endColumn": 107,
+                    "endOffset": 2405
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2302,
+                        "endColumn": 107,
+                        "endOffset": 2405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2410,
+                    "endColumn": 71,
+                    "endOffset": 2477
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2410,
+                        "endColumn": 71,
+                        "endOffset": 2477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2482,
+                    "endColumn": 69,
+                    "endOffset": 2547
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2482,
+                        "endColumn": 69,
+                        "endOffset": 2547
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2552,
+                    "endColumn": 77,
+                    "endOffset": 2625
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2552,
+                        "endColumn": 77,
+                        "endOffset": 2625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2630,
+                    "endLine": 26,
+                    "endColumn": 12,
+                    "endOffset": 2916
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2630,
+                        "endLine": 26,
+                        "endColumn": 12,
+                        "endOffset": 2916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2921,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 3076
+                },
+                "from": {
+                    "file": "E:\\rongan\\android151214\\studio\\lib-pull-refresh\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2921,
+                        "endLine": 29,
+                        "endColumn": 12,
+                        "endOffset": 3076
+                    }
+                }
+            }
+        ]
+    }
+]

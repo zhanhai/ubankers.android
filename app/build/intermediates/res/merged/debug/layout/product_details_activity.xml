@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_bar_back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/handbg"
+        android:gravity="center_vertical" >
+        <LinearLayout
+                android:id="@+id/back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back" />
+            </LinearLayout>
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="产品详情"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+         <LinearLayout
+            android:id="@+id/product_classification"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:visibility="gone" >
+          <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/catelog" />
+          </LinearLayout>
+    </RelativeLayout>
+
+
+<!--         <LinearLayout -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:layout_below="@+id/title_bar_back_layout" -->
+<!--             android:layout_marginLeft="5dp" -->
+<!--             android:layout_marginRight="5dp" -->
+<!--             android:background="#ffffff" -->
+<!--             android:orientation="vertical"  -->
+<!--           > -->
+
+            <LinearLayout
+                android:id="@+id/product_noH5Layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_below="@+id/title_bar_back_layout"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+                android:background="#FFF"
+                android:orientation="vertical" >
+
+                <WebView
+                    android:id="@+id/productweb_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbarSize="0dip"
+                    android:scrollbars="none" />
+            </LinearLayout>
+<!--         </LinearLayout> -->
+ 
+
+    <RelativeLayout
+        android:id="@+id/prod_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/prod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="center"
+            android:text="预                约"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

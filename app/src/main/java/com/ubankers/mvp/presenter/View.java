@@ -1,4 +1,4 @@
-package com.ubankers.mvp.view;
+package com.ubankers.mvp.presenter;
 
 public interface View {
 

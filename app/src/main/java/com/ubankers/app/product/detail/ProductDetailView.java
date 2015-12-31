@@ -2,7 +2,6 @@ package com.ubankers.app.product.detail;
 
 
 import com.ubankers.app.product.model.Product;
-import com.ubankers.mvp.view.LCEView;
 
 import java.lang.ref.WeakReference;
 

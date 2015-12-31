@@ -3,7 +3,6 @@ package com.ubankers.app.product.detail;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.CallSuper;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.widget.Toast;
@@ -11,8 +10,6 @@ import android.widget.Toast;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.ubankers.app.product.model.Product;
 import com.ubankers.app.product.model.ProductAPI;
-import com.ubankers.mvp.presenter.LCEPresenter;
-import com.ubankers.mvp.presenter.RxPresenter;
 
 import org.apache.http.Header;
 import org.json.JSONException;
@@ -24,11 +21,7 @@ import javax.inject.Singleton;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.http.ParseUtils;
-import cn.com.ubankers.www.product.model.ProductDetail;
 import cn.com.ubankers.www.utils.LoginDialog;
-import rx.Observable;
-import rx.functions.Func0;
-import rx.subjects.BehaviorSubject;
 
 @Singleton
 public class ProductDetailPresenter extends LCEPresenter<Product, ProductDetailView> {

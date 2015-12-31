@@ -5,6 +5,7 @@ import android.os.Bundle;
 import com.ubankers.mvp.factory.PresenterFactory;
 import com.ubankers.mvp.factory.PresenterStorage;
 import com.ubankers.mvp.presenter.Presenter;
+import com.ubankers.mvp.presenter.View;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.After;

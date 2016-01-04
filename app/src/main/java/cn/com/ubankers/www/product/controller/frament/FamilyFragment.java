@@ -27,7 +27,7 @@ import cn.com.ubankers.www.utils.LoginDialog;
 import cn.com.ubankers.www.utils.NetWorking;
 import cn.com.ubankers.www.utils.Tools;
 import cn.com.ubankers.www.widget.AutoScrollViewPager;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import cn.com.ubankers.www.widget.MyListView;
 
 import android.app.Activity;
@@ -67,7 +67,7 @@ public class FamilyFragment extends Fragment {
 	public final static int SET_NEWSLIST = 0;
 	public final static int PICTURE_VIEW = 1;
 	private String role = "tourist";
-	public MyDialog progressDialog;
+	public ProcessDialog progressDialog;
 	private ProductDetail Product;
 	private Intent intent;
 	private static final String Image = "/width/720";
@@ -86,7 +86,7 @@ public class FamilyFragment extends Fragment {
 		// TODO Auto-generated method stub
 		ProductHttp = new ProductHttp(activity, tag, strArray, Fragmentname);
 		if (progressDialog == null) {
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}
 		client = MyApplication.app.getClient(activity);
 		loginDialog = new LoginDialog(activity,1,1);

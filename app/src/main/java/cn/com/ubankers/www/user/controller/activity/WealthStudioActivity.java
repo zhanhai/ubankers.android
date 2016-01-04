@@ -27,18 +27,15 @@ import cn.com.ubankers.www.user.service.WealthStudioService;
 import cn.com.ubankers.www.user.view.MembersAdapter;
 import cn.com.ubankers.www.widget.ActionItem;
 import cn.com.ubankers.www.widget.CircleImg;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import cn.com.ubankers.www.widget.TitlePopup;
 import cn.com.ubankers.www.widget.TitlePopup.OnItemOnClickListener;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.text.InputFilter;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -47,7 +44,6 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -75,7 +71,7 @@ public class WealthStudioActivity extends Activity implements OnClickListener {
 	                 memberNameView,memberMobileView,memberDateView,text,administrator,phone,updateTarget,editorView,tv2,tv4,tv22;
 	private View headerView,bottom,view,vvi;
 	private String object,totalCount,info,name, sign;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private AlertDialog dialog;
 	private WealthStudioService wealthStudioService;		
 	Button sure, cancel,disband_btn,btn;
@@ -93,7 +89,7 @@ public class WealthStudioActivity extends Activity implements OnClickListener {
 			userBean = MyApplication.app.getUser();
 		}
 		if(myDialog==null){
-		   myDialog=MyDialog.createDialog(WealthStudioActivity.this,"正在加载中...");
+		   myDialog= ProcessDialog.createDialog(WealthStudioActivity.this, "正在加载中...");
 		}
 		Intent intent =this.getIntent();
 		if(intent!=null){

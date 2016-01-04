@@ -1,20 +1,16 @@
 package cn.com.ubankers.www.user.controller.activity;
 
-import java.io.IOException;
-import java.net.URI;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 import org.apache.http.Header;
-import org.apache.http.HttpResponse;
 import org.apache.http.entity.StringEntity;
 import org.json.JSONObject;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
-import com.loopj.android.http.ResponseHandlerInterface;
 
 import cn.com.ubankers.www.R;
 import cn.com.ubankers.www.application.MyApplication;
@@ -23,22 +19,18 @@ import cn.com.ubankers.www.user.model.MembersBean;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.WealthBean;
 import cn.com.ubankers.www.user.model.WorkRecordBean;
-import cn.com.ubankers.www.user.service.WealthStudioService;
-import cn.com.ubankers.www.user.view.MembersAdapter;
 import cn.com.ubankers.www.user.view.WorkRecordAdapter;
 import cn.com.ubankers.www.widget.CircleImg;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -48,7 +40,7 @@ public class WorkspaceMemberActivity extends Activity implements OnClickListener
 	private Context context;
 	private AsyncHttpClient client;
 	private UserBean userBean;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private WealthBean wealthBean;
 	private MembersBean memberBean;
 	public  CircleImg memberImageView;
@@ -76,7 +68,7 @@ public class WorkspaceMemberActivity extends Activity implements OnClickListener
 			userBean = MyApplication.app.getUser();
 		}
 		if(myDialog==null){
-		   myDialog=MyDialog.createDialog(WorkspaceMemberActivity.this,"正在加载中...");
+		   myDialog= ProcessDialog.createDialog(WorkspaceMemberActivity.this, "正在加载中...");
 		}		
 		Intent intent =this.getIntent();
 		currentPosition = intent.getIntExtra("position", 0);

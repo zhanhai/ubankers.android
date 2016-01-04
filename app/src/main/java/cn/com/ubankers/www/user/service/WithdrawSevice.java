@@ -1,29 +1,18 @@
 package cn.com.ubankers.www.user.service;
 
-import java.io.UnsupportedEncodingException;
-import java.lang.reflect.Type;
-
 import org.apache.http.Header;
 import org.apache.http.entity.StringEntity;
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import cn.com.ubankers.www.R;
-import cn.com.ubankers.www.R.string;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
-import cn.com.ubankers.www.http.ParseUtils;
-import cn.com.ubankers.www.user.controller.activity.BankCardActivity;
-import cn.com.ubankers.www.user.controller.activity.FundsManageActivity;
-import cn.com.ubankers.www.user.controller.activity.UserCenterActivity;
 import cn.com.ubankers.www.user.controller.activity.WithdrawActivity;
 import cn.com.ubankers.www.user.model.UserBean;
-import cn.com.ubankers.www.user.model.UserNewBean;
 import cn.com.ubankers.www.utils.Util;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
-import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 
@@ -42,7 +31,7 @@ public class WithdrawSevice {
 	private Context context;
 	private UserBean userBean;
 	private AsyncHttpClient client;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private AlertDialog dialog;
 	private TextView withdraw_data_Toast;
 
@@ -53,7 +42,7 @@ public class WithdrawSevice {
 		}
 		client = MyApplication.app.getClient(context);
 		if(myDialog==null){
-			   myDialog=MyDialog.createDialog(context,"正在加载中...");
+			   myDialog= ProcessDialog.createDialog(context, "正在加载中...");
 			}
 		initData();
 	}

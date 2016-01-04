@@ -2,11 +2,9 @@ package cn.com.ubankers.www.product.controller.activity;
 
 import cn.com.ubankers.www.R;
 import cn.com.ubankers.www.application.MyApplication;
-import cn.com.ubankers.www.http.HttpConfig;
-import cn.com.ubankers.www.user.controller.activity.AboutOursActivity;
 import cn.com.ubankers.www.utils.NetReceiver;
 import cn.com.ubankers.www.utils.NetReceiver.NetState;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.http.SslError;
@@ -17,7 +15,7 @@ import android.webkit.WebViewClient;
 import android.widget.Toast;
 
 public class AdPositionIdDetailsActivity extends Activity{
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private String AdPositionIdUrl;
 	private WebView webView;
 	@Override
@@ -32,7 +30,7 @@ public class AdPositionIdDetailsActivity extends Activity{
 		}
 		NetState connected = NetReceiver.isConnected(this);
 		if(progressDialog==null){
-			progressDialog=MyDialog.createDialog(AdPositionIdDetailsActivity.this,"正在加载中...");
+			progressDialog= ProcessDialog.createDialog(AdPositionIdDetailsActivity.this, "正在加载中...");
 		}
 		
 		if(connected==connected.NET_NO){

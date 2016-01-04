@@ -1,24 +1,12 @@
 package cn.com.ubankers.www.user.controller.activity;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.sql.Blob;
-
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
 
 import cn.com.ubankers.www.R;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -34,7 +22,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class Touch extends Activity implements OnTouchListener {
 
@@ -64,13 +51,13 @@ public class Touch extends Activity implements OnTouchListener {
 	private Intent Intent;
 	private String url;
 	private Bitmap bitmap;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private View touch_back;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		if(myDialog==null){
-			   myDialog=MyDialog.createDialog(this,"正在加载中...");
+			   myDialog= ProcessDialog.createDialog(this, "正在加载中...");
 			}
         Intent=getIntent();
         url=Intent.getStringExtra("url");  

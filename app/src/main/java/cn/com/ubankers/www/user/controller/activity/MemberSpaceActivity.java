@@ -11,7 +11,7 @@ import cn.com.ubankers.www.user.model.MembersBean;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.WealthBean;
 import cn.com.ubankers.www.widget.CircleImg;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -27,7 +27,7 @@ public class MemberSpaceActivity extends Activity implements OnClickListener{
 	private Context context;
 	private AsyncHttpClient client;
 	private UserBean userBean;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	public  CircleImg memberImageView;
 	public TextView memberNameView,memberMobileView,memberDateView,tv4;
 	public LinearLayout back;
@@ -47,7 +47,7 @@ public class MemberSpaceActivity extends Activity implements OnClickListener{
 			userBean = MyApplication.app.getUser();
 		}
 		if(myDialog==null){
-		   myDialog=MyDialog.createDialog(MemberSpaceActivity.this,"正在加载中...");
+		   myDialog= ProcessDialog.createDialog(MemberSpaceActivity.this, "正在加载中...");
 		}	
 		Intent intent =this.getIntent();
 		if(intent!=null){

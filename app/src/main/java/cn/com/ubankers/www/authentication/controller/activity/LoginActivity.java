@@ -22,7 +22,7 @@ import cn.com.ubankers.www.authentication.service.LoginService;
 import cn.com.ubankers.www.user.controller.activity.UserCenterActivity;
 import cn.com.ubankers.www.user.controller.activity.VerifyCodeActivity;
 import cn.com.ubankers.www.user.model.UserBean;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import cn.sharesdk.framework.ShareSDK;
 
 public class LoginActivity extends Activity 
@@ -34,7 +34,7 @@ public class LoginActivity extends Activity
 	public EditText userName, password;
 	private SQLiteDatabase db;
 	private ImageView login_qq, login_sinaweibo, login_wechat;
-	public MyDialog myDialog;
+	public ProcessDialog myDialog;
 	private boolean ifNetWorkConnected = false;
 	private static final int MSG_ACTION_CCALLBACK = 2;
 	private UserBean userBean;
@@ -56,7 +56,7 @@ public class LoginActivity extends Activity
 			Toast.makeText(getApplicationContext(), "无法连接到网络，请稍候再试", 1).show();
 		}
 //		if (myDialog == null){
-//			myDialog = MyDialog.createDialog(this,"正在加载中...");
+//			myDialog = ProcessDialog.createDialog(this,"正在加载中...");
 //		}
 		MyApplication.getInstance().addActivity(this);
  	}

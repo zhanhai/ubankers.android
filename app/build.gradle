@@ -44,6 +44,8 @@ dependencies {
     compile 'com.google.dagger:dagger:' + rootProject.ext.dagger2Version
     apt 'com.google.dagger:dagger-compiler:' + rootProject.ext.dagger2Version
 
+    compile 'com.jakewharton:butterknife:' + rootProject.ext.butterknifeVersion
+
     compile 'io.reactivex:rxjava:' + rootProject.ext.rxjavaVersion
     compile 'io.reactivex:rxandroid:' + rootProject.ext.rxandroidVersion
 

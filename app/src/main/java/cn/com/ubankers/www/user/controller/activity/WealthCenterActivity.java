@@ -23,27 +23,22 @@ import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.WealthBean;
 import cn.com.ubankers.www.user.view.CfmpMembersAdapter;
 import cn.com.ubankers.www.utils.EncodingHandler;
-import cn.com.ubankers.www.utils.UnicodeUtil;
 import cn.com.ubankers.www.widget.ActionItem;
-import cn.com.ubankers.www.widget.MyDialog;
-import cn.com.ubankers.www.widget.SharePopupWindow;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import cn.com.ubankers.www.widget.TitlePopup;
 import cn.com.ubankers.www.widget.TitlePopup.OnItemOnClickListener;
 import cn.sharesdk.framework.Platform;
 import cn.sharesdk.framework.PlatformActionListener;
 import cn.sharesdk.framework.ShareSDK;
-import cn.sharesdk.sina.weibo.SinaWeibo;
 import cn.sharesdk.tencent.qq.QQ;
 import cn.sharesdk.wechat.friends.Wechat;
-import cn.sharesdk.wechat.moments.WechatMoments;
+
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningAppProcessInfo;
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.ClipboardManager;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -51,16 +46,13 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Message;
-import android.util.Base64;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.AdapterView;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -99,7 +91,7 @@ public class WealthCenterActivity extends Activity  implements OnItemClickListen
 	private String object;
 	private MembersBean memberBean;
 	private List<MembersBean> allMemberList;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private String totalCount;
 	private JSONArray list;
 	private ListView add_listView;
@@ -123,7 +115,7 @@ public class WealthCenterActivity extends Activity  implements OnItemClickListen
 			wealthBean = (WealthBean) intent.getSerializableExtra("wealthBean");
 		}
 		if(progressDialog==null){
-			progressDialog=MyDialog.createDialog(WealthCenterActivity.this,"正在加载中...");
+			progressDialog= ProcessDialog.createDialog(WealthCenterActivity.this, "正在加载中...");
 		}
 		client = MyApplication.app.getClient(context);
 		if(MyApplication.app.getUser()!=null){

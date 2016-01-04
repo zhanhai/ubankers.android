@@ -1,8 +1,6 @@
 package cn.com.ubankers.www.user.controller.activity;
 
 
-import java.io.File;
-
 import org.apache.http.Header;
 import org.apache.http.entity.StringEntity;
 import org.json.JSONArray;
@@ -15,7 +13,7 @@ import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.utils.PhotoUtil;
 import cn.com.ubankers.www.utils.XutilsHttp;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -26,7 +24,6 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
@@ -51,7 +48,7 @@ public class BusinessCardActivity extends Activity implements OnClickListener{
 	private String userFaceId;
 	private ImageView mingpian_tu;
 	private Button mingpian_queding;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private View newupload;
 	private View mp_uploads;
 	private Object up;
@@ -76,7 +73,7 @@ public class BusinessCardActivity extends Activity implements OnClickListener{
 		userBean=(UserBean) intent.getSerializableExtra("userBean");
 		
 		 if (progressDialog == null){
-				progressDialog = MyDialog.createDialog(this,"正在加载中...");
+				progressDialog = ProcessDialog.createDialog(this, "正在加载中...");
 				}
 		 initView ();	 
 		if(userBean.getBusinessCard()==null&&userBean.getFileid()==null){

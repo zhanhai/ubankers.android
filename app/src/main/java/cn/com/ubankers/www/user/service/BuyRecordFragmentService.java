@@ -1,6 +1,5 @@
 package cn.com.ubankers.www.user.service;
 
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,14 +10,13 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.app.Activity;
-import android.content.Context;
 import android.widget.ListView;
 import android.widget.Toast;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.user.model.BuyRecordBean;
 import cn.com.ubankers.www.user.view.BuyRecordAdapter;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -30,15 +28,15 @@ public class BuyRecordFragmentService {
 	private AsyncHttpClient client;
 	private Activity activity;
 	private ListView investorlist;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	
 	public BuyRecordFragmentService(Activity activity,ListView investorlist){	
 		this.activity=activity;
 		this.investorlist=investorlist;
 		if (progressDialog == null) {
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}else{
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}		
 		client = MyApplication.app.getClient(activity);
 	}	

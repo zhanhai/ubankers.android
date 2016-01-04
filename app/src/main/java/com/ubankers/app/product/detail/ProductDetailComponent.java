@@ -1,14 +1,11 @@
 package com.ubankers.app.product.detail;
 
-import com.ubankers.app.product.ProductModule;
-
-import javax.inject.Singleton;
+import com.ubankers.app.base.dagger.ActivityScope;
 
 import dagger.Component;
 
-@Singleton @Component(modules = ProductModule.class)
+@ActivityScope
+@Component(modules = ProductDetailModule.class)
 public interface ProductDetailComponent {
-    public void inject(ProductDetailView view);
-
-    public ProductDetailPresenter presenter();
+    void inject(ProductDetailActivity activity);
 }

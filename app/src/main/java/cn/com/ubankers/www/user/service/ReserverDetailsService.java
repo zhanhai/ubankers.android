@@ -35,7 +35,7 @@ import cn.com.ubankers.www.user.view.OrderDetailsAdapter;
 import cn.com.ubankers.www.utils.PhotoUtil;
 import cn.com.ubankers.www.utils.Tools;
 import cn.com.ubankers.www.utils.XutilsHttp;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -60,7 +60,7 @@ public class ReserverDetailsService {
     private ReserverDetailsBean  orderDetailsBean;
     private ReserverDetailsActivity activity;
     private String productId;
-    private MyDialog myDialog;
+    private ProcessDialog myDialog;
 	public ReserverDetailsService(String userId,String productId,ArrayList<ReserverDetailsBean> list,ListView details_lv,ReserverDetailsActivity activity){
 		this.userId = userId;
 		this.list = list;
@@ -69,7 +69,7 @@ public class ReserverDetailsService {
 		this.productId = productId;
 		client = MyApplication.app.getClient(activity);
 		if(myDialog==null){
-			myDialog = MyDialog.createDialog(activity,"正在加载中...");
+			myDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}
 	}
 	

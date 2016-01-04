@@ -1,7 +1,6 @@
 package com.ubankers.app.product.detail;
 
-import com.ubankers.app.product.ProductModule;
-
+import dagger.MembersInjector;
 import dagger.internal.MembersInjectors;
 import dagger.internal.ScopedProvider;
 import javax.annotation.Generated;
@@ -9,7 +8,9 @@ import javax.inject.Provider;
 
 @Generated("dagger.internal.codegen.ComponentProcessor")
 public final class DaggerProductDetailComponent implements ProductDetailComponent {
-  private Provider<ProductDetailPresenter> productDetailPresenterProvider;
+  private Provider<ProductDetailPresenter> providesPresenterProvider;
+  private Provider<ProductDetailView> providesViewProvider;
+  private MembersInjector<ProductDetailActivity> productDetailActivityMembersInjector;
 
   private DaggerProductDetailComponent(Builder builder) {  
     assert builder != null;
@@ -20,42 +21,35 @@ public final class DaggerProductDetailComponent implements ProductDetailComponen
     return new Builder();
   }
 
-  public static ProductDetailComponent create() {  
-    return builder().build();
-  }
-
   private void initialize(final Builder builder) {  
-    this.productDetailPresenterProvider = ScopedProvider.create(ProductDetailPresenter_Factory.create());
+    this.providesPresenterProvider = ScopedProvider.create(ProductDetailModule_ProvidesPresenterFactory.create(builder.productDetailModule));
+    this.providesViewProvider = ScopedProvider.create(ProductDetailModule_ProvidesViewFactory.create(builder.productDetailModule));
+    this.productDetailActivityMembersInjector = ProductDetailActivity_MembersInjector.create((MembersInjector) MembersInjectors.noOp(), providesPresenterProvider, providesViewProvider);
   }
 
   @Override
-  public void inject(ProductDetailView view) {  
-    MembersInjectors.noOp().injectMembers(view);
-  }
-
-  @Override
-  public ProductDetailPresenter presenter() {  
-    return productDetailPresenterProvider.get();
+  public void inject(ProductDetailActivity activity) {  
+    productDetailActivityMembersInjector.injectMembers(activity);
   }
 
   public static final class Builder {
-    private ProductModule productModule;
+    private ProductDetailModule productDetailModule;
   
     private Builder() {  
     }
   
     public ProductDetailComponent build() {  
-      if (productModule == null) {
-        this.productModule = new ProductModule();
+      if (productDetailModule == null) {
+        throw new IllegalStateException("productDetailModule must be set");
       }
       return new DaggerProductDetailComponent(this);
     }
   
-    public Builder productModule(ProductModule productModule) {
-      if (productModule == null) {
-        throw new NullPointerException("productModule");
+    public Builder productDetailModule(ProductDetailModule productDetailModule) {  
+      if (productDetailModule == null) {
+        throw new NullPointerException("productDetailModule");
       }
-      this.productModule = productModule;
+      this.productDetailModule = productDetailModule;
       return this;
     }
   }

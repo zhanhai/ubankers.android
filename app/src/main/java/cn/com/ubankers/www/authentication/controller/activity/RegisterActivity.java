@@ -1,6 +1,5 @@
 package cn.com.ubankers.www.authentication.controller.activity;
 
-import java.lang.reflect.Type;
 import java.util.Timer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -12,11 +11,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.app.Activity;
-import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.net.ConnectivityManager;
@@ -26,7 +23,6 @@ import android.os.CountDownTimer;
 import android.text.Html;
 import android.util.Base64;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -43,14 +39,10 @@ import cn.com.ubankers.www.application.MyApplication;
 //import cn.com.ubankers.www.authentication.controller.activity.SMSBroadcastReceiver.MessageListener;
 import cn.com.ubankers.www.authentication.model.BindBean;
 import cn.com.ubankers.www.http.HttpConfig;
-import cn.com.ubankers.www.http.ParseUtils;
-import cn.com.ubankers.www.user.controller.activity.SettingActivity;
 import cn.com.ubankers.www.user.model.UserBean;
-import cn.com.ubankers.www.user.model.UserNewBean;
 import cn.com.ubankers.www.utils.Des;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
-import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
@@ -82,7 +74,7 @@ public class RegisterActivity extends Activity implements OnClickListener {
 	private BindBean bundleBean;
 	private boolean ifNetWorkConnected = false;
 	private TimeCount1 timeCount1;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private Pattern p = Pattern.compile("^((13[0-9])|(14[0-9])|(15[^4,\\D])|(16[0-9])|(17[0-9])|(18[0-9]))\\d{8}$");
 	private View vq;
 	private SMSBroadcastReceiver mSMSBroadcastReceiver;
@@ -101,7 +93,7 @@ public class RegisterActivity extends Activity implements OnClickListener {
 			Toast.makeText(getApplicationContext(), "无法连接到网络，请稍候再试", 1).show();
 		}
 		if (progressDialog == null){
-			progressDialog = MyDialog.createDialog(this,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(this, "正在加载中...");
 			}
 		timeCount = new TimeCount(60000, 1000);
 		timeCount1 = new TimeCount1(60000,1000);

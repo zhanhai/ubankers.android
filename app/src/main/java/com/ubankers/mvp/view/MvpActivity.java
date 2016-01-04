@@ -12,26 +12,21 @@ import com.ubankers.mvp.presenter.View;
  */
 public abstract class MvpActivity<V extends View> extends Activity{
 
-    protected Presenter<V> presenter;
-
-
-    protected final void setPresenter(Presenter<V> presenter){
-        this.presenter = presenter;
-    }
 
     @Override
     protected void onResume() {
         super.onResume();
 
-        presenter.takeView(getView());
+        getPresenter().takeView(getView());
     }
 
     @Override
     protected void onPause() {
         super.onPause();
 
-        presenter.dropView();
+        getPresenter().dropView();
     }
 
+    protected abstract Presenter<V> getPresenter();
     protected abstract V getView();
 }

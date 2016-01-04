@@ -40,7 +40,7 @@ import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.http.ParseUtils;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.UserNewBean;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import cn.sharesdk.framework.Platform;
 import cn.sharesdk.framework.PlatformActionListener;
 import cn.sharesdk.framework.ShareSDK;
@@ -60,7 +60,7 @@ public class LoginDialog extends Dialog implements OnClickListener,Callback ,Pla
 	private BindBean bundBean;
 	private  AlertDialog builder;
 	private AsyncHttpClient client =null;
-	public  MyDialog myDialog;
+	public ProcessDialog myDialog;
 	private UserBean userBean;
 	public LoginDialog(Context context,int type,int type_all) {
 		super(context);
@@ -70,9 +70,9 @@ public class LoginDialog extends Dialog implements OnClickListener,Callback ,Pla
 		this.type_all = type_all;
 		ShareSDK.initSDK(context);
 		if(myDialog==null){
-			   myDialog=MyDialog.createDialog(context,"正在加载中...");
+			   myDialog= ProcessDialog.createDialog(context, "正在加载中...");
 		}else{
-			   myDialog=MyDialog.createDialog(context,"正在加载中...");
+			   myDialog= ProcessDialog.createDialog(context, "正在加载中...");
 		}
 		if(MyApplication.app.getUser()!=null){
 			userBean=MyApplication.app.getUser();

@@ -20,7 +20,7 @@ import cn.com.ubankers.www.user.model.AttributesBean;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.UserNewBean;
 import cn.com.ubankers.www.user.model.WealthBean;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpClient;
@@ -33,7 +33,7 @@ public class MemberWealthStudioService {
 	private String userUrl;
 	
 	private WealthBean wealthBean;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private Intent intent = null;
 	private UserNewBean user;
 	public UserBean userBean ;
@@ -41,7 +41,7 @@ public class MemberWealthStudioService {
 	public MemberWealthStudioService(Context context) {
 		this.context = context;
 		if (myDialog == null) {
-			myDialog = new MyDialog(context);
+			myDialog = new ProcessDialog(context);
 		}
 		client = MyApplication.app.getClient(context);
 		if(MyApplication.app.getUser()!=null){

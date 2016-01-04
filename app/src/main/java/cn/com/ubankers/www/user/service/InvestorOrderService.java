@@ -15,7 +15,6 @@ import android.app.AlertDialog;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 import cn.com.ubankers.www.R;
@@ -26,7 +25,7 @@ import cn.com.ubankers.www.user.model.InvestorOrderBean;
 import cn.com.ubankers.www.user.view.InvestorBuyAdapter;
 import cn.com.ubankers.www.user.view.InvestorOrderAdapter;
 import cn.com.ubankers.www.utils.Tools;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -37,7 +36,7 @@ import com.loopj.android.http.JsonHttpResponseHandler;
  */
 public class InvestorOrderService {
 	private AsyncHttpClient client;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private Activity activity;
 	private InvestorOrderAdapter adapter;
 	private InvestorBuyAdapter invesadapter;
@@ -52,9 +51,9 @@ public class InvestorOrderService {
 		this.list = list;
 		this.rongListView = rongListView;
 		if (progressDialog == null) {
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}else{
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}
 		client = MyApplication.app.getClient(activity);
 	}

@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 
 import org.apache.http.Header;
 import org.apache.http.entity.StringEntity;
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -20,10 +19,8 @@ import cn.com.ubankers.www.authentication.controller.activity.LoginActivity;
 import cn.com.ubankers.www.authentication.model.BindBean;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.http.ParseUtils;
-import cn.com.ubankers.www.user.controller.activity.SettingActivity;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.UserNewBean;
-import cn.com.ubankers.www.utils.MyDialog;
 import cn.com.ubankers.www.utils.Tools;
 
 import com.google.gson.reflect.TypeToken;

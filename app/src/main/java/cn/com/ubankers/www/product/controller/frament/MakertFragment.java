@@ -330,7 +330,7 @@ public class MakertFragment extends Fragment {
 									intent.putExtra("productName", product.getProductName());
 									intent.putExtra("face", product.getFace());*/
 									Bundle bundle = new Bundle();
-									bundle.putSerializable(ProductDetailActivity.KEY_PRODUCT_DETAIL, product);
+									bundle.putSerializable(ProductDetailActivity.EXTRA_PRODUCT_DETAIL, product);
 									intent.putExtras(bundle);
 									startActivity(intent);
 								}

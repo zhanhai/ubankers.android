@@ -22,7 +22,7 @@ import cn.com.ubankers.www.user.controller.activity.OrderManagementActivity;
 import cn.com.ubankers.www.user.model.CfmpOrderBean;
 import cn.com.ubankers.www.user.view.CfmpUnOrderAdapter;
 import cn.com.ubankers.www.utils.Tools;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -33,7 +33,7 @@ import com.loopj.android.http.JsonHttpResponseHandler;
  */
 public class CfmpUnOrderService {
 	private AsyncHttpClient client;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private Activity activity;
 	private String userId;
 	private ListView rongListView;
@@ -45,9 +45,9 @@ public class CfmpUnOrderService {
 		this.rongListView = rongListView;
 		this.list = list;
 		if (progressDialog == null) {
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}else{
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}
 		client = MyApplication.app.getClient(activity);
 	}

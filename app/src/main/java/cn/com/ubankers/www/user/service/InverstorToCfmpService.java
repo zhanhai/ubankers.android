@@ -25,7 +25,7 @@ import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.view.BindCfmpAdapter;
 import cn.com.ubankers.www.user.view.CfmpAdapter;
 import cn.com.ubankers.www.user.view.QuerencfmpAdapter;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -44,7 +44,7 @@ public class InverstorToCfmpService {
 	private UserBean userBean;
 	private ArrayList<BindCfmpBean> list_bound = new ArrayList<BindCfmpBean>();
 	private ArrayList<BindCfmpBean> list_cfmp = new ArrayList<BindCfmpBean>();
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 
 	public InverstorToCfmpService(Context context) {
 		this.context = context;
@@ -53,9 +53,9 @@ public class InverstorToCfmpService {
 			userBean = MyApplication.app.getUser();
 		}
 		if (progressDialog == null) {
-			progressDialog = MyDialog.createDialog(context,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(context, "正在加载中...");
 		} else {
-			progressDialog = MyDialog.createDialog(context,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(context, "正在加载中...");
 		}
 	}
 

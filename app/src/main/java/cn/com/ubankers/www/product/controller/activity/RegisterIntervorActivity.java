@@ -18,7 +18,7 @@ import cn.com.ubankers.www.user.view.GroupinfoAdapter;
 import cn.com.ubankers.www.utils.BaseUtil;
 import cn.com.ubankers.www.utils.QuickAlphabeticBar;
 import cn.com.ubankers.www.utils.WebmailContactComparator;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -49,20 +49,20 @@ public class RegisterIntervorActivity extends Activity implements TextWatcher{
 	private CustomerBean clientbean;
 	private ArrayList<CustomerBean> list = new ArrayList<CustomerBean>();
 	private ArrayList<CustomerBean> list_s = new ArrayList<CustomerBean>();
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private QuickAlphabeticBar alpha;
 	private EditText edtFindContact;
 	private LinearLayout title_bar_back_btn;
 	private ListView list_intervor;
 	private GroupinfoAdapter adapter;
-	private int type;
+	private int investorType;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.register_intervor_layout);
 		if (progressDialog == null) {
-			progressDialog = MyDialog.createDialog(RegisterIntervorActivity.this,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(RegisterIntervorActivity.this, "正在加载中...");
 		}
 		if(MyApplication.app.getUser()!=null){
 			userBean = MyApplication.app.getUser();
@@ -70,11 +70,11 @@ public class RegisterIntervorActivity extends Activity implements TextWatcher{
 		client = MyApplication.app.getClient(this);
 		MyApplication.app.addActivity(this);
 		Intent intent = getIntent();
-	    type = intent.getIntExtra("type", 0);
+	    investorType = intent.getIntExtra("investorType", 0);
 		initView();
-		if(type==1){//非B类投资者
+		if(investorType ==1){//非B类投资者
 			getInvestor();
-		}else if(type==2){//B类投资者
+		}else if(investorType ==2){//B类投资者
 			getInvestorB();
 		}
 	}
@@ -361,7 +361,7 @@ public class RegisterIntervorActivity extends Activity implements TextWatcher{
      		});
 		}
 		private void setAdapter(final ArrayList<CustomerBean> list) {
-			adapter = new GroupinfoAdapter(this, list,type);
+			adapter = new GroupinfoAdapter(this, list, investorType);
 			list_intervor.setAdapter(adapter);
 			adapter.notifyDataSetChanged();
 			alpha.init(RegisterIntervorActivity.this);
@@ -386,22 +386,22 @@ public class RegisterIntervorActivity extends Activity implements TextWatcher{
 					}else{
 						 clientBean = list_s.get(position);
 					}										
-					if(type==1){//非B类投资者
+					if(investorType == 1){//非B类投资者
 						Intent intent = new Intent(getApplicationContext(),ProductDetailActivity.class);
 					    if(!clientBean.getNickName().equals("")){
-							intent.putExtra(ProductDetailActivity.KEY_CLIENT_NAME, clientBean.getNickName());
+							intent.putExtra(ProductDetailActivity.EXTRA_CLIENT_NAME, clientBean.getNickName());
 						}
-						intent.putExtra(ProductDetailActivity.KEY_CLIENT_ID, clientBean.getId());
-						intent.putExtra(ProductDetailActivity.KEY_CLIENT_MOBILE, clientBean.getMobile());
-						intent.putExtra(ProductDetailActivity.KEY_CLIENT_TYPE, 1);
-						setResult(200, intent);
+						intent.putExtra(ProductDetailActivity.EXTRA_CLIENT_ID, clientBean.getId());
+						intent.putExtra(ProductDetailActivity.EXTRA_CLIENT_MOBILE, clientBean.getMobile());
+						intent.putExtra(ProductDetailActivity.EXTRA_CLIENT_TYPE, investorType);
+						setResult(Activity.RESULT_OK, intent);
 						finish();
-					}else if(type==2){//B类投资者
+					}else if(investorType == 2){//B类投资者
 						Intent intent = new Intent(getApplicationContext(),ProductDetailActivity.class);
-						intent.putExtra(ProductDetailActivity.KEY_CLIENT_NAME, clientBean.getRealName());
-						intent.putExtra(ProductDetailActivity.KEY_CLIENT_MOBILE, clientBean.getMobile());
-						intent.putExtra(ProductDetailActivity.KEY_CLIENT_TYPE, 2);
-						setResult(200,intent);
+						intent.putExtra(ProductDetailActivity.EXTRA_CLIENT_NAME, clientBean.getRealName());
+						intent.putExtra(ProductDetailActivity.EXTRA_CLIENT_MOBILE, clientBean.getMobile());
+						intent.putExtra(ProductDetailActivity.EXTRA_CLIENT_TYPE, investorType);
+						setResult(Activity.RESULT_OK, intent);
 						finish();
 					}
 				}
@@ -441,14 +441,14 @@ public class RegisterIntervorActivity extends Activity implements TextWatcher{
 			list_s.clear();
 
 			for (CustomerBean cb : list) {
-				if(type==1){
+				if(investorType ==1){
 						if((cb.getNickName().indexOf(str) >= 0)
 								|| (cb.getNickName().indexOf(str) >= 0)
 								|| (BaseUtil.getPingYin(cb.getNickName()).toLowerCase()
 										.indexOf(str.toLowerCase()) >= 0)){
 							list_s.add(cb);
 						}
-				}else if(type==2){
+				}else if(investorType ==2){
 					if ((cb.getRealName().indexOf(str) >= 0)
 							|| (cb.getRealName().indexOf(str) >= 0)
 							|| (BaseUtil.getPingYin(cb.getRealName()).toLowerCase()

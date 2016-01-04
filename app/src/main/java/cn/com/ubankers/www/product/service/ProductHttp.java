@@ -28,7 +28,7 @@ import cn.com.ubankers.www.product.model.ProductDetail;
 import cn.com.ubankers.www.sns.controller.activity.SnsArticleActivity;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.utils.XutilsHttp;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
@@ -47,7 +47,7 @@ public class ProductHttp {
 	private UserQuestBean request;
 	private AsyncHttpClient client;
 	private static final String Image = "/width/720";
-	public MyDialog progressDialog;
+	public ProcessDialog progressDialog;
 	private String frangmename;
 	public ACache	mCache;
 	private List<ProductDetail> mianlistview = new ArrayList<ProductDetail>();
@@ -60,7 +60,7 @@ public class ProductHttp {
 		this.frangmename=fragmentname;
 		mCache = ACache.get(activity);
 		if (progressDialog == null){
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 			}
 	}
 
@@ -229,7 +229,7 @@ public class ProductHttp {
 		public void onClick(View arg0) {
 			if(pagerBean.isProduct()==true&&!pagerBean.getPicUrl().equals("")){//是产品
 				Intent intent = new Intent(activity,ProductDetailActivity.class);
-				intent.putExtra(ProductDetailActivity.KEY_PRODUCT_ID, pagerBean.getObjId());
+				intent.putExtra(ProductDetailActivity.EXTRA_PRODUCT_ID, pagerBean.getObjId());
 				activity.startActivity(intent);
 			}else if(pagerBean.isArticle()==true&&!pagerBean.getPicUrl().equals("")){//是文章
 				Intent intent = new Intent(activity,SnsArticleActivity.class);

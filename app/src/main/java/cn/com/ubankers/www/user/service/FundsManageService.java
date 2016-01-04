@@ -11,17 +11,14 @@ import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.http.ParseUtils;
 import cn.com.ubankers.www.user.controller.activity.FundsManageActivity;
-import cn.com.ubankers.www.user.controller.activity.UserCenterActivity;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.UserNewBean;
 import cn.com.ubankers.www.utils.Util;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
-import com.loopj.android.http.RequestParams;
-import com.loopj.android.http.ResponseHandlerInterface;
 
 import android.content.Context;
 import android.widget.Toast;
@@ -31,7 +28,7 @@ public class FundsManageService {
 	private Context context;
 	private UserBean userBean;
 	private AsyncHttpClient client;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	
 
 	public FundsManageService( Context context){
@@ -41,7 +38,7 @@ public class FundsManageService {
 		}
 		client = MyApplication.app.getClient(context);
 		if(myDialog==null){
-			   myDialog=MyDialog.createDialog(context,"正在加载中...");
+			   myDialog= ProcessDialog.createDialog(context, "正在加载中...");
 			}
 		GetUser();
 	}

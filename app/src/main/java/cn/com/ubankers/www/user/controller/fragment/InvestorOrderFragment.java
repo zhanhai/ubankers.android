@@ -59,8 +59,8 @@ public class InvestorOrderFragment extends Fragment{
 		public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
 			    InvestorOrderBean  investorOrderBean = list.get(arg2);
 			    Intent intent = new Intent(getActivity(),ProductDetailActivity.class);
-			    intent.putExtra(ProductDetailActivity.KEY_PRODUCT_ID,investorOrderBean.getProductId());
-			    intent.putExtra(ProductDetailActivity.KEY_RESERVER_NAME,investorOrderBean.getReserveName());
+			    intent.putExtra(ProductDetailActivity.EXTRA_PRODUCT_ID,investorOrderBean.getProductId());
+			    intent.putExtra(ProductDetailActivity.EXTRA_RESERVER_NAME,investorOrderBean.getReserveName());
 			    startActivity(intent);
 		}
 	}

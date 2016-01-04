@@ -13,7 +13,7 @@ import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.user.controller.activity.BankCardActivity;
 import cn.com.ubankers.www.user.controller.activity.SafetyCenterActivity;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -21,14 +21,14 @@ import com.loopj.android.http.JsonHttpResponseHandler;
 public class BankCardService {
 	private Context context;
 	private AsyncHttpClient client;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 
 	public BankCardService(Context context) {
 		// TODO Auto-generated constructor stub
 		this.context=context;
 		client = MyApplication.app.getClient(context);
 		if(myDialog==null){
-			 myDialog=MyDialog.createDialog(context,"正在加载中...");
+			 myDialog= ProcessDialog.createDialog(context, "正在加载中...");
 			}
 	}
 	

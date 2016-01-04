@@ -10,7 +10,7 @@ import cn.com.ubankers.www.sns.model.ArticleBean;
 import cn.com.ubankers.www.utils.NetReceiver;
 import cn.com.ubankers.www.utils.Tools;
 import cn.com.ubankers.www.utils.NetReceiver.NetState;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
@@ -33,7 +33,7 @@ public class CommentActivity<MessageAdapter> extends Activity implements OnClick
 	public static Context context;
 	public static  LinearLayout publish_comment;
 	private LinearLayout title_bar_back_btn;
-	private static  MyDialog progressDialog;
+	private static ProcessDialog progressDialog;
 	private WebView webView;
 	@SuppressWarnings("static-access")
 	@Override
@@ -46,9 +46,9 @@ public class CommentActivity<MessageAdapter> extends Activity implements OnClick
 		articleBean = (ArticleBean) intent.getSerializableExtra("articleBean");
 		initView();
 		if(progressDialog==null){
-			progressDialog=MyDialog.createDialog(CommentActivity.this,"正在加载中...");
+			progressDialog= ProcessDialog.createDialog(CommentActivity.this, "正在加载中...");
 		}else{
-			progressDialog=MyDialog.createDialog(CommentActivity.this,"正在加载中...");
+			progressDialog= ProcessDialog.createDialog(CommentActivity.this, "正在加载中...");
 		}
 		NetState connected = NetReceiver.isConnected(this);
 		if(connected==connected.NET_NO){

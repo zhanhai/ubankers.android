@@ -3,8 +3,6 @@ package cn.com.ubankers.www.product.service;
 
 import android.app.AlertDialog;
 import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
 import android.util.Log;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -22,21 +20,20 @@ import java.util.ArrayList;
 
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
-import cn.com.ubankers.www.http.ParseUtils;
 import cn.com.ubankers.www.product.model.ProductDetail;
 import cn.com.ubankers.www.product.model.ReserverBean;
-import cn.com.ubankers.www.sns.controller.activity.SnsArticleActivity;
 import cn.com.ubankers.www.sns.model.ArticleBean;
 import cn.com.ubankers.www.user.model.CustomerBean;
 import cn.com.ubankers.www.user.model.UserBean;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.utils.MessageDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 public class ProductDetailService {
 	private ArrayList<CustomerBean> list;
 	private String productId;
-	private cn.com.ubankers.www.utils.MyDialog myDialog;
+	private MessageDialog myDialog;
 	private ProductDetail product ;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private AsyncHttpClient client;
 	private Context context;
 	private UserBean userBean;
@@ -46,14 +43,14 @@ public class ProductDetailService {
 		this.context = context;
 	    this.productId = productId;
 		if (progressDialog == null) {
-			progressDialog = MyDialog
-					.createDialog(context,"正在加载中...");
+			progressDialog = ProcessDialog
+					.createDialog(context, "正在加载中...");
 		}
 		client = MyApplication.app.getClient(context);
 		if(MyApplication.app.getUser()!=null){
 			userBean = MyApplication.app.getUser();
 		}
-		myDialog = new cn.com.ubankers.www.utils.MyDialog(context);
+		myDialog = new MessageDialog(context);
 	}
 
 
@@ -156,7 +153,7 @@ public class ProductDetailService {
 		}
 	}
 	//财富师给投资者预约的接口
-	public void cfmpOrder(int isBInvestor,String money,String number,String name,final AlertDialog dialog){
+	public void cfmpOrder(String clientId, int isBInvestor,String money,String number,String name,final AlertDialog dialog){
 		JSONObject json = new JSONObject();
 		StringEntity entity = null;
 		try {
@@ -167,7 +164,7 @@ public class ProductDetailService {
 						json.put("reserveMobile",number);
 						json.put("reserveName",name);
 						json.put("cfmpId",userBean.getUserId());
-						json.put("userId", ((ProductDetailActivity)context).id);
+						json.put("userId", clientId);
 						entity = new StringEntity(json.toString(),"utf-8");
 			    }else if(isBInvestor==2){
 				    	json.put("isBInvestor",isBInvestor);

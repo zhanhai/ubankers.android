@@ -18,11 +18,10 @@ import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.WealthBean;
 import cn.com.ubankers.www.utils.EncodingHandler;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import cn.sharesdk.framework.Platform;
 import cn.sharesdk.framework.PlatformActionListener;
 import cn.sharesdk.framework.ShareSDK;
-import cn.sharesdk.sina.weibo.SinaWeibo;
 import cn.sharesdk.tencent.qq.QQ;
 import cn.sharesdk.wechat.friends.Wechat;
 import android.app.Activity;
@@ -35,7 +34,6 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Message;
-import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -50,7 +48,7 @@ import android.widget.AdapterView.OnItemClickListener;
 public class WealthspaceInvitationActivity extends Activity implements OnItemClickListener,PlatformActionListener,OnClickListener{
 	private Context context;
 	private WealthBean wealthBean;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private AsyncHttpClient client;
 	private UserBean userBean;
 	private String encryptUserId;
@@ -82,7 +80,7 @@ public class WealthspaceInvitationActivity extends Activity implements OnItemCli
 			wealthBean = (WealthBean) intent.getSerializableExtra("wealthBean");
 		}
 		if(progressDialog==null){
-			progressDialog=MyDialog.createDialog(WealthspaceInvitationActivity.this,"正在加载中...");
+			progressDialog= ProcessDialog.createDialog(WealthspaceInvitationActivity.this, "正在加载中...");
 		}
 		client = MyApplication.app.getClient(context);
 		if(MyApplication.app.getUser()!=null){

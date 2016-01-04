@@ -22,7 +22,8 @@ import cn.com.ubankers.www.sns.view.FavorCommentAdapter;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.utils.NetReceiver;
 import cn.com.ubankers.www.utils.NetReceiver.NetState;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -48,7 +49,7 @@ public class CollectionsActivity extends Activity {
 	private EditText editText;
 	private ImageView backImage;
 	private LinearLayout articlebottom;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -56,7 +57,7 @@ public class CollectionsActivity extends Activity {
 		setContentView(R.layout.rongan_suocang);
 		context =this;
 		if (progressDialog == null) {
-			progressDialog = MyDialog.createDialog(this,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(this, "正在加载中...");
 		}
 		listView = (ListView) findViewById(R.id.shoucang_listView);
 		editText=(EditText)findViewById(R.id.comment); 

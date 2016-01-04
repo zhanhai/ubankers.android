@@ -8,7 +8,7 @@ import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.utils.NetReceiver;
 import cn.com.ubankers.www.utils.NetReceiver.NetState;
-import  cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import android.app.Activity;
 import android.net.http.SslError;
 import android.os.Bundle;
@@ -21,7 +21,7 @@ import android.widget.Toast;
 
 public class AboutOursActivity extends Activity implements OnClickListener{
 	private WebView webView;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private View aboutours_yonhuzhuce;
 	@SuppressWarnings("static-access")
 	@Override
@@ -31,7 +31,7 @@ public class AboutOursActivity extends Activity implements OnClickListener{
 		setContentView(R.layout.aboutours_activity);
 		NetState connected = NetReceiver.isConnected(this);
 		if(progressDialog==null){
-			progressDialog=MyDialog.createDialog(AboutOursActivity.this,"正在加载中...");
+			progressDialog= ProcessDialog.createDialog(AboutOursActivity.this, "正在加载中...");
 		}
 		
 		initView();

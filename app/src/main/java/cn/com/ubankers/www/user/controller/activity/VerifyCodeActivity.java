@@ -28,7 +28,7 @@ import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.authentication.controller.activity.SMSBroadcastReceiver;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.utils.Des;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -44,7 +44,7 @@ public class VerifyCodeActivity extends Activity{
 	private TimeCount timeCount;
 	private LinearLayout back;
 	private TimeCount1 timeCount1;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private SMSBroadcastReceiver mSMSBroadcastReceiver;
 	private static final String ACTION = "android.provider.Telephony.SMS_RECEIVED";
 
@@ -57,7 +57,7 @@ public class VerifyCodeActivity extends Activity{
 		context = this;
 		client = MyApplication.app.getClient(context);
 		if (progressDialog == null){
-			progressDialog = MyDialog.createDialog(this,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(this, "正在加载中...");
 		}
 		timeCount = new TimeCount(60000, 1000);
 		timeCount1 = new TimeCount1(60000,1000);

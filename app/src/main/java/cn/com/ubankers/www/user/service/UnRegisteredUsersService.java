@@ -15,7 +15,7 @@ import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.user.model.CustomerBean;
 import cn.com.ubankers.www.user.view.CustomerAdapter;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -31,7 +31,7 @@ public class UnRegisteredUsersService {
 	private ArrayList<CustomerBean> list;
 	private ListView rongListView;
 	private AsyncHttpClient client;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 
 	public UnRegisteredUsersService(String userId,Activity activity,ArrayList<CustomerBean> list,ListView rongListView){
 		this.userId = userId;
@@ -39,9 +39,9 @@ public class UnRegisteredUsersService {
 		this.list = list;
 		this.rongListView = rongListView;
 		if (progressDialog == null) {
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}else{
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}
 		client = MyApplication.app.getClient(activity);
 	}

@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 
 import org.apache.http.Header;
 import org.apache.http.entity.StringEntity;
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -16,43 +15,32 @@ import com.loopj.android.http.JsonHttpResponseHandler;
 
 import cn.com.ubankers.www.R;
 import cn.com.ubankers.www.application.MyApplication;
-import cn.com.ubankers.www.product.controller.activity.ProductActivity;
-import cn.com.ubankers.www.sns.controller.activity.SnsActivity;
 import cn.com.ubankers.www.user.controller.activity.SettingActivity;
-import cn.com.ubankers.www.user.controller.activity.UserCenterActivity;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.UserNewBean;
 import cn.com.ubankers.www.authentication.model.BindBean;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.http.ParseUtils;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import cn.com.ubankers.www.widget.ClearEditTextView;
 import cn.sharesdk.framework.Platform;
-import cn.sharesdk.framework.ShareSDK;
-import cn.sharesdk.sina.weibo.SinaWeibo;
-import cn.sharesdk.tencent.qq.QQ;
-import cn.sharesdk.wechat.friends.Wechat;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
-import android.text.Spannable;
-import android.text.SpannableStringBuilder;
-import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class BindActivity extends Activity implements OnClickListener {
 	private Context context;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private Button bangding_submit,nobing_submit;
 	private ClearEditTextView bangding_password, bangding_username;
 	private TextView bangding_line;
@@ -78,7 +66,7 @@ public class BindActivity extends Activity implements OnClickListener {
 			typeValue =  intent.getIntExtra("type",1);
 		}
 		if (myDialog == null) {
-			myDialog = MyDialog.createDialog(this,"正在加载中...");
+			myDialog = ProcessDialog.createDialog(this, "正在加载中...");
 		}
 		   initView();
 		   MyApplication.getInstance().addActivity(this);

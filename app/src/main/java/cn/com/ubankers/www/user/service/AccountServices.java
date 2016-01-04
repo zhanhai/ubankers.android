@@ -3,8 +3,6 @@ package cn.com.ubankers.www.user.service;
 import java.util.ArrayList;
 
 
-import java.util.List;
-
 import org.apache.http.Header;
 import org.apache.http.entity.StringEntity;
 import org.json.JSONArray;
@@ -14,16 +12,14 @@ import org.json.JSONObject;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.user.controller.activity.AccountActivity;
-import cn.com.ubankers.www.user.controller.activity.UserCenterActivity;
 import cn.com.ubankers.www.user.model.AccountBean;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.view.AccountAdapter;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 
-import android.app.PendingIntent.OnFinished;
 import android.content.Context;
 import android.os.Handler;
 import android.widget.ArrayAdapter;
@@ -34,7 +30,7 @@ public class AccountServices {
 	private Context context;
 	private UserBean userBean;
 	private AsyncHttpClient client;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private Handler handler;
 	ArrayList<AccountBean> list =new ArrayList<AccountBean>();
 	AccountAdapter AccountAdapter;
@@ -49,7 +45,7 @@ public class AccountServices {
 		}
 		client = MyApplication.app.getClient(context);
 		if(myDialog==null){
-			   myDialog=MyDialog.createDialog(context,"正在加载中...");
+			   myDialog= ProcessDialog.createDialog(context, "正在加载中...");
 			}
 	}
 	//账户流水记录

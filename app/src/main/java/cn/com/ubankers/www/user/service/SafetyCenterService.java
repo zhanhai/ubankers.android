@@ -19,11 +19,10 @@ import cn.com.ubankers.www.user.controller.activity.EmailActivity;
 import cn.com.ubankers.www.user.controller.activity.IdCardActivity;
 import cn.com.ubankers.www.user.controller.activity.SafetyCenterActivity;
 import cn.com.ubankers.www.user.controller.activity.SettingModifyPsdActivity;
-import cn.com.ubankers.www.user.controller.activity.UserCenterActivity;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.UserNewBean;
-import cn.com.ubankers.www.widget.MyDialog;
-import android.app.Activity;
+import cn.com.ubankers.www.widget.ProcessDialog;
+
 import android.content.Context;
 import android.content.Intent;
 import android.view.View;
@@ -36,7 +35,7 @@ public class SafetyCenterService {
 	private int bankcard_statu;
 	private Context context;
 	private AsyncHttpClient client;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	public SafetyCenterService(Context context) {
 		this.context = context;
 		if(MyApplication.app.getUser()!=null){
@@ -44,7 +43,7 @@ public class SafetyCenterService {
 		}
 		client = MyApplication.app.getClient(context);
 		if(myDialog==null){
-			   myDialog=MyDialog.createDialog(context,"正在加载中...");
+			   myDialog= ProcessDialog.createDialog(context, "正在加载中...");
 			}
 	}
 	

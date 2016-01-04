@@ -23,9 +23,8 @@ import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.WealthBean;
 import cn.com.ubankers.www.user.view.CfmpMembersAdapter;
 import cn.com.ubankers.www.utils.EncodingHandler;
-import cn.com.ubankers.www.utils.UnicodeUtil;
 import cn.com.ubankers.www.widget.ActionItem;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import cn.com.ubankers.www.widget.TitlePopup;
 import cn.com.ubankers.www.widget.TitlePopup.OnItemOnClickListener;
 import cn.sharesdk.framework.Platform;
@@ -40,9 +39,7 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Base64;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -62,7 +59,7 @@ import android.widget.AdapterView.OnItemClickListener;
 public class MemberWealthCenterActivity extends Activity implements OnItemClickListener,PlatformActionListener,OnClickListener{
 	private Context context;
 	private WealthBean wealthBean;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private AsyncHttpClient client;
 	private UserBean userBean;
 	private TextView login_title,AddOrder_no,investorAdd,AddOrder,text1,text2,text;
@@ -101,7 +98,7 @@ public class MemberWealthCenterActivity extends Activity implements OnItemClickL
 			wealthBean = (WealthBean) intent.getSerializableExtra("wealthBean");
 		}
 		if(progressDialog==null){
-			progressDialog=MyDialog.createDialog(MemberWealthCenterActivity.this,"正在加载中...");
+			progressDialog= ProcessDialog.createDialog(MemberWealthCenterActivity.this, "正在加载中...");
 		}
 		client = MyApplication.app.getClient(context);
 		if(MyApplication.app.getUser()!=null){

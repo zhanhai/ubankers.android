@@ -3,9 +3,10 @@ package cn.com.ubankers.www.authentication.controller.activity;
 import cn.com.ubankers.www.R;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import cn.com.ubankers.www.utils.NetReceiver;
 import cn.com.ubankers.www.utils.NetReceiver.NetState;
+
 import android.app.Activity;
 import android.net.http.SslError;
 import android.os.Bundle;
@@ -15,19 +16,18 @@ import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
-import android.widget.ImageView;
 
 public class AgreementActivity extends Activity  implements OnClickListener{
 	private WebView webView;
 	private View title_yonhuzhuce;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.agreement_activity);
 		if (myDialog == null) {
-			myDialog = MyDialog.createDialog(AgreementActivity.this,"正在加载中...");
+			myDialog = ProcessDialog.createDialog(AgreementActivity.this, "正在加载中...");
 		}
 		NetState connected = NetReceiver.isConnected(this);
 		if (connected == connected.NET_NO) {

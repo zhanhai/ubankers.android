@@ -1,10 +1,6 @@
 package cn.com.ubankers.www.user.controller.activity;
 
-import java.io.File;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.apache.http.Header;
 import org.apache.http.entity.StringEntity;
@@ -15,10 +11,8 @@ import org.json.JSONObject;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
-import com.nostra13.universalimageloader.core.ImageLoader;
 
 import cn.com.ubankers.www.R;
-import cn.com.ubankers.www.R.layout;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.authentication.controller.activity.LoginActivity;
 import cn.com.ubankers.www.http.HttpConfig;
@@ -27,7 +21,8 @@ import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.utils.PhotoUtil;
 import cn.com.ubankers.www.utils.Regular;
 import cn.com.ubankers.www.utils.XutilsHttp;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -43,8 +38,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RadioGroup;
-import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -71,7 +64,7 @@ public class IdCardActivity extends Activity implements OnClickListener {
 	private IdCardActivity context;
 	private View popuveiw;
 	private ImageView shenfengzheng_tp;;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private LinearLayout shenfen_back;
 	private int STATEVARIABLES = 1;
 	private String idState="0";
@@ -88,7 +81,7 @@ public class IdCardActivity extends Activity implements OnClickListener {
 		setContentView(R.layout.shenfenyanzhengactivity);
 		context = IdCardActivity.this;
 		if (myDialog == null) {
-			myDialog = MyDialog.createDialog(this,"正在加载中...");
+			myDialog = ProcessDialog.createDialog(this, "正在加载中...");
 		}
 		client = MyApplication.app.getClient(context);
 		if(MyApplication.app.getUser()!=null){

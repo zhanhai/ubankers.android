@@ -265,7 +265,7 @@ public class SnsArticleActivity extends Activity {
 					productDetail.setProductId(productId);
 					Intent intent = new Intent(context, ProductDetailActivity.class);
 					Bundle bundle = new Bundle();
-					bundle.putSerializable(ProductDetailActivity.KEY_PRODUCT_ID, productId);
+					bundle.putSerializable(ProductDetailActivity.EXTRA_PRODUCT_ID, productId);
 					intent.putExtras(bundle);
 					context.startActivity(intent);
 				}else{

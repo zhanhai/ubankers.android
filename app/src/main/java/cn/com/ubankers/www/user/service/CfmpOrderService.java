@@ -17,7 +17,7 @@ import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.user.model.InvestorOrderBean;
 import cn.com.ubankers.www.user.view.CfmpOrderAdapter;
 import cn.com.ubankers.www.utils.Tools;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -33,7 +33,7 @@ public class CfmpOrderService {
 	private ArrayList<InvestorOrderBean> list;
 	private CfmpOrderAdapter adapter;
 	private  AsyncHttpClient client;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private  InvestorOrderBean investorOrderBean;
 	public CfmpOrderService(Activity activity,String userId,ListView rongListView,ArrayList<InvestorOrderBean> list){
 		this.activity = activity;
@@ -41,9 +41,9 @@ public class CfmpOrderService {
 		this.rongListView = rongListView;
 		this.list = list; 
 		if (progressDialog == null) {
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}else{
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}
 		client = MyApplication.app.getClient(activity);
 	}

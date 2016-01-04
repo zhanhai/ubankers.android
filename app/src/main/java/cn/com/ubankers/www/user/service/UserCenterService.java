@@ -39,7 +39,7 @@ import cn.com.ubankers.www.user.model.WealthBean;
 import cn.com.ubankers.www.utils.CompleteDialog;
 import cn.com.ubankers.www.utils.LoginDialog;
 import cn.com.ubankers.www.utils.XutilsHttp;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpClient;
@@ -56,7 +56,7 @@ public class UserCenterService {
 	private String userUrl;
 	
 	private WealthBean wealthBean;
-	public MyDialog myDialog;
+	public ProcessDialog myDialog;
 	private Intent intent = null;
 	private UserNewBean user;
 	public UserBean userBean ;
@@ -76,7 +76,7 @@ public class UserCenterService {
 		}
 		client = MyApplication.app.getClient(context);
 		if(myDialog==null){
-			   myDialog=MyDialog.createDialog(context,"正在加载中...");
+			   myDialog= ProcessDialog.createDialog(context, "正在加载中...");
 			}
 		
 		if(userBean!=null&&userBean.getUserMobile()!=null&&userBean.getUserMobile().equals("")){

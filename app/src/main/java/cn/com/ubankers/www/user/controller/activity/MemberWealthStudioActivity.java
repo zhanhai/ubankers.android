@@ -13,20 +13,18 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
+
 import cn.com.ubankers.www.R;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
@@ -37,7 +35,7 @@ import cn.com.ubankers.www.user.service.MemberWealthStudioService;
 import cn.com.ubankers.www.user.view.MembersAdapter;
 import cn.com.ubankers.www.widget.ActionItem;
 import cn.com.ubankers.www.widget.CircleImg;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import cn.com.ubankers.www.widget.TitlePopup;
 import cn.com.ubankers.www.widget.TitlePopup.OnItemOnClickListener;
 
@@ -49,7 +47,7 @@ public class MemberWealthStudioActivity extends Activity implements OnClickListe
 	private Context context;
 	private AsyncHttpClient client;
 	private UserBean userBean;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private WealthBean wealthBean;
 	private LinearLayout title_bar_back,catelogView;
 	public CircleImg faceImage,avatar;
@@ -78,7 +76,7 @@ public class MemberWealthStudioActivity extends Activity implements OnClickListe
 			userBean = MyApplication.app.getUser();
 		}
 		if(myDialog==null){
-		   myDialog=MyDialog.createDialog(MemberWealthStudioActivity.this,"正在加载中...");
+		   myDialog= ProcessDialog.createDialog(MemberWealthStudioActivity.this, "正在加载中...");
 		}
 		Intent intent =this.getIntent();
 		if(intent!=null){

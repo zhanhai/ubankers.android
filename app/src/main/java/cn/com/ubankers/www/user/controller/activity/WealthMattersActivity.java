@@ -12,7 +12,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputFilter;
-import android.text.Spanned;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -29,7 +28,7 @@ import cn.com.ubankers.www.user.model.WealthBean;
 import cn.com.ubankers.www.utils.LoginDialog;
 import cn.com.ubankers.www.utils.NetReceiver;
 import cn.com.ubankers.www.utils.NetReceiver.NetState;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
@@ -38,7 +37,7 @@ import com.loopj.android.http.JsonHttpResponseHandler;
 public class WealthMattersActivity extends Activity implements OnClickListener {
 	private ImageView aboutTreasure_Image;
 	private LinearLayout ll;
-	private  MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private TextView buildTeamView;
 	private EditText treasureHourse_name,treasureHourse_sign;
 	private View view;
@@ -63,7 +62,7 @@ public class WealthMattersActivity extends Activity implements OnClickListener {
 				Toast.makeText(this, "当前网络不可用",Toast.LENGTH_SHORT).show();
 		}
 		if(myDialog==null){
-			myDialog=MyDialog.createDialog(WealthMattersActivity.this,"正在加载中...");
+			myDialog= ProcessDialog.createDialog(WealthMattersActivity.this, "正在加载中...");
 		}
 		 client = MyApplication.app.getClient(context);
 		 initView();

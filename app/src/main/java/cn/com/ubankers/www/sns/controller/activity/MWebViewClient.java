@@ -1,6 +1,6 @@
 package cn.com.ubankers.www.sns.controller.activity;
 
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -10,7 +10,6 @@ import android.webkit.SslErrorHandler;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Toast;
 
 /**
  * @date 2014-6-20
@@ -20,14 +19,14 @@ public class MWebViewClient  extends WebViewClient {
 
 	private WebView webView;
 	private Context context;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	
 	public MWebViewClient(WebView webView) {
 		super();
 		this.webView = webView;
 	}
 
-	public MWebViewClient(WebView webView, Context context,MyDialog progressDialog) {
+	public MWebViewClient(WebView webView, Context context,ProcessDialog progressDialog) {
 		super();
 		this.webView = webView;
 		this.context = context;

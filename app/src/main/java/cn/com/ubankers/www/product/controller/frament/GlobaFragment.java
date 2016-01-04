@@ -330,7 +330,7 @@ public class GlobaFragment extends Fragment {
 							ProductDetail product=mianlistview.get(arg2-1);
 							intent=new Intent(activity,ProductDetailActivity.class);
 							Bundle bundle = new Bundle();
-							bundle.putSerializable(ProductDetailActivity.KEY_PRODUCT_DETAIL, product);
+							bundle.putSerializable(ProductDetailActivity.EXTRA_PRODUCT_DETAIL, product);
 							intent.putExtras(bundle);
 							startActivity(intent);
 							}

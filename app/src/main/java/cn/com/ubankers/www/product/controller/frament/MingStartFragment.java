@@ -58,7 +58,7 @@ import cn.com.ubankers.www.utils.NetWorking;
 import cn.com.ubankers.www.utils.Tools;
 import cn.com.ubankers.www.utils.XutilsHttp;
 import cn.com.ubankers.www.widget.AutoScrollViewPager;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 import cn.com.ubankers.www.widget.MyListView;
 
 import com.google.gson.Gson;
@@ -96,7 +96,7 @@ public class MingStartFragment extends Fragment {
 	private ProductHttp ProductHttp;
 	private String Fragmentname = "MingStartFragment";
 	private ACache mCache;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private LoginDialog loginDialog;
 	private CompleteDialog completeDialog;
 	private Button refactor;
@@ -108,7 +108,7 @@ public class MingStartFragment extends Fragment {
 	public void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		if (progressDialog == null) {
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}
 		if (user != null && user.getUserRole() != null&& !user.getUserRole().equals("tourist")) {
 			request = new UserQuestBean(tag, strArray, user.getUserRole(),1,100);
@@ -445,7 +445,7 @@ public class MingStartFragment extends Fragment {
 									intent.putExtra("productName", product.getProductName());
 									intent.putExtra("face", product.getFace());*/
 									Bundle bundle = new Bundle();
-									bundle.putSerializable(ProductDetailActivity.KEY_PRODUCT_DETAIL, product);
+									bundle.putSerializable(ProductDetailActivity.EXTRA_PRODUCT_DETAIL, product);
 									intent.putExtras(bundle);
 									startActivity(intent);
 								}

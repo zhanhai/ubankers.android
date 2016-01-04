@@ -7,7 +7,6 @@ import java.util.regex.Pattern;
 
 import org.apache.http.Header;
 import org.apache.http.entity.StringEntity;
-import org.json.JSONArray;
 import org.json.JSONObject;
 
 import android.app.Activity;
@@ -35,14 +34,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import cn.com.ubankers.www.R;
 import cn.com.ubankers.www.application.MyApplication;
-import cn.com.ubankers.www.authentication.controller.activity.RegisterActivity.PhoneOnClickListener;
-import cn.com.ubankers.www.authentication.controller.activity.RegisterActivity.TimeCount1;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.http.ParseUtils;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.UserNewBean;
 import cn.com.ubankers.www.utils.Des;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpClient;
@@ -73,7 +70,7 @@ public class SupplinfoActivity extends Activity {
 	private Timer timer = new Timer();
 	private boolean isExist = false;
 	private boolean ifNetWorkConnected = false;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private View vq;
 	private TextView suppinforView;
 	private TimeCount1 timeCount1;
@@ -98,7 +95,7 @@ public class SupplinfoActivity extends Activity {
 			Toast.makeText(getApplicationContext(), "无法连接到网络，请稍候再试", 1).show();
 		}
 		if (myDialog == null){
-			myDialog = MyDialog.createDialog(this,"正在加载中...");
+			myDialog = ProcessDialog.createDialog(this, "正在加载中...");
 			}
 		initView();
 		timeCount = new TimeCount(60000, 1000);

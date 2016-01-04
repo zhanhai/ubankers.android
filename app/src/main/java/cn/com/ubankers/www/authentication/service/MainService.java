@@ -4,13 +4,11 @@ import java.io.File;
 import java.lang.reflect.Type;
 
 import org.apache.http.Header;
-import org.json.JSONArray;
 import org.json.JSONObject;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.util.Log;
 import android.widget.Toast;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.authentication.controller.activity.LoginActivity;
@@ -19,9 +17,8 @@ import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.http.ParseUtils;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.model.UserNewBean;
-import cn.com.ubankers.www.utils.Tools;
 import cn.com.ubankers.www.utils.UpdateUtils;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpClient;
@@ -32,7 +29,7 @@ public class MainService {
 	private Context context;
 	private String userInfo;
 	private Intent intent = null;
-	private MyDialog myDialog;
+	private ProcessDialog myDialog;
 	private UserBean userBean;
 	private AsyncHttpClient client;
 	private File tokenFile;
@@ -81,7 +78,7 @@ public class MainService {
 	 */
 	public void matinLogin(){
 		    if(userBean!=null&&userBean.getUserId()!=null&&userBean.getLoginToken()!=null){
-		    myDialog =MyDialog.createDialog(context,"正在加载中...");
+		    myDialog = ProcessDialog.createDialog(context, "正在加载中...");
 		    myDialog.show();
 			RequestParams params = new RequestParams();
 			params.put("loginToken", userBean.getLoginToken());

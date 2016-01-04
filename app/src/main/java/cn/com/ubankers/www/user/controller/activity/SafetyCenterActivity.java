@@ -14,7 +14,7 @@ import cn.com.ubankers.www.R;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.service.SafetyCenterService;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 	public class SafetyCenterActivity extends Activity  implements OnClickListener {
 		private static final String DB_NAME = "rongan.db";
@@ -27,7 +27,7 @@ import cn.com.ubankers.www.widget.MyDialog;
 		public  View layout_mingpian;
 		public  TextView bankcard_mingpianzhuantai;
 		private SafetyCenterService safetycenterService;
-		public MyDialog myDialog;
+		public ProcessDialog myDialog;
 		public Context context;
 		private UserBean userBean;
 		private static final int IDCARD_REQUSET = 1; 

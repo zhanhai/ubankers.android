@@ -2,14 +2,12 @@ package com.ubankers.app.product.detail;
 
 
 import android.content.Context;
-import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.widget.Toast;
 
 import com.loopj.android.http.JsonHttpResponseHandler;
-import com.ubankers.app.product.model.Product;
 import com.ubankers.app.product.model.ProductAPI;
+import com.ubankers.mvp.presenter.MvpCommand;
+import com.ubankers.mvp.presenter.Presenter;
 
 import org.apache.http.Header;
 import org.json.JSONException;
@@ -21,65 +19,38 @@ import javax.inject.Singleton;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.http.ParseUtils;
+import cn.com.ubankers.www.product.model.ProductDetail;
 import cn.com.ubankers.www.utils.LoginDialog;
 
 @Singleton
-public class ProductDetailPresenter extends LCEPresenter<Product, ProductDetailView> {
+public class ProductDetailPresenter extends Presenter<ProductDetailView> {
 
-    private static final String PRODUCT_ID_KEY = "product_id";
-
-    @Inject
-    ProductAPI productAPI;
-
-    private String productId;
+    @Inject ProductAPI productAPI;
 
 
-
-    @Override
-    protected void onStart(@Nullable Bundle savedState){
-        if(savedState == null){
-            return;
-        }
-
-        // We need to consider whether to change current prodcut id value.
-        String savedProductId = savedState.getString(PRODUCT_ID_KEY);
-        if(productId != null && productId.equals(savedProductId)) {
-            // If productId was not changed, nothing to do
-            return;
-        }
-        else{
-            reset();
-
-            productId = savedProductId;
-            loadProductDetail();
-        }
-    }
-
-
-    @Override
-    protected void onReset() {
-        super.onReset();
-
-        productId = null;
-    }
-
-    @Override
-    public void onSave(@NonNull Bundle state)
-    {
-        if(productId != null){
-            state.putString(PRODUCT_ID_KEY, productId);
-        }
-    }
-
-
-    public void loadProductDetail(){
+    public void loadProductDetail(String productId){
         onLoading();
 
+        MyApplication.getClient().get(HttpConfig.URL_PRODUCT_PARTICULARS + productId,
+                new JsonHttpResponseHandler() {
+                    @Override
+                    public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                        onProductLoaded(statusCode, headers, response);
+                    }
+
+                    @Override
+                    public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
+                        onProductLoaded(statusCode, headers, throwable, errorResponse);
+                    }
+                });
     }
 
 
-    //签名档
-    public void loadArticle(final ProductDetailView view, final String articleId){
+    /**
+     * 获取文章详情
+     * @param articleId
+     */
+    public void loadArticle(final String articleId){
         MyApplication.getClient().get(HttpConfig.URL_ARTICLE_DETAIL + articleId, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers,
@@ -89,13 +60,24 @@ public class ProductDetailPresenter extends LCEPresenter<Product, ProductDetailV
                     return;
                 }
 
-                JSONObject article = obj.optJSONObject("article");
-                view.showArticle(ParseUtils.parseArticle(article));
+                final JSONObject article = obj.optJSONObject("article");
+                render(new MvpCommand<ProductDetailView>() {
+                    @Override
+                    public void call(ProductDetailView view) {
+                        view.showArticle(null, ParseUtils.parseArticle(article));
+                    }
+                });
+
             }
 
             @Override
-            public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
-                view.showError(throwable);
+            public void onFailure(int statusCode, Header[] headers, final Throwable throwable, JSONObject errorResponse) {
+                render(new MvpCommand<ProductDetailView>() {
+                    @Override
+                    public void call(ProductDetailView view) {
+                        view.showArticle(throwable, null);
+                    }
+                });
             }
 
         });
@@ -112,7 +94,7 @@ public class ProductDetailPresenter extends LCEPresenter<Product, ProductDetailV
                     if (flag) {
                         JSONObject jsonObject = response.getJSONObject("result");
                         JSONObject jsonObject2 = jsonObject.getJSONObject("info");
-                        isAQualifiedCFMP = jsonObject2.getInt("qualified");
+                        int isAQualifiedCFMP = jsonObject2.getInt("qualified");
                     }
                 } catch (JSONException e) {
                     // TODO Auto-generated catch block
@@ -152,4 +134,104 @@ public class ProductDetailPresenter extends LCEPresenter<Product, ProductDetailV
         });
     }
 
+
+    void onLoading() {
+        render(new MvpCommand<ProductDetailView>() {
+            @Override
+            public void call(ProductDetailView view) {
+                view.showLoading();
+            }
+        });
+    }
+
+
+    void onAuthenticationFailed() {
+        render(new MvpCommand<ProductDetailView>() {
+            @Override
+            public void call(ProductDetailView view) {
+                view.showAuthentication();
+            }
+        });
+    }
+
+    void onProductLoaded(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse){
+        if (statusCode != 401) {
+            onProductLoaded(new Error("处理错误"), null);
+        }
+        else{
+            onAuthenticationFailed();
+        }
+    }
+
+    void onProductLoaded(int statusCode, Header[] headers, JSONObject response){
+        boolean flag = response.optBoolean("success", false);
+
+        if (!flag) {
+            JSONObject object = response.optJSONObject("result");
+            String errorCode = object.optString("errorCode", "");
+            if (errorCode.equals("noLogin")) {
+                MyApplication.app.setUser(null);
+                MyApplication.app.setClient(null);
+
+                onAuthenticationFailed();
+            } else {
+                onProductLoaded(new Error("处理错误"), null);
+            }
+            return;
+        }
+
+        JSONObject obj = response.optJSONObject("result");
+        if (obj == null) {
+            onProductLoaded(new Error("处理错误"), null);
+            return;
+        }
+
+        String errorCode = obj.optString("errorCode");
+        JSONObject info = obj.optJSONObject("info");
+
+        if (!"success".equals(errorCode) || info == null) {
+            onProductLoaded(new Error("处理错误"), null);
+            return;
+        }
+
+        JSONObject reserveOptions = null;
+        JSONObject saleOptions = null;
+
+        ProductDetail product = new ProductDetail();
+        product.setProductId(info.optString("id", "0"));
+        product.setProductName(info.optString("productName", ""));
+        product.setModuleId(info.optString("moduleId", ""));
+        product.setState(info.optInt("state", 0));
+        product.setIsHot(info.optInt("isHot", 0));
+        product.setProductTerm(info.optString("productTerm", ""));
+        product.setCountProductRate(info.optString("countProductRate", ""));
+        product.setMinSureBuyPrice(info.optString("minSureBuyPrice", ""));
+        product.setRaisedProcessShow(info.optInt("raisedProcessShow", 0));
+
+        saleOptions = info.optJSONObject("saleOptions");//预售
+        if (saleOptions != null && saleOptions.length() > 0) {
+            reserveOptions = saleOptions.optJSONObject("reserveOptions");//预定
+            if (reserveOptions != null && reserveOptions.length() > 0) {
+                product.setPayType(reserveOptions.optString("payType", ""));//支付类型
+                product.setEndTime(reserveOptions.optString("endTime", ""));//预定结束时间： 毫秒
+                product.setMaxMoney(reserveOptions.optInt("maxMoney"));//最大金额(以万来计算)
+                product.setMinMoney(reserveOptions.optInt("minMoney"));//最小金额(以万来计算)
+                product.setIncrementalMoney(reserveOptions.optInt("incrementalMoney"));//递增金额
+                product.setCanReserve(reserveOptions.optBoolean("canReserve"));//能否预约
+                product.setFace(reserveOptions.optString("face", ""));//能否预约
+            }
+        }
+
+        onProductLoaded(null, product);
+    }
+
+    void onProductLoaded(final Throwable t, final ProductDetail product) {
+
+        render(new MvpCommand<ProductDetailView>() {
+            @Override
+            public void call(ProductDetailView view) {
+                view.showProductDetail(t, product);
+            }
+        });
+    }
 }

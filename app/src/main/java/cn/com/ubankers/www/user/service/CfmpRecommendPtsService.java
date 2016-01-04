@@ -15,11 +15,10 @@ import android.widget.ListView;
 import android.widget.Toast;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
-import cn.com.ubankers.www.user.controller.activity.CfmpRecommerActivity;
 import cn.com.ubankers.www.user.model.RecommendPtsBean;
 import cn.com.ubankers.www.user.view.CfmpProductAdapter;
 import cn.com.ubankers.www.utils.Tools;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -34,7 +33,7 @@ public class CfmpRecommendPtsService {
 	private String userId;
 	private ListView lv;
 	private List<RecommendPtsBean> list;
-	private static  MyDialog myDialog;
+	private static ProcessDialog myDialog;
 	public CfmpRecommendPtsService(Context context,String userId,ListView lv,List<RecommendPtsBean> list){
 		this.context = context;
 		this.userId = userId;
@@ -42,9 +41,9 @@ public class CfmpRecommendPtsService {
 		this.list = list;
 		client = MyApplication.app.getClient(context);
 		if(myDialog==null){
-			myDialog=MyDialog.createDialog(context,"正在加载中...");
+			myDialog= ProcessDialog.createDialog(context, "正在加载中...");
 		}else{
-			myDialog=MyDialog.createDialog(context,"正在加载中...");
+			myDialog= ProcessDialog.createDialog(context, "正在加载中...");
 		}
 	}
 	public void initData() {

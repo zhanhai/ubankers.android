@@ -18,7 +18,8 @@ import cn.com.ubankers.www.user.controller.activity.CustomerDetailActivity;
 import cn.com.ubankers.www.user.model.CustomerBean;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.user.view.CustomerAdapter;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -35,7 +36,7 @@ public class RegisterClienteleFragment extends Fragment{
 	private ListView rongListView;
 	private Activity activity;
 	private AsyncHttpClient client;
-	private MyDialog progressDialog;
+	private ProcessDialog progressDialog;
 	private UserBean userBean;
 	private ArrayList<CustomerBean> list;
 	
@@ -49,9 +50,9 @@ public class RegisterClienteleFragment extends Fragment{
 		super.onCreate(savedInstanceState);
 		// TODO Auto-generated method stub
 		if (progressDialog == null) {
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}else{
-			progressDialog = MyDialog.createDialog(activity,"正在加载中...");
+			progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
 		}
 		client = MyApplication.app.getClient(activity);
 		 initData();

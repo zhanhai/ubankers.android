@@ -1,43 +1,53 @@
 package com.ubankers.app.product.detail;
 
 
-import com.ubankers.app.product.model.Product;
+import com.ubankers.mvp.presenter.View;
 
-import java.lang.ref.WeakReference;
-
+import cn.com.ubankers.www.product.model.ProductDetail;
 import cn.com.ubankers.www.sns.model.ArticleBean;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
-public class ProductDetailView implements LCEView<Product> {
+public class ProductDetailView implements View {
 
-    private WeakReference<ProductDetailActivity> activity;
+    private ProductDetailActivity activity;
+    private ProcessDialog progressDialog;
 
     public ProductDetailView(ProductDetailActivity activity){
-        this.activity = new WeakReference<ProductDetailActivity>(activity);
+        this.activity = activity;
+        progressDialog = ProcessDialog.createDialog(activity, "正在加载中...");
     }
 
-
-    @Override
-    public void showLoading() {
-
+    void showProductDetail(Throwable error, ProductDetail product) {
+        hideLoading();
+        if(error == null) {
+            activity.showProductDetail(product);
+            activity.showReservation(product);
+        }
+        else{
+            activity.showError(error);
+        }
     }
 
-    @Override
-    public void showError(Throwable error) {
+    void showArticle( Throwable error, ArticleBean article){
+        hideLoading();
 
+        if(error == null){
+            activity.showArticle(article);
+        }
+        else{
+            activity.showError(error);
+        }
     }
 
-
-    @Override
-    public void showAuthenticaiton() {
-
+    void showAuthentication(){
+        activity.showAuthenticationRequired();
     }
 
-    @Override
-    public void showContent(Product content) {
-
+    void showLoading() {
+        progressDialog.show();
     }
 
-    public void showArticle(ArticleBean articleBean){
-
+    void hideLoading(){
+        progressDialog.dismiss();
     }
 }

@@ -1,7 +1,6 @@
 package cn.com.ubankers.www.user.controller.activity;
 
 import org.apache.http.Header;
-import org.apache.http.entity.StringEntity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -30,7 +29,7 @@ import cn.com.ubankers.www.product.service.ACache;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.utils.ClipView;
 import cn.com.ubankers.www.utils.PhotoUtil;
-import cn.com.ubankers.www.widget.MyDialog;
+import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -59,7 +58,7 @@ import com.loopj.android.http.RequestParams;
 		PointF mid = new PointF();
 		float oldDist = 1f;
 		private String activity;
-		private MyDialog myDialog;
+		private ProcessDialog myDialog;
 		private UserBean userBean;
 		private Context context;
 		private AsyncHttpClient client;
@@ -72,7 +71,7 @@ import com.loopj.android.http.RequestParams;
 			super.onCreate(savedInstanceState);
 			this.context=context;
 			if (myDialog == null) {
-				myDialog = MyDialog.createDialog(this,"正在加载中...");
+				myDialog = ProcessDialog.createDialog(this, "正在加载中...");
 			}
 			client = MyApplication.app.getClient(context);
 			if(MyApplication.app.getUser()!=null){

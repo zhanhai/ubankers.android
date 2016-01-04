@@ -72,7 +72,7 @@ public class CfmpRecommendPtsActivity extends Activity {
 					long arg3) {
 				RecommendPtsBean  cfmpProductBean = list.get(arg2);
 			    Intent intent = new Intent(CfmpRecommendPtsActivity.this,ProductDetailActivity.class);
-			    intent.putExtra(ProductDetailActivity.KEY_PRODUCT_ID, cfmpProductBean.getProductId());
+			    intent.putExtra(ProductDetailActivity.EXTRA_PRODUCT_ID, cfmpProductBean.getProductId());
 			    startActivity(intent);
 			}
 			

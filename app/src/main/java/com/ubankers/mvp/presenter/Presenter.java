@@ -22,6 +22,34 @@ import rx.subjects.BehaviorSubject;
 public  class Presenter<V extends View> {
 
     protected BehaviorSubject<V> views = BehaviorSubject.create();
+    protected BehaviorSubject<MvpCommand<V>> commands = BehaviorSubject.create();
+
+    protected Presenter(){
+        Observable.combineLatest(
+                views,
+                commands,
+                new Func2<V, MvpCommand<V>, RenderCommand>() {
+                    public RenderCommand call(V view, MvpCommand<V> command) {
+                        if(view == null){
+                            return null;
+                        }
+
+                        return new RenderCommand(command, view);
+                    }
+                })
+                .filter(new Func1<RenderCommand, Boolean>(){
+                    public Boolean call(RenderCommand renderCommand) {
+                        return renderCommand != null;
+                    }
+                })
+                .subscribe(
+                        new Action1<RenderCommand>(){
+                            public void call(RenderCommand renderCommand) {
+                                renderCommand.render();
+                            }
+                        }
+                );
+    }
 
     /**
      * This method is being called when a view gets attached to it.
@@ -64,33 +92,8 @@ public  class Presenter<V extends View> {
     }
 
     protected final void render(MvpCommand<V> command){
-        Observable.combineLatest(
-                views,
-                Observable.just(command),
-                new Func2<V, MvpCommand<V>, RenderCommand>() {
-                    public RenderCommand call(V view, MvpCommand<V> command) {
-                        if(view == null){
-                            return null;
-                        }
-
-                        return new RenderCommand(command, view);
-                    }
-                })
-                .filter(new Func1<RenderCommand, Boolean>(){
-                    public Boolean call(RenderCommand renderCommand) {
-                        return renderCommand != null;
-                    }
-                })
-        .subscribe(
-                new Action1<RenderCommand>(){
-                    public void call(RenderCommand renderCommand) {
-                        renderCommand.render();
-                    }
-                }
-        );
+       commands.onNext(command);
     }
-
-
 
 
 }

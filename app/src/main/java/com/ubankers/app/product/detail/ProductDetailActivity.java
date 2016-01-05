@@ -76,7 +76,10 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
         initView();
         parseIntent();
 
-        component = DaggerProductDetailComponent.builder().build();
+        component = DaggerProductDetailComponent.builder()
+                .productDetailModule(new ProductDetailModule(this))
+                .build();
+
         component.inject(this);
 
         presenter.loadProductDetail(productId);

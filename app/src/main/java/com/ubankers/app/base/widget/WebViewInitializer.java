@@ -1,4 +1,4 @@
-package com.ubankers.app.base.component;
+package com.ubankers.app.base.widget;
 
 import android.content.Context;
 import android.view.View;

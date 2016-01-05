@@ -13,6 +13,11 @@ import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
+import com.ubankers.app.base.AppComponent;
+import com.ubankers.app.base.AppModule;
+import com.ubankers.app.base.DaggerAppComponent;
+import com.ubankers.app.base.session.Session;
+import com.ubankers.app.base.session.SessionManager;
 
 import java.util.ArrayList;
 
@@ -21,10 +26,8 @@ import cn.com.ubankers.www.user.model.RoleBean;
 import cn.com.ubankers.www.user.model.UserBean;
 import cn.com.ubankers.www.utils.Tools;
 
-public class MyApplication extends Application {
+public class MyApplication extends Application implements SessionManager {
 
-	public static final String USER_ROLE_CFMP = "cfmp";
-	public static final String USER_ROLE_INVESTOR = "investor";
 
 	public static ImageLoader IMAGE_LOADER;
 	private static DisplayImageOptions IMAGE_OPTIONS;
@@ -37,7 +40,9 @@ public class MyApplication extends Application {
 	private static ProductDetail product;
 	private static String UserFaceId;//用户头像的id
 	private static String orderInvestorId;//财富师给投资者预约，投资者的id
-	
+
+    private AppComponent component;
+
 	public static String getOrderInvestorId() {
 		return orderInvestorId;
 	}
@@ -78,17 +83,18 @@ public class MyApplication extends Application {
 	public void onCreate() {
 		// TODO Auto-generated method stub
 		super.onCreate();
+
 		initImageLoader(getApplicationContext());
-//		IMAGE_LOADER.getInstance().clearDiskCache();
 		app = this;
-//		DBHelper dbHelper = new DBHelper(getApplicationContext(), "rongan.db",
-//				null, 4);
-//		SQLiteDatabase db = dbHelper.getWritableDatabase();
-//		Cursor cursor = db.query(dbHelper.USER_DB, null, null, null, null,
-//				null, null);
+
+        component = DaggerAppComponent.builder()
+                .appModule(new AppModule(this, this))
+                .build();
 
 		setDefaultUncaughtExceptionHandler();
 	}
+
+
 	@Override
 	public void onTerminate() {
 		// TODO Auto-generated method stub
@@ -134,7 +140,7 @@ public class MyApplication extends Application {
 					.cacheInMemory(true).cacheOnDisc(true).build();
 		}
 		IMAGE_LOADER.displayImage(uri, imageView, IMAGE_OPTIONS,
-				imageLoadingListener);
+                imageLoadingListener);
 	}
 	public RoleBean getType() {
 		return type;
@@ -151,21 +157,6 @@ public class MyApplication extends Application {
 		this.user = user;
 	}
 
-	public static boolean isCurrentUserACFMP(){
-		if(app.user == null){
-			return false;
-		}
-
-		return USER_ROLE_CFMP.equals(app.user.getUserRole());
-	}
-
-	public static boolean isCurrentUserAInvestor(){
-		if(app.user == null){
-			return false;
-		}
-
-		return USER_ROLE_INVESTOR.equals(app.user.getUserRole());
-	}
 
 	public AsyncHttpClient getClient(Context context) {
 		if(client==null){
@@ -187,10 +178,16 @@ public class MyApplication extends Application {
 		this.client = client;
 	}
 
+    public AppComponent getComponent(){
+        return component;
+    }
+
 	public void exitApply() {
 		user = null;
 		app = null;
 		client = null;
+
+        component = null;
 	}
 
 	private static void setDefaultUncaughtExceptionHandler() {
@@ -206,5 +203,21 @@ public class MyApplication extends Application {
 		} catch (SecurityException e) {
 			System.out.println("Could not set the Default Uncaught Exception Handler");
 		}
+	}
+
+	@Override
+	public void onLogin(UserBean user) {
+
+	}
+
+	@Override
+	public void onLogout() {
+		setUser(null);
+		setClient(null);
+	}
+
+	@Override
+	public Session getSession() {
+		return new Session(user);
 	}
 }

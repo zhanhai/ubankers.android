@@ -5,6 +5,7 @@ import android.content.Context;
 import android.widget.Toast;
 
 import com.loopj.android.http.JsonHttpResponseHandler;
+import com.ubankers.app.base.session.Session;
 import com.ubankers.app.product.model.ProductAPI;
 import com.ubankers.mvp.presenter.MvpCommand;
 import com.ubankers.mvp.presenter.Presenter;
@@ -26,6 +27,7 @@ import cn.com.ubankers.www.utils.LoginDialog;
 public class ProductDetailPresenter extends Presenter<ProductDetailView> {
 
     @Inject ProductAPI productAPI;
+    @Inject Session session;
 
 
     public void loadProductDetail(String productId){
@@ -146,6 +148,8 @@ public class ProductDetailPresenter extends Presenter<ProductDetailView> {
 
 
     void onAuthenticationFailed() {
+        session.invalidate();
+
         render(new MvpCommand<ProductDetailView>() {
             @Override
             public void call(ProductDetailView view) {
@@ -170,9 +174,6 @@ public class ProductDetailPresenter extends Presenter<ProductDetailView> {
             JSONObject object = response.optJSONObject("result");
             String errorCode = object.optString("errorCode", "");
             if (errorCode.equals("noLogin")) {
-                MyApplication.app.setUser(null);
-                MyApplication.app.setClient(null);
-
                 onAuthenticationFailed();
             } else {
                 onProductLoaded(new Error("处理错误"), null);

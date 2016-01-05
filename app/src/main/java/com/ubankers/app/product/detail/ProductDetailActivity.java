@@ -13,7 +13,8 @@ import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ubankers.app.base.component.WebViewInitializer;
+import com.ubankers.app.base.session.Session;
+import com.ubankers.app.base.widget.WebViewInitializer;
 import com.ubankers.app.product.detail.reserve.CfmpReserveAction;
 import com.ubankers.app.product.detail.reserve.InvestorReserveAction;
 import com.ubankers.app.product.detail.share.ProductSharePopup;
@@ -54,6 +55,7 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
     private ProductDetailComponent component;
     @Inject ProductDetailPresenter presenter;
     @Inject ProductDetailView view;
+    @Inject Session session;
 
 
 	@Bind(R.id.back) View back;
@@ -73,15 +75,16 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
 
 	@Override protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-        initView();
-        parseIntent();
 
         component = DaggerProductDetailComponent.builder()
+                .appComponent(((MyApplication)getApplication()).getComponent())
                 .productDetailModule(new ProductDetailModule(this))
                 .build();
-
         component.inject(this);
 
+        initView();
+
+        parseIntent();
         presenter.loadProductDetail(productId);
     }
 
@@ -136,10 +139,10 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
 
         reservationButton.setVisibility(View.VISIBLE);
 
-        if (MyApplication.isCurrentUserAInvestor()) {
+        if (session.isInvestor()) {
             //投资者预约
             reservationButton.setOnClickListener(new InvestorReserveAction(this, reserverName, product));
-        } else if (MyApplication.isCurrentUserACFMP()) {
+        } else if (session.isCfmp()) {
             //财富师给投资者预约
             cfmpReserveAction = new CfmpReserveAction(this, product);
             reservationButton.setOnClickListener(cfmpReserveAction);
@@ -192,7 +195,7 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
 
 
     private void initProductSharePopup(){
-        if(!MyApplication.isCurrentUserACFMP()){
+        if(!session.isCfmp()){
             return;
         }
 

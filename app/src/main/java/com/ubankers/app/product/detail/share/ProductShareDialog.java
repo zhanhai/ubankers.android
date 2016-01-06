@@ -65,7 +65,7 @@ public class ProductShareDialog extends PopupWindow implements OnItemClickListen
    public ProductShareDialog(final ProductDetailActivity context) {
         super(context);  
         this.context = context;
-        this.productDetail = context.getProductDetail();
+        this.productDetail = context.getViewModel().getProductDetail();
         if(MyApplication.app.getUser()!=null){
 			userBean=MyApplication.app.getUser();
 		}

@@ -12,7 +12,6 @@ import com.ubankers.mvp.presenter.View;
  */
 public abstract class MvpActivity<V extends View> extends Activity{
 
-
     @Override
     protected void onResume() {
         super.onResume();

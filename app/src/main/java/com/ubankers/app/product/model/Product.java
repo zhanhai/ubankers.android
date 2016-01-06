@@ -1,8 +1,5 @@
 package com.ubankers.app.product.model;
 
-import java.io.Serializable;
-
-
 public class Product {
 	private String productId;/* 产品id */
 	private String productName;

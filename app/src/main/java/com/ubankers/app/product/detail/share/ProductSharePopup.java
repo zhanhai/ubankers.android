@@ -28,7 +28,7 @@ public class ProductSharePopup extends TitlePopup {
                     return;
                 }
 
-                if (!activity.getViewModel().isQualifiedCfmp()) {
+                if (!activity.isQualifiedCfmp()) {
                     new MessageDialog(activity).businessCardDialog();
                 } else {
                     new ProductShareDialog(activity)

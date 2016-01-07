@@ -16,11 +16,15 @@ import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 import com.ubankers.app.base.AppComponent;
 import com.ubankers.app.base.AppModule;
 import com.ubankers.app.base.DaggerAppComponent;
+import com.ubankers.app.base.NetworkModule;
 import com.ubankers.app.base.session.Session;
 import com.ubankers.app.base.session.SessionManager;
+import com.ubankers.app.member.MemberModule;
+import com.ubankers.app.product.ProductModule;
 
 import java.util.ArrayList;
 
+import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.product.model.ProductDetail;
 import cn.com.ubankers.www.user.model.RoleBean;
 import cn.com.ubankers.www.user.model.UserBean;
@@ -89,6 +93,9 @@ public class MyApplication extends Application implements SessionManager {
 
         component = DaggerAppComponent.builder()
                 .appModule(new AppModule(this, this))
+				.networkModule(new NetworkModule(HttpConfig.HTTP_QUERY_URL))
+				.productModule(new ProductModule())
+                .memberModule(new MemberModule())
                 .build();
 
 		setDefaultUncaughtExceptionHandler();

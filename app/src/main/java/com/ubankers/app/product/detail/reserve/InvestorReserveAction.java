@@ -24,20 +24,21 @@ import cn.com.ubankers.www.utils.Tools;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
+import com.ubankers.app.product.model.Product;
 
-	//投资者预约监听事件
+//投资者预约监听事件
 	public class InvestorReserveAction implements OnClickListener{
 		    private Context context;
 		    private UserBean userBean;
 			private String reserveName;
-			private ProductDetail product;
+			private Product product;
 			private String investorId;
 			private AsyncHttpClient client;
 			private TextView increment_amount;
 			private EditText et_name,et_number,et_money;
 			private AlertDialog dialog;
 
-			public InvestorReserveAction(Context context, String reserveName, ProductDetail product){
+			public InvestorReserveAction(Context context, String reserveName, Product product){
 		    	this.context = context;
 		    	this.reserveName = reserveName;
 		    	this.product = product;

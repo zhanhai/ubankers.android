@@ -10,6 +10,13 @@ public class ProductReserveOptions {
     private boolean canReserve;//能否预约
     private String minMoneyYuan;
 
+    public ProductReserveOptions(){
+        this.canReserve = false;
+        this.minMoneyYuan = "";
+        this.payType = "";
+        this.endTime = "";
+    }
+
     public String getPayType() {
         return payType;
     }

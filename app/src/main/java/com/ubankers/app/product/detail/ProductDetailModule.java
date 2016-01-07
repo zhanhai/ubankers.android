@@ -2,6 +2,9 @@ package com.ubankers.app.product.detail;
 
 
 import com.ubankers.app.base.dagger.ActivityScope;
+import com.ubankers.app.base.session.Session;
+import com.ubankers.app.member.model.MemberAPI;
+import com.ubankers.app.product.model.ProductAPI;
 
 import javax.inject.Singleton;
 
@@ -25,7 +28,12 @@ public class ProductDetailModule {
 
     @ActivityScope
     @Provides
-    ProductDetailPresenter providesPresenter(){
-        return new ProductDetailPresenter();
+    ProductDetailPresenter providesPresenter(ProductAPI productAPI, MemberAPI memberAPI, Session session){
+        ProductDetailPresenter presenter = new ProductDetailPresenter();
+        presenter.memberAPI = memberAPI;
+        presenter.productAPI = productAPI;
+        presenter.session = session;
+
+        return presenter;
     }
 }

@@ -29,6 +29,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ubankers.app.product.detail.ProductDetailActivity;
+import com.ubankers.app.product.model.Product;
 
 import cn.com.ubankers.www.R;
 import cn.com.ubankers.www.application.MyApplication;
@@ -60,12 +61,12 @@ public class ProductShareDialog extends PopupWindow implements OnItemClickListen
     private Context context;
     private Handler handler;
     private UserBean userBean;
-    private ProductDetail productDetail;
+    private Product productDetail;
 
    public ProductShareDialog(final ProductDetailActivity context) {
         super(context);  
         this.context = context;
-        this.productDetail = context.getViewModel().getProductDetail();
+        this.productDetail = context.getProduct();
         if(MyApplication.app.getUser()!=null){
 			userBean=MyApplication.app.getUser();
 		}

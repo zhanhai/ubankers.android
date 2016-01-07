@@ -50,6 +50,8 @@ dependencies {
     compile 'io.reactivex:rxandroid:' + rootProject.ext.rxandroidVersion
 
     compile 'com.squareup.retrofit:retrofit:' + rootProject.ext.retrofitVersion
+    compile 'com.squareup.retrofit:converter-gson:' + rootProject.ext.retrofitVersion
+    compile 'com.squareup.retrofit:adapter-rxjava:' + rootProject.ext.retrofitVersion
 
     compile 'javax.annotation:javax.annotation-api:1.2'
     compile 'de.greenrobot:eventbus:2.4.0'

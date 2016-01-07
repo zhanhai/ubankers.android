@@ -32,11 +32,12 @@ import cn.com.ubankers.www.widget.ProcessDialog;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
+import com.ubankers.app.product.model.Product;
 
 //财富师给投资者预约的监听事件
 public class CfmpReserveAction implements OnClickListener{
 	
-	private ProductDetail product;
+	private Product product;
 	private Context context;
 	private TextView increment_amount;
 	public static EditText etNumber,unregistered_name,registered_name;
@@ -45,7 +46,7 @@ public class CfmpReserveAction implements OnClickListener{
 
     private String clientId;
 
-	public CfmpReserveAction(Context context, ProductDetail product){
+	public CfmpReserveAction(Context context, Product product){
 		this.context = context;
 		this.product = product;
 		client = MyApplication.app.getClient(context);

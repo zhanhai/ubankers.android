@@ -1,21 +1,26 @@
 package com.ubankers.app.product.model;
 
+import com.google.gson.annotations.SerializedName;
+
+import cn.com.ubankers.www.product.model.ProductDetail;
+
 public class Product {
+
+    @SerializedName("id")
 	private String productId;/* 产品id */
 	private String productName;
-	private int state; // 产品发布状态
 	private String moduleId; // 产品的模板ID
+	private int state; // 产品发布状态
+    private boolean isHot; // 是否热门-
+    private String productTerm; // 产品期限
+    private String countProductRate; // 预期收益率(计算字段)
+    private String minSureBuyPrice; // 显示的起投金额-
+    private int raisedProcessShow;// 产品募集显示进度-
 	private String face; // 产品头像-
-	private String countProductRate; // 预期收益率(计算字段)
-	private String productTerm; // 产品期限
-	private int raisedProcessShow;// 产品募集显示进度-
-	private String minSureBuyPrice; // 显示的起投金额-
-	private int isHot; // 是否热门-
 
-	private ProductSaleOptions saleOptions;
+	private ProductSaleOptions saleOptions = new ProductSaleOptions();
 	
- 
-	
+
 	
 	public int getRaisedProcessShow() {
 		return raisedProcessShow;
@@ -24,14 +29,6 @@ public class Product {
 	public void setRaisedProcessShow(int raisedProcessShow) {
 		this.raisedProcessShow = raisedProcessShow;
 	}
-
-
-
-
-
-
-
-
 
 	public String getProductId() {
 		return productId;
@@ -95,14 +92,6 @@ public class Product {
 		this.minSureBuyPrice = minSureBuyPrice;
 	}
 
-	public int getIsHot() {
-		return isHot;
-	}
-
-	public void setIsHot(int isHot) {
-		this.isHot = isHot;
-	}
-
 
 	public String getCountProductRate() {
 		return countProductRate;
@@ -113,6 +102,64 @@ public class Product {
 	}
 
 	public void setSaleOptions(ProductSaleOptions saleOptions) {
-		this.saleOptions = saleOptions;
+		if(saleOptions == null){
+            return;
+        }
+
+        this.saleOptions = saleOptions;
 	}
+
+    public boolean isHot() {
+        return isHot;
+    }
+
+    public void setIsHot(boolean isHot) {
+        this.isHot = isHot;
+    }
+
+	public boolean canReserve(){
+		return saleOptions.getReserveOptions().isCanReserve();
+	}
+
+    public int getMinMoney(){
+        return saleOptions.getReserveOptions().getMinMoney();
+    }
+
+    public int getMaxMoney(){
+        return saleOptions.getReserveOptions().getMaxMoney();
+    }
+
+    public int getIncrementalMoney(){
+        return saleOptions.getReserveOptions().getIncrementalMoney();
+    }
+
+    public String getMinMoneyYuan(){
+        return saleOptions.getReserveOptions().getMinMoneyYuan();
+    }
+
+    public static Product from(final ProductDetail detail){
+        Product product = new Product();
+
+        product.setProductId(detail.getProductId());
+        product.setProductName(detail.getProductName());
+        product.setModuleId(detail.getModuleId());
+        product.setState(detail.getState());
+        product.setIsHot(detail.getIsHot() == 0 ? false : true);
+        product.setProductTerm(detail.getProductTerm());
+        product.setCountProductRate(detail.getCountProductRate());
+        product.setMinSureBuyPrice(detail.getMinSureBuyPrice());
+        product.setRaisedProcessShow(detail.getRaisedProcessShow());
+        product.setFace(detail.getFace());
+
+        ProductReserveOptions reserveOptions = product.saleOptions.getReserveOptions();
+        reserveOptions.setPayType(detail.getPayType());
+        reserveOptions.setEndTime(detail.getEndTime());
+        reserveOptions.setMaxMoney(detail.getMaxMoney());
+        reserveOptions.setMinMoney(detail.getMinMoney());
+        reserveOptions.setIncrementalMoney(detail.getIncrementalMoney());
+        reserveOptions.setCanReserve(detail.isCanReserve());
+        reserveOptions.setMinMoneyYuan(detail.getMinMoneyYuan());
+
+        return product;
+    }
 }

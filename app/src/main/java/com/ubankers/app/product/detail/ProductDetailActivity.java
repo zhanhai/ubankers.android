@@ -14,6 +14,7 @@ import com.ubankers.app.base.session.Session;
 import com.ubankers.app.product.detail.reserve.CfmpReserveAction;
 import com.ubankers.app.product.detail.reserve.InvestorReserveAction;
 import com.ubankers.app.product.detail.share.ProductSharePopup;
+import com.ubankers.app.product.model.Product;
 import com.ubankers.mvp.presenter.Presenter;
 import com.ubankers.mvp.view.MvpActivity;
 
@@ -26,7 +27,6 @@ import butterknife.OnClick;
 import cn.com.ubankers.www.R;
 import cn.com.ubankers.www.application.MyApplication;
 import cn.com.ubankers.www.http.HttpConfig;
-import cn.com.ubankers.www.product.model.ProductDetail;
 import cn.com.ubankers.www.sns.controller.activity.SnsArticleActivity;
 import cn.com.ubankers.www.sns.model.ArticleBean;
 import cn.com.ubankers.www.utils.LoginDialog;
@@ -48,7 +48,7 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
     // 启动activity: {@link RegisterIntervorActivity} “财富师选择预约投资者”的requestCode
 	public static final int REQUEST_CFMP_SELECT_INVESTOR = 200;
 
-    // 投資者類型
+    // 投资者类型（已注册、未注册的B类)
     public static final int INVESTOR_TYPE_REGISTERED = 1;
     public static final int INVESTOR_TYPE_B = 2;
 
@@ -74,17 +74,9 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
 	@Override protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-        component = DaggerProductDetailComponent.builder()
-                .appComponent(((MyApplication)getApplication()).getComponent())
-                .productDetailModule(new ProductDetailModule(this))
-                .build();
-        component.inject(this);
-
-        viewModel.init(getIntent());
-
+        injectDependency();
+        initViewModel();
         initView();
-
-        presenter.loadProductDetail(viewModel.getProductId());
     }
 
     @Override protected  void onDestroy(){
@@ -95,8 +87,7 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
     @Override protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        //财富师选择需要预约的投资者
-        if(requestCode == REQUEST_CFMP_SELECT_INVESTOR ){
+        if(requestCode == REQUEST_CFMP_SELECT_INVESTOR ){ //财富师在预约活动中，选择待预约的投资者
             cfmpReserveAction.onInvestorSelected(resultCode, data);
         }
     }
@@ -115,15 +106,13 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
    void showAuthenticationRequired() {
         Toast.makeText(this, "产品详情需要登录后才能查看", Toast.LENGTH_SHORT).show();
 
-        MyApplication.app.setUser(null);
-        MyApplication.app.setClient(null);
+        session.invalidate();
         LoginDialog loginDialog = new LoginDialog(this, 0, 0);
         loginDialog.onLogin();
     }
 
-    void showProductDetail(ProductDetail product) {
-        viewModel.setProductDetail(product);
-        productWebView.loadUrl(HttpConfig.URL_INFROMATION + product.getProductId());
+    void showProduct(Product product) {
+        productDetailWebView.showProduct(product.getProductId());
     }
 
     void showError(Throwable e) {
@@ -140,8 +129,8 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
         this.startActivity(intent);
     }
 
-    void showReservation(ProductDetail product){
-        if (!product.isCanReserve()) {
+    void showReservation(Product product){
+        if (!product.canReserve()) {
             return;
         }
         reservationButton.setVisibility(View.VISIBLE);
@@ -156,29 +145,32 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
         }
     }
 
-    protected void loadArticle(String url){
-        presenter.loadArticle(url.substring(url.lastIndexOf("/") + 1, url.length()));
-    }
-
-    protected void showProductLayout(){
+    void showProductLayout(){
         productLayout.setVisibility(View.VISIBLE);
     }
 
 
-    public ProductDetailModel getViewModel(){
-        return viewModel;
+    private void injectDependency(){
+        component = DaggerProductDetailComponent.builder()
+                .appComponent(((MyApplication)getApplication()).getComponent())
+                .productDetailModule(new ProductDetailModule(this))
+                .build();
+        component.inject(this);
     }
 
+    private void initViewModel(){
+        viewModel.init(presenter, getIntent());
+    }
 
     private void initView() {
         setContentView(R.layout.product_details_activity);
         ButterKnife.bind(this);
 
         productDetailWebView = new ProductDetailWebView(this, productWebView);
-        initProductSharePopup();
+        initProductSharePopupIfUserIsCfmp();
     }
 
-    private void initProductSharePopup(){
+    private void initProductSharePopupIfUserIsCfmp(){
         if(!session.isCfmp()){
             return;
         }
@@ -196,5 +188,21 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
     @Override
     protected ProductDetailView getView() {
         return view;
+    }
+
+    protected void isQualifiedCfmp(boolean isQualifiedCfmp){
+        viewModel.isQualifiedCfmp(isQualifiedCfmp);
+    }
+
+    protected void setProduct(Product product){
+        viewModel.setProduct(product);
+    }
+
+    public Product getProduct(){
+        return viewModel.getProduct();
+    }
+
+    public boolean isQualifiedCfmp(){
+        return viewModel.isQualifiedCfmp();
     }
 }

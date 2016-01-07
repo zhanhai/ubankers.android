@@ -1,6 +1,7 @@
 package com.ubankers.app.product.model;
 
-import retrofit.Response;
+import com.ubankers.app.base.api.Response;
+
 import retrofit.http.GET;
 import retrofit.http.Headers;
 import retrofit.http.Path;

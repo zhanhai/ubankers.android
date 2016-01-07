@@ -14,7 +14,7 @@ import cn.com.ubankers.www.utils.Tools;
  *
  */
 public abstract class BaseWebView {
-    protected final WebView view;
+    protected final WebView webView;
 
     public BaseWebView(Context context, WebView webView){
         webView.setScrollBarStyle(View.SCROLLBARS_OUTSIDE_OVERLAY);
@@ -23,12 +23,12 @@ public abstract class BaseWebView {
         webView.getSettings().setUseWideViewPort(true);
         webView.getSettings().setJavaScriptEnabled(true);
 
-        this.view = webView;
+        this.webView = webView;
 
         //设置cookie
         Tools.synCookies(context.getApplicationContext(), HttpConfig.HTTP_QUERY_URL);
 
-        view.setWebViewClient(new BaseWebViewClient(this));
+        this.webView.setWebViewClient(new BaseWebViewClient(this));
     }
 
 

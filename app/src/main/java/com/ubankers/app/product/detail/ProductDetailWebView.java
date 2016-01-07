@@ -1,10 +1,10 @@
 package com.ubankers.app.product.detail;
 
-import android.content.Context;
-import android.view.View;
 import android.webkit.WebView;
 
 import com.ubankers.app.base.widget.BaseWebView;
+
+import cn.com.ubankers.www.http.HttpConfig;
 
 /**
  *
@@ -22,9 +22,9 @@ public class ProductDetailWebView extends BaseWebView{
     @Override
     public boolean shouldOverrideUrlLoading(String url) {
         if (url.contains("sns/_escape_app/articleDetail/")) {
-            activity.loadArticle(url);
+            ((ProductDetailPresenter)activity.getPresenter()).loadArticle(url.substring(url.lastIndexOf("/") + 1, url.length()));
         } else {
-            view.loadUrl(url);
+            webView.loadUrl(url);
         }
 
         return true;
@@ -32,6 +32,11 @@ public class ProductDetailWebView extends BaseWebView{
 
     @Override
     public void onPageFinished(String url){
+        activity.getView().hideLoading();
         activity.showProductLayout();
+    }
+
+    public void showProduct(String productId){
+        webView.loadUrl(HttpConfig.URL_INFROMATION + productId);
     }
 }

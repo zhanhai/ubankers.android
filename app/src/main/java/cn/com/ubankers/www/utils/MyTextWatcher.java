@@ -10,16 +10,18 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ubankers.app.product.model.Product;
+
 public class MyTextWatcher implements TextWatcher{
 	private int maxLen=0;
 	private EditText  tv_money_aomount=null;
 	private TextView tv_money_range;
 	private TextView tv_increase_money;
-	private ProductDetail product;
+	private Product product;
 	private Context context;
 	private TextView increment_amount;
 
-	public MyTextWatcher(int maxLen,EditText  tv_money_aomount,TextView tv_money_range,TextView tv_increase_money,ProductDetail product,Context context,TextView increment_amount){
+	public MyTextWatcher(int maxLen,EditText  tv_money_aomount,TextView tv_money_range,TextView tv_increase_money,Product product,Context context,TextView increment_amount){
 		this.maxLen=maxLen;
 		this.tv_money_aomount=tv_money_aomount;
 		this.tv_money_range = tv_money_range;

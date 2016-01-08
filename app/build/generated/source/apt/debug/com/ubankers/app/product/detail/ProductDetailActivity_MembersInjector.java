@@ -8,12 +8,12 @@ import javax.inject.Provider;
 
 @Generated("dagger.internal.codegen.ComponentProcessor")
 public final class ProductDetailActivity_MembersInjector implements MembersInjector<ProductDetailActivity> {
-  private final MembersInjector<MvpActivity<ProductDetailView>> supertypeInjector;
+  private final MembersInjector<MvpActivity<ProductDetailView, ProductDetailPresenter>> supertypeInjector;
   private final Provider<ProductDetailPresenter> presenterProvider;
   private final Provider<ProductDetailView> viewProvider;
   private final Provider<Session> sessionProvider;
 
-  public ProductDetailActivity_MembersInjector(MembersInjector<MvpActivity<ProductDetailView>> supertypeInjector, Provider<ProductDetailPresenter> presenterProvider, Provider<ProductDetailView> viewProvider, Provider<Session> sessionProvider) {  
+  public ProductDetailActivity_MembersInjector(MembersInjector<MvpActivity<ProductDetailView, ProductDetailPresenter>> supertypeInjector, Provider<ProductDetailPresenter> presenterProvider, Provider<ProductDetailView> viewProvider, Provider<Session> sessionProvider) {  
     assert supertypeInjector != null;
     this.supertypeInjector = supertypeInjector;
     assert presenterProvider != null;
@@ -35,7 +35,7 @@ public final class ProductDetailActivity_MembersInjector implements MembersInjec
     instance.session = sessionProvider.get();
   }
 
-  public static MembersInjector<ProductDetailActivity> create(MembersInjector<MvpActivity<ProductDetailView>> supertypeInjector, Provider<ProductDetailPresenter> presenterProvider, Provider<ProductDetailView> viewProvider, Provider<Session> sessionProvider) {  
+  public static MembersInjector<ProductDetailActivity> create(MembersInjector<MvpActivity<ProductDetailView, ProductDetailPresenter>> supertypeInjector, Provider<ProductDetailPresenter> presenterProvider, Provider<ProductDetailView> viewProvider, Provider<Session> sessionProvider) {  
       return new ProductDetailActivity_MembersInjector(supertypeInjector, presenterProvider, viewProvider, sessionProvider);
   }
 }

@@ -15,7 +15,6 @@ import com.ubankers.app.product.detail.reserve.CfmpReserveAction;
 import com.ubankers.app.product.detail.reserve.InvestorReserveAction;
 import com.ubankers.app.product.detail.share.ProductSharePopup;
 import com.ubankers.app.product.model.Product;
-import com.ubankers.mvp.presenter.Presenter;
 import com.ubankers.mvp.view.MvpActivity;
 
 import javax.inject.Inject;
@@ -26,13 +25,12 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.com.ubankers.www.R;
 import cn.com.ubankers.www.application.MyApplication;
-import cn.com.ubankers.www.http.HttpConfig;
 import cn.com.ubankers.www.sns.controller.activity.SnsArticleActivity;
 import cn.com.ubankers.www.sns.model.ArticleBean;
 import cn.com.ubankers.www.utils.LoginDialog;
 import cn.com.ubankers.www.widget.TitlePopup;
 
-public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
+public class ProductDetailActivity extends MvpActivity<ProductDetailView, ProductDetailPresenter>{
 
     // 启动activity时提供的intent
 	public final static String EXTRA_PRODUCT_DETAIL = "com.ubankers.app.product.detail.ProductDetailActivity.Product";
@@ -68,15 +66,15 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
     private TitlePopup productSharePopup;
     private CfmpReserveAction cfmpReserveAction;
 
-    private ProductDetailModel viewModel = new ProductDetailModel();
-
 
 	@Override protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
         injectDependency();
-        initViewModel();
         initView();
+
+        presenter.loadProductDetail(view.getProductId());
+        presenter.verifyCfmpQualificationStatus();
     }
 
     @Override protected  void onDestroy(){
@@ -104,12 +102,12 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
 
 
    void showAuthenticationRequired() {
-        Toast.makeText(this, "产品详情需要登录后才能查看", Toast.LENGTH_SHORT).show();
+       Toast.makeText(this, "产品详情需要登录后才能查看", Toast.LENGTH_SHORT).show();
 
-        session.invalidate();
-        LoginDialog loginDialog = new LoginDialog(this, 0, 0);
-        loginDialog.onLogin();
-    }
+       session.invalidate();
+       LoginDialog loginDialog = new LoginDialog(this, 0, 0);
+       loginDialog.onLogin();
+   }
 
     void showProduct(Product product) {
         productDetailWebView.showProduct(product.getProductId());
@@ -126,6 +124,7 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
         bundle.putSerializable("articleBean", articleBean);
         bundle.putBoolean("productFlag", true);
         intent.putExtras(bundle);
+
         this.startActivity(intent);
     }
 
@@ -137,7 +136,7 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
 
         if (session.isInvestor()) {
             //投资者预约
-            reservationButton.setOnClickListener(new InvestorReserveAction(this, viewModel.getReserverName(), product));
+            reservationButton.setOnClickListener(new InvestorReserveAction(this, view.getReserverName(), product));
         } else if (session.isCfmp()) {
             //财富师给投资者预约
             cfmpReserveAction = new CfmpReserveAction(this, product);
@@ -158,11 +157,9 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
         component.inject(this);
     }
 
-    private void initViewModel(){
-        viewModel.init(presenter, getIntent());
-    }
-
     private void initView() {
+        view.init();
+
         setContentView(R.layout.product_details_activity);
         ButterKnife.bind(this);
 
@@ -176,12 +173,12 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
         }
 
         productClassification.setVisibility(View.VISIBLE);
-        productSharePopup = new ProductSharePopup(this, productClassification, LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+        productSharePopup = new ProductSharePopup(view, productClassification, LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
         productSharePopup.setBackgroundDrawable(bgOfRecommendationPopup);
     }
 
     @Override
-    protected Presenter<ProductDetailView> getPresenter() {
+    protected ProductDetailPresenter getPresenter() {
         return presenter;
     }
 
@@ -190,19 +187,4 @@ public class ProductDetailActivity extends MvpActivity<ProductDetailView>{
         return view;
     }
 
-    protected void isQualifiedCfmp(boolean isQualifiedCfmp){
-        viewModel.isQualifiedCfmp(isQualifiedCfmp);
-    }
-
-    protected void setProduct(Product product){
-        viewModel.setProduct(product);
-    }
-
-    public Product getProduct(){
-        return viewModel.getProduct();
-    }
-
-    public boolean isQualifiedCfmp(){
-        return viewModel.isQualifiedCfmp();
-    }
 }

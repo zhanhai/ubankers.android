@@ -10,7 +10,7 @@ import com.ubankers.mvp.presenter.View;
  *
  * @param <V>
  */
-public abstract class MvpActivity<V extends View> extends Activity{
+public abstract class MvpActivity<V extends View, P extends Presenter<V>> extends Activity{
 
     @Override
     protected void onResume() {
@@ -26,6 +26,6 @@ public abstract class MvpActivity<V extends View> extends Activity{
         getPresenter().dropView();
     }
 
-    protected abstract Presenter<V> getPresenter();
+    protected abstract P getPresenter();
     protected abstract V getView();
 }

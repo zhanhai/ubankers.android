@@ -15,7 +15,7 @@ public class ProductDetailModel {
     private Product product;
     private boolean isQualifiedCfmp;
 
-    public void init(final ProductDetailPresenter presenter, final Intent intent){
+    public void init(final Intent intent){
         productId = intent.getStringExtra(ProductDetailActivity.EXTRA_PRODUCT_ID);
         reserverName = intent.getStringExtra(ProductDetailActivity.EXTRA_RESERVER_NAME);
         product = Product.from((ProductDetail) intent.getSerializableExtra(ProductDetailActivity.EXTRA_PRODUCT_DETAIL));
@@ -24,8 +24,6 @@ public class ProductDetailModel {
             productId = product.getProductId();
         }
 
-        presenter.loadProductDetail(productId);
-        presenter.verifyCfmpQualificationStatus();
     }
 
     public String getProductId() {

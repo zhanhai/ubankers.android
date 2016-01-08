@@ -33,7 +33,7 @@ public class ProductDetailPresenter extends Presenter<ProductDetailView> {
     @Inject Session session;
 
 
-    public void loadProductDetail(String productId){
+    public void loadProductDetail(final String productId){
         onLoading();
 
         productAPI.getProduct(productId)

@@ -1,13 +1,17 @@
 package com.ubankers.app.product.detail;
 
 
+import android.content.Context;
+
 import com.ubankers.app.product.model.Product;
+import com.ubankers.mvp.presenter.Presenter;
 import com.ubankers.mvp.presenter.View;
+import com.ubankers.mvp.presenter.ViewWithModel;
 
 import cn.com.ubankers.www.sns.model.ArticleBean;
 import cn.com.ubankers.www.widget.ProcessDialog;
 
-public class ProductDetailView implements View {
+public class ProductDetailView extends ViewWithModel<ProductDetailModel> {
 
     private ProductDetailActivity activity;
     private ProcessDialog progressDialog;
@@ -21,7 +25,8 @@ public class ProductDetailView implements View {
         if(error == null) {
             activity.showProduct(product);
             activity.showReservation(product);
-            activity.setProduct(product);
+
+            viewModel.setProduct(product);
         }
         else{
             hideLoading();
@@ -30,7 +35,7 @@ public class ProductDetailView implements View {
     }
 
     void cfmpQualificationStatus(boolean isQualified){
-        activity.isQualifiedCfmp(isQualified);
+        viewModel.isQualifiedCfmp(isQualified);
     }
 
     void showArticle( Throwable error, ArticleBean article){
@@ -54,5 +59,39 @@ public class ProductDetailView implements View {
 
     void hideLoading(){
         progressDialog.dismiss();
+    }
+
+    @Override
+    public void init() {
+        viewModel = new ProductDetailModel();
+        viewModel.init(activity.getIntent());
+    }
+
+    protected void isQualifiedCfmp(boolean isQualifiedCfmp){
+        viewModel.isQualifiedCfmp(isQualifiedCfmp);
+    }
+
+    protected void setProduct(Product product){
+        viewModel.setProduct(product);
+    }
+
+    public Product getProduct(){
+        return viewModel.getProduct();
+    }
+
+    public boolean isQualifiedCfmp(){
+        return viewModel.isQualifiedCfmp();
+    }
+
+    public String getProductId(){
+        return viewModel.getProductId();
+    }
+
+    public String getReserverName(){
+        return viewModel.getReserverName();
+    }
+
+    public Context getContext(){
+        return activity;
     }
 }

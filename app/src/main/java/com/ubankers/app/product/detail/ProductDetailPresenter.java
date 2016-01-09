@@ -2,6 +2,8 @@ package com.ubankers.app.product.detail;
 
 
 import com.loopj.android.http.JsonHttpResponseHandler;
+import com.ubankers.app.base.api.Consumer;
+import com.ubankers.app.base.api.Invoke;
 import com.ubankers.app.base.api.Response;
 import com.ubankers.app.base.session.Session;
 import com.ubankers.app.member.model.CfmpQualificationStatus;
@@ -36,48 +38,11 @@ public class ProductDetailPresenter extends Presenter<ProductDetailView> {
     public void loadProductDetail(final String productId){
         onLoading();
 
-        productAPI.getProduct(productId)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(new Subscriber<Response<Product>>() {
-                    @Override
-                    public void onCompleted() {
-                    }
-
-                    @Override
-                    public void onError(Throwable e) {
-                        int statusCode = -1;
-                        if (e instanceof HttpException) {
-                            statusCode = ((HttpException) e).code();
-                        }
-
-                        if (statusCode != 401) {
-                            onProductLoaded(e, null);
-                        } else {
-                            onAuthenticationFailed();
-                        }
-                    }
-
-                    @Override
-                    public void onNext(Response<Product> productResponse) {
-                        if (!productResponse.isSuccess()) {
-                            if (productResponse.getResult().getErrorCode().equals("noLogin")) {
-                                onAuthenticationFailed();
-                            } else {
-                                onProductLoaded(new Error("处理错误"), null);
-                            }
-                        } else {
-                            onProductLoaded(null, productResponse.getResult().getInfo());
-                        }
-                    }
-                });
+        Invoke.api(productAPI.getProduct(productId))
+                .call(new ProductApiConsumer(this));
     }
 
 
-    /**
-     * 获取文章详情
-     * @param articleId
-     */
     public void loadArticle(final String articleId){
         MyApplication.getClient().get(HttpConfig.URL_ARTICLE_DETAIL + articleId, new JsonHttpResponseHandler() {
             @Override
@@ -112,49 +77,8 @@ public class ProductDetailPresenter extends Presenter<ProductDetailView> {
     }
 
     public void verifyCfmpQualificationStatus(){
-
-        memberAPI.isQualifiedCfmp()
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(new Subscriber<Response<CfmpQualificationStatus>>() {
-                    @Override
-                    public void onCompleted() {
-                    }
-
-                    @Override
-                    public void onError(Throwable e) {
-                        int statusCode = -1;
-                        if (e instanceof HttpException) {
-                            statusCode = ((HttpException) e).code();
-                        }
-
-                        if (statusCode != 401) {
-                            onProductLoaded(e, null);
-                        } else {
-                            onAuthenticationFailed();
-                        }
-                    }
-
-                    @Override
-                    public void onNext(Response<CfmpQualificationStatus> response) {
-                        if (!response.isSuccess()) {
-                            if (response.getResult().getErrorCode().equals("noLogin")) {
-                                onAuthenticationFailed();
-                            } else {
-                                onProductLoaded(new Error("处理错误"), null);
-                            }
-                        } else {
-                            final boolean isQualifiedCfmp = response.getResult().getInfo().isQualified();
-                            render(new MvpCommand<ProductDetailView>() {
-                                @Override
-                                public void call(ProductDetailView view) {
-                                    view.cfmpQualificationStatus(isQualifiedCfmp);
-                                }
-                            });
-                        }
-                    }
-                });
-
+        Invoke.api(memberAPI.isQualifiedCfmp())
+                .call(new MemberApiConsumer(this));
     }
 
 
@@ -167,7 +91,6 @@ public class ProductDetailPresenter extends Presenter<ProductDetailView> {
         });
     }
 
-
     void onAuthenticationFailed() {
         session.invalidate();
 
@@ -179,15 +102,69 @@ public class ProductDetailPresenter extends Presenter<ProductDetailView> {
         });
     }
 
-
-
     void onProductLoaded(final Throwable t, final Product product) {
-
         render(new MvpCommand<ProductDetailView>() {
             @Override
             public void call(ProductDetailView view) {
                 view.showProduct(t, product);
             }
         });
+    }
+
+    void onCfmpQualificationStatus(final Throwable t, final boolean isQualifiedCfmp){
+        render(new MvpCommand<ProductDetailView>() {
+            @Override
+            public void call(ProductDetailView view) {
+                view.cfmpQualificationStatus(t, isQualifiedCfmp);
+            }
+        });
+    }
+}
+
+class ProductApiConsumer extends Consumer<Product>
+{
+    private ProductDetailPresenter presenter;
+
+    ProductApiConsumer(ProductDetailPresenter presenter){
+        this.presenter = presenter;
+    }
+
+    @Override
+    protected void onAuthenticationFailed() {
+        presenter.onAuthenticationFailed();
+    }
+
+    @Override
+    protected void onException(Throwable t) {
+        presenter.onProductLoaded(t, null);
+    }
+
+    @Override
+    protected void onData(Product data) {
+        presenter.onProductLoaded(null, data);
+    }
+}
+
+class MemberApiConsumer extends Consumer<CfmpQualificationStatus>
+{
+    private ProductDetailPresenter presenter;
+
+    MemberApiConsumer(ProductDetailPresenter presenter){
+        this.presenter = presenter;
+    }
+
+    @Override
+    protected void onAuthenticationFailed() {
+        presenter.onAuthenticationFailed();
+    }
+
+    @Override
+    protected void onException(Throwable t) {
+        presenter.onCfmpQualificationStatus(t, false);
+    }
+
+    @Override
+    protected void onData(CfmpQualificationStatus  cfmpQualificationStatus) {
+        presenter.onCfmpQualificationStatus(null, cfmpQualificationStatus.isQualified());
     }
 }

@@ -34,8 +34,13 @@ public class ProductDetailView extends ViewWithModel<ProductDetailModel> {
         }
     }
 
-    void cfmpQualificationStatus(boolean isQualified){
-        viewModel.isQualifiedCfmp(isQualified);
+    void cfmpQualificationStatus(Throwable error, boolean isQualified){
+        if(error == null){
+            viewModel.isQualifiedCfmp(isQualified);
+        }
+        else{
+            activity.showError(error);
+        }
     }
 
     void showArticle( Throwable error, ArticleBean article){
